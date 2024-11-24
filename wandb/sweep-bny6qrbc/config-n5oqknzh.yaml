@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activations:
+  value: Relu
+batch_size:
+  value: 256
+epoch:
+  value: 3000
+loss_fn:
+  value: MSELoss
+lr:
+  value: 0.027369883044233292
+model_architecture:
+  value: arch3
+type:
+  value: classification

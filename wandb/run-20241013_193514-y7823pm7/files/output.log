@@ -1,0 +1,38 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:8] [activation:ReLU]
+Layer: [in:8] [out:16] [activation:ReLU]
+Layer: [in:16] [out:16] [activation:ReLU]
+Layer: [in:16] [out:8] [activation:ReLU]
+Layer: [in:8] [out:6] [activation:Softmax]
+Training:  33%|███████████████████████████████████████▍                                                                              | 334/1000 [00:12<00:24, 26.84epoch/s, Train Acc=0.559, Val Acc=0.615]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:517: RuntimeWarning: overflow encountered in matmul
+
+Epoch: 0 	Train:[Loss: 0.4843, Acc: 0.1540] 	Val:[Loss: 0.4809, Acc: 0.1562]
+Epoch: 100 	Train:[Loss: 0.3679, Acc: 0.4866] 	Val:[Loss: 0.3743, Acc: 0.4479]
+Epoch: 200 	Train:[Loss: 0.3247, Acc: 0.5234] 	Val:[Loss: 0.3301, Acc: 0.5000]
+Epoch: 300 	Train:[Loss: 0.3027, Acc: 0.5692] 	Val:[Loss: 0.2939, Acc: 0.6458]
+  z = x @ self.W.T + self.b
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:517: RuntimeWarning: invalid value encountered in matmul
+  z = x @ self.W.T + self.b
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:426: RuntimeWarning: invalid value encountered in subtract
+  shiftx = x - np.max(x, axis=1, keepdims=True)
+Training:  84%|██████████████████████████████████████████████████████████████████████████████████████████████████████                   | 844/1000 [00:31<00:05, 26.47epoch/s, Train Acc=0.0067, Val Acc=0]
+Epoch: 400 	Train:[Loss: nan, Acc: 0.0067] 	Val:[Loss: nan, Acc: 0.0000]
+Epoch: 500 	Train:[Loss: nan, Acc: 0.0067] 	Val:[Loss: nan, Acc: 0.0000]
+Epoch: 600 	Train:[Loss: nan, Acc: 0.0067] 	Val:[Loss: nan, Acc: 0.0000]
+Epoch: 700 	Train:[Loss: nan, Acc: 0.0067] 	Val:[Loss: nan, Acc: 0.0000]
+Epoch: 800 	Train:[Loss: nan, Acc: 0.0067] 	Val:[Loss: nan, Acc: 0.0000]
+Early stopping triggered at epoch 844.
+Model weights restored to epoch 332.
+best validation loss::0.2883137482805087
+================Test set metrics======================
+
+accuracy ::  0.8523391812865497
+precision ::  0.24814814814814815
+recall ::  0.14000834376303714
+F1-score ::  0.17901445398489718
+
+======================================================

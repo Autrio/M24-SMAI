@@ -1,0 +1,56 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:16] [activation:Tanh]
+Layer: [in:16] [out:64] [activation:Tanh]
+Layer: [in:64] [out:128] [activation:Tanh]
+Layer: [in:128] [out:256] [activation:Tanh]
+Layer: [in:256] [out:6] [activation:Softmax]
+Training:  69%|██████████████████████████████████████████████████████████████████████████████████▏                                    | 691/1000 [04:15<01:54,  2.70epoch/s, Train Acc=0.837, Val Acc=0.552]
+
+Epoch: 0 	Train:[Loss: 0.1932, Acc: 0.3822] 	Val:[Loss: 0.1988, Acc: 0.3646]
+Epoch: 50 	Train:[Loss: 0.0976, Acc: 0.6056] 	Val:[Loss: 0.1488, Acc: 0.4583]
+Epoch: 100 	Train:[Loss: 0.0801, Acc: 0.6767] 	Val:[Loss: 0.1376, Acc: 0.4479]
+Epoch: 150 	Train:[Loss: 0.0716, Acc: 0.7111] 	Val:[Loss: 0.1365, Acc: 0.4271]
+Epoch: 200 	Train:[Loss: 0.0658, Acc: 0.7211] 	Val:[Loss: 0.1367, Acc: 0.4792]
+Epoch: 250 	Train:[Loss: 0.0608, Acc: 0.7444] 	Val:[Loss: 0.1360, Acc: 0.5000]
+Epoch: 300 	Train:[Loss: 0.0569, Acc: 0.7667] 	Val:[Loss: 0.1332, Acc: 0.5104]
+Epoch: 350 	Train:[Loss: 0.0539, Acc: 0.7811] 	Val:[Loss: 0.1289, Acc: 0.5104]
+Epoch: 400 	Train:[Loss: 0.0514, Acc: 0.7878] 	Val:[Loss: 0.1251, Acc: 0.5208]
+Epoch: 450 	Train:[Loss: 0.0492, Acc: 0.8044] 	Val:[Loss: 0.1225, Acc: 0.5104]
+Epoch: 500 	Train:[Loss: 0.0472, Acc: 0.8133] 	Val:[Loss: 0.1209, Acc: 0.5104]
+Epoch: 550 	Train:[Loss: 0.0454, Acc: 0.8256] 	Val:[Loss: 0.1201, Acc: 0.5104]
+Epoch: 600 	Train:[Loss: 0.0438, Acc: 0.8289] 	Val:[Loss: 0.1197, Acc: 0.5208]
+Epoch: 650 	Train:[Loss: 0.0423, Acc: 0.8333] 	Val:[Loss: 0.1198, Acc: 0.5417]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 46, in <module>
+    model.train(epochs=1000)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 437, in train
+    train_loss, train_acc = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 415, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 397, in backward
+    self.dW.append(np.mean(dw, axis=0))
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 3380, in _mean_dispatcher
+    def _mean_dispatcher(a, axis=None, dtype=None, out=None, keepdims=None, *,
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 46, in <module>
+    model.train(epochs=1000)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 437, in train
+    train_loss, train_acc = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 415, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 397, in backward
+    self.dW.append(np.mean(dw, axis=0))
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 3380, in _mean_dispatcher
+    def _mean_dispatcher(a, axis=None, dtype=None, out=None, keepdims=None, *,
+KeyboardInterrupt

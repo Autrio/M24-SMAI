@@ -1,0 +1,42 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+(11,)
+Training:  11%|████████████▋                                                                                                         | 1075/10000 [00:11<01:34, 94.80epoch/s, Train Acc=0.68, Val Acc=0.615]
+Epoch: 0 	Train:[Loss: 0.1466, Acc: 0.1797] 	Val:[Loss: 0.1443, Acc: 0.2188]
+Epoch: 100 	Train:[Loss: 0.0890, Acc: 0.6016] 	Val:[Loss: 0.0840, Acc: 0.6354]
+Epoch: 200 	Train:[Loss: 0.0861, Acc: 0.6161] 	Val:[Loss: 0.0806, Acc: 0.6354]
+Epoch: 300 	Train:[Loss: 0.0839, Acc: 0.6261] 	Val:[Loss: 0.0796, Acc: 0.6562]
+Epoch: 400 	Train:[Loss: 0.0819, Acc: 0.6462] 	Val:[Loss: 0.0785, Acc: 0.6667]
+Epoch: 500 	Train:[Loss: 0.0801, Acc: 0.6551] 	Val:[Loss: 0.0775, Acc: 0.6667]
+Epoch: 600 	Train:[Loss: 0.0786, Acc: 0.6551] 	Val:[Loss: 0.0773, Acc: 0.6354]
+Epoch: 700 	Train:[Loss: 0.0774, Acc: 0.6652] 	Val:[Loss: 0.0776, Acc: 0.6354]
+Epoch: 800 	Train:[Loss: 0.0764, Acc: 0.6730] 	Val:[Loss: 0.0780, Acc: 0.6146]
+Epoch: 900 	Train:[Loss: 0.0753, Acc: 0.6752] 	Val:[Loss: 0.0785, Acc: 0.6354]
+Epoch: 1000 	Train:[Loss: 0.0743, Acc: 0.6741] 	Val:[Loss: 0.0792, Acc: 0.6354]
+Early stopping triggered at epoch 1075.
+Model weights restored to epoch 563.
+best validation loss::0.0772082407400889
+================Test set metrics======================
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2.py", line 62, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2.py", line 53, in run
+    print("accuracy :: ", mlp.Metrics.accuracy_score(ground_truth,predictions))
+TypeError: Metrics.accuracy_score() missing 1 required positional argument: 'y_pred'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2.py", line 62, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2.py", line 53, in run
+    print("accuracy :: ", mlp.Metrics.accuracy_score(ground_truth,predictions))
+TypeError: Metrics.accuracy_score() missing 1 required positional argument: 'y_pred'

@@ -1,0 +1,31 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:8] [activation:ReLU]
+Layer: [in:8] [out:16] [activation:ReLU]
+Layer: [in:16] [out:16] [activation:ReLU]
+Layer: [in:16] [out:8] [activation:ReLU]
+Layer: [in:8] [out:6] [activation:Softmax]
+Training:   3%|███▌                                                                                                                   | 30/1000 [00:01<00:37, 25.61epoch/s, Train Acc=0.453, Val Acc=0.427]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:517: RuntimeWarning: overflow encountered in matmul
+
+Epoch: 0 	Train:[Loss: 0.4584, Acc: 0.1752] 	Val:[Loss: 0.4447, Acc: 0.2708]
+  z = x @ self.W.T + self.b
+Training:  54%|███████████████████████████████████████████████████████████████▎                                                      | 537/1000 [00:21<00:18, 25.40epoch/s, Train Acc=0.371, Val Acc=0.125]
+Epoch: 100 	Train:[Loss: 7.3370, Acc: 0.3627] 	Val:[Loss: 6.9558, Acc: 0.3958]
+Epoch: 200 	Train:[Loss: 7.3242, Acc: 0.3638] 	Val:[Loss: 6.9558, Acc: 0.3958]
+Epoch: 300 	Train:[Loss: 7.7610, Acc: 0.3259] 	Val:[Loss: 6.4761, Acc: 0.4375]
+Epoch: 400 	Train:[Loss: 7.4783, Acc: 0.3504] 	Val:[Loss: 6.4761, Acc: 0.4375]
+Epoch: 500 	Train:[Loss: 7.2342, Acc: 0.3717] 	Val:[Loss: 6.4761, Acc: 0.4375]
+Early stopping triggered at epoch 537.
+Model weights restored to epoch 25.
+best validation loss::0.336492492249318
+================Test set metrics======================
+
+accuracy ::  0.8362573099415205
+precision ::  0.4
+recall ::  0.008176887776387151
+F1-score ::  0.016026165167620607
+
+======================================================

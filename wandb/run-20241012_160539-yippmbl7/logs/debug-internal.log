@@ -1,0 +1,20 @@
+{"time":"2024-10-12T16:05:39.321729863+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T16:05:39.321748038+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241012_160539-yippmbl7/logs/debug-core.log"}
+{"time":"2024-10-12T16:05:39.334483336+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-12T16:05:39.344350227+05:30","level":"INFO","msg":"created new stream","id":"yippmbl7"}
+{"time":"2024-10-12T16:05:39.344431465+05:30","level":"INFO","msg":"stream: started","id":"yippmbl7"}
+{"time":"2024-10-12T16:05:39.34446522+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"yippmbl7"}}
+{"time":"2024-10-12T16:05:39.344565394+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"yippmbl7"}}
+{"time":"2024-10-12T16:05:39.3447492+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"yippmbl7"}}
+{"time":"2024-10-12T16:05:39.965673896+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T16:05:39.966531728+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-12T16:06:17.038860966+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-12T16:06:17.038932053+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-12T16:06:17.629106465+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-12T16:06:17.629136864+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-12T16:06:18.329737761+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-12T16:06:20.194818202+05:30","level":"INFO","msg":"stream: closing","id":"yippmbl7"}
+{"time":"2024-10-12T16:06:20.194840054+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"yippmbl7"}}
+{"time":"2024-10-12T16:06:20.194883118+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"yippmbl7"}}
+{"time":"2024-10-12T16:06:20.194952392+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"yippmbl7"}}
+{"time":"2024-10-12T16:06:20.194967361+05:30","level":"INFO","msg":"stream: closed","id":"yippmbl7"}

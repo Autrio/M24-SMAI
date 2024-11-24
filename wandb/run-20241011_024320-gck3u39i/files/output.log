@@ -1,0 +1,48 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+(11,)
+Training:   0%|                                                                                                                                                                  | 0/100 [00:00<?, ?epoch/s]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:233: RuntimeWarning: overflow encountered in exp
+  return (np.exp(x) - np.exp(-x))/(np.exp(x) + np.exp(-x))
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:233: RuntimeWarning: invalid value encountered in divide
+  return (np.exp(x) - np.exp(-x))/(np.exp(x) + np.exp(-x))
+Training:  84%|████████████████████████████████████████████████████████████████████████████████████████████████████████▏                   | 84/100 [00:33<00:06,  2.49epoch/s, Train Acc=0.0067, Val Acc=0]
+Epoch: 0 	Train:[Loss: nan, Acc: 0.0123] 	Val:[Loss: nan, Acc: 0.0000]
+Epoch: 32 	Train:[Loss: nan, Acc: 0.0067] 	Val:[Loss: nan, Acc: 0.0000]
+Epoch: 64 	Train:[Loss: nan, Acc: 0.0067] 	Val:[Loss: nan, Acc: 0.0000]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 52, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 458, in train
+    val_loss, val_acc = self.validate_step(val_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 436, in train_step
+    self.update()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 408, in backward
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 269, in grad
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 52, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 458, in train
+    val_loss, val_acc = self.validate_step(val_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 436, in train_step
+    self.update()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 408, in backward
+
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 269, in grad
+
+KeyboardInterrupt

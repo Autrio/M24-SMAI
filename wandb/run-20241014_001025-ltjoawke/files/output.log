@@ -1,0 +1,66 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:16] [activation:Tanh]
+Layer: [in:16] [out:32] [activation:Tanh]
+Layer: [in:32] [out:32] [activation:Tanh]
+Layer: [in:32] [out:16] [activation:Tanh]
+Layer: [in:16] [out:1] [activation:Linear]
+Training:  19%|██████████████████████▍                                                                                               | 951/5000 [00:09<00:42, 95.21epoch/s, Train Acc=0.355, Val Acc=0.355]
+
+Epoch: 0 	Train:[Loss: 573.3736, Acc: -6.0694] 	Val:[Loss: 4009.2005, Acc: -44.3093]
+Epoch: 100 	Train:[Loss: 2154.3946, Acc: -27.4162] 	Val:[Loss: 1383.4278, Acc: -14.6346]
+Epoch: 200 	Train:[Loss: 86.3194, Acc: -0.1419] 	Val:[Loss: 84.4808, Acc: 0.0453]
+Epoch: 300 	Train:[Loss: 53.9426, Acc: 0.3285] 	Val:[Loss: 58.8206, Acc: 0.3352]
+Epoch: 400 	Train:[Loss: 52.4888, Acc: 0.3527] 	Val:[Loss: 57.2278, Acc: 0.3532]
+Epoch: 500 	Train:[Loss: 52.4139, Acc: 0.3546] 	Val:[Loss: 57.0720, Acc: 0.3550]
+Epoch: 600 	Train:[Loss: 52.4122, Acc: 0.3548] 	Val:[Loss: 57.0495, Acc: 0.3553]
+Epoch: 700 	Train:[Loss: 52.4128, Acc: 0.3549] 	Val:[Loss: 57.0450, Acc: 0.3553]
+Epoch: 800 	Train:[Loss: 52.4130, Acc: 0.3549] 	Val:[Loss: 57.0440, Acc: 0.3553]
+Epoch: 900 	Train:[Loss: 52.4130, Acc: 0.3549] 	Val:[Loss: 57.0438, Acc: 0.3553]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 759, in train
+    train_metrics = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 668, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 626, in backward
+    dzw, dzx, daz = self.layers[i].get_grads()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 498, in get_grads
+    np.stack(self.dzx, axis=-1),
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/shape_base.py", line 447, in stack
+    shapes = {arr.shape for arr in arrays}
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/shape_base.py", line 447, in <setcomp>
+    shapes = {arr.shape for arr in arrays}
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 759, in train
+    train_metrics = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 668, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 626, in backward
+    dzw, dzx, daz = self.layers[i].get_grads()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 498, in get_grads
+    np.stack(self.dzx, axis=-1),
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/shape_base.py", line 447, in stack
+    shapes = {arr.shape for arr in arrays}
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/shape_base.py", line 447, in <setcomp>
+    shapes = {arr.shape for arr in arrays}
+KeyboardInterrupt

@@ -1,0 +1,47 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Training:   0%|                                                                                                                                                                | 0/10000 [00:00<?, ?epoch/s]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:229: RuntimeWarning: overflow encountered in exp
+  return (np.exp(x)/np.sum(np.exp(x), axis=-1, keepdims=True))
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:229: RuntimeWarning: invalid value encountered in divide
+  return (np.exp(x)/np.sum(np.exp(x), axis=-1, keepdims=True))
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:254: RuntimeWarning: divide by zero encountered in log
+  return np.mean(np.sum(-y  * np.log(y_pred), axis=-1))
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:254: RuntimeWarning: invalid value encountered in multiply
+  return np.mean(np.sum(-y  * np.log(y_pred), axis=-1))
+Training:   1%|█▋                                                                                                                      | 141/10000 [00:33<39:00,  4.21epoch/s, Train Acc=0.00781, Val Acc=0]
+Epoch: 0 	Train:[Loss: nan, Acc: 0.0104] 	Val:[Loss: nan, Acc: 0.0000]
+Epoch: 128 	Train:[Loss: nan, Acc: 0.0078] 	Val:[Loss: nan, Acc: 0.0000]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 51, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 45, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 438, in train
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 416, in train_step
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 398, in backward
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 3380, in _mean_dispatcher
+    def _mean_dispatcher(a, axis=None, dtype=None, out=None, keepdims=None, *,
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 51, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 45, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 438, in train
+
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 416, in train_step
+
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 398, in backward
+
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 3380, in _mean_dispatcher
+    def _mean_dispatcher(a, axis=None, dtype=None, out=None, keepdims=None, *,
+KeyboardInterrupt

@@ -1,0 +1,5 @@
+(768,)
+(768, 8)
+Data split into training (616 samples), validation (76 samples), and testing (76 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.

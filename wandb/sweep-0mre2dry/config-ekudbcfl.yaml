@@ -1,0 +1,14 @@
+wandb_version: 1
+
+activation:
+  value: tanh
+batch_size:
+  value: 138
+epoch:
+  value: 884
+loss_fn:
+  value: <models.MLP.MLP2.Loss.MSELoss object at 0x7949b881d660>
+lr:
+  value: 0.004642999436756801
+type:
+  value: classification

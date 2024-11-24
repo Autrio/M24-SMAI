@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activations:
+  value: Sigmoid
+batch_size:
+  value: 512
+epoch:
+  value: 5000
+loss_fn:
+  value: MSELoss
+lr:
+  value: 0.08847884922483672
+model_architecture:
+  value: arch4
+type:
+  value: classification

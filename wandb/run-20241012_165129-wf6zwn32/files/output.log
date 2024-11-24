@@ -1,0 +1,50 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:16] [activation:ReLU]
+Layer: [in:16] [out:64] [activation:ReLU]
+Layer: [in:64] [out:128] [activation:ReLU]
+Layer: [in:128] [out:256] [activation:ReLU]
+Layer: [in:256] [out:6] [activation:Linear]
+Training:   0%|                                                                                                                                                                 | 0/4000 [00:00<?, ?epoch/s]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:389: RuntimeWarning: overflow encountered in matmul
+  z = x @ self.W.T + self.b
+Training:   0%|                                                                                                                         | 1/4000 [00:00<14:05,  4.73epoch/s, Train Acc=0.581, Val Acc=0.688]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:458: RuntimeWarning: overflow encountered in matmul
+
+Epoch: 0 	Train:[Loss: 13.3370, Acc: 0.5805] 	Val:[Loss: 10.7936, Acc: 0.6875]
+  dLy = dLy @ self.layers[i + 1].W
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:459: RuntimeWarning: invalid value encountered in multiply
+  dLy = dLy * daz
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4000/4000 [15:15<00:00,  4.37epoch/s, Train Acc=0.833, Val Acc=0.833]
+Epoch: 128 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 256 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 384 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 512 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 640 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 768 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 896 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 1024 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 1152 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 1280 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 1408 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 1536 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 1664 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 1792 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 1920 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 2048 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 2176 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 2304 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 2432 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 2560 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 2688 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 2816 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 2944 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 3072 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 3200 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 3328 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 3456 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 3584 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 3712 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 3840 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 3968 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]

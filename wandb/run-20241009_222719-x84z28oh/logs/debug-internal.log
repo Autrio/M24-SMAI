@@ -1,0 +1,20 @@
+{"time":"2024-10-09T22:27:19.969003238+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-09T22:27:19.969018096+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241009_222719-x84z28oh/logs/debug-core.log"}
+{"time":"2024-10-09T22:27:19.975451171+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-09T22:27:19.980230059+05:30","level":"INFO","msg":"created new stream","id":"x84z28oh"}
+{"time":"2024-10-09T22:27:19.980261711+05:30","level":"INFO","msg":"stream: started","id":"x84z28oh"}
+{"time":"2024-10-09T22:27:19.98027672+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"x84z28oh"}}
+{"time":"2024-10-09T22:27:19.980282742+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"x84z28oh"}}
+{"time":"2024-10-09T22:27:19.980267162+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"x84z28oh"}}
+{"time":"2024-10-09T22:27:21.339575917+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-09T22:27:21.340376814+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-09T22:29:08.129530294+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-09T22:29:08.129569831+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-09T22:29:08.129320166+05:30","level":"INFO","msg":"stream: closing","id":"x84z28oh"}
+{"time":"2024-10-09T22:29:08.424463773+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-09T22:29:08.424481717+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-09T22:29:09.075733251+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-09T22:29:09.852105898+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"x84z28oh"}}
+{"time":"2024-10-09T22:29:09.852155745+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"x84z28oh"}}
+{"time":"2024-10-09T22:29:09.852192777+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"x84z28oh"}}
+{"time":"2024-10-09T22:29:09.852273664+05:30","level":"INFO","msg":"stream: closed","id":"x84z28oh"}

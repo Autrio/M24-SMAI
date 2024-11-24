@@ -1,0 +1,14 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:8] [activation:Sigmoid]
+Layer: [in:8] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:8] [activation:Sigmoid]
+Layer: [in:8] [out:1] [activation:Linear]
+Training:   4%|████▊                                                                                                              | 167/4000 [00:01<00:27, 139.33epoch/s, Train Acc=-.0334, Val Acc=-.0187][34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
+
+Epoch: 0 	Train:[Loss: 537.3540, Acc: -4.9603] 	Val:[Loss: 508.9439, Acc: -4.7517]
+Epoch: 100 	Train:[Loss: 118.6977, Acc: -0.3166] 	Val:[Loss: 111.7215, Acc: -0.2626]

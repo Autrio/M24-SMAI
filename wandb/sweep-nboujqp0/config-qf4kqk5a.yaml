@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activations:
+  value: Linear
+batch_size:
+  value: 512
+epoch:
+  value: 2000
+loss_fn:
+  value: BCELoss
+lr:
+  value: 0.047310515069144674
+model_architecture:
+  value: arch5
+type:
+  value: classification

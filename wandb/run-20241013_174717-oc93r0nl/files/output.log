@@ -1,0 +1,78 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:8] [activation:Tanh]
+Layer: [in:8] [out:16] [activation:Tanh]
+Layer: [in:16] [out:16] [activation:Tanh]
+Layer: [in:16] [out:8] [activation:Tanh]
+Layer: [in:8] [out:1] [activation:Linear]
+                                                                                                                                                                                                           
+
+Epoch: 0 	Train:[Loss: 598.3926, Acc: -5.8347] 	Val:[Loss: 575.3915, Acc: -5.5027]
+Epoch: 100 	Train:[Loss: 293.5481, Acc: -2.3523] 	Val:[Loss: 278.6119, Acc: -2.1487]
+Epoch: 200 	Train:[Loss: 159.8912, Acc: -0.8255] 	Val:[Loss: 150.6260, Acc: -0.7023]
+Epoch: 300 	Train:[Loss: 108.4389, Acc: -0.2376] 	Val:[Loss: 102.6920, Acc: -0.1606]
+Epoch: 400 	Train:[Loss: 83.8906, Acc: 0.0424] 	Val:[Loss: 77.4685, Acc: 0.1245]
+Epoch: 500 	Train:[Loss: 69.7753, Acc: 0.2036] 	Val:[Loss: 61.6125, Acc: 0.3037]
+Epoch: 600 	Train:[Loss: 62.1349, Acc: 0.2909] 	Val:[Loss: 53.5977, Acc: 0.3943]
+Epoch: 700 	Train:[Loss: 57.3551, Acc: 0.3457] 	Val:[Loss: 48.5476, Acc: 0.4513]
+Epoch: 800 	Train:[Loss: 54.0293, Acc: 0.3837] 	Val:[Loss: 45.2617, Acc: 0.4885]
+Epoch: 900 	Train:[Loss: 51.5216, Acc: 0.4124] 	Val:[Loss: 42.7222, Acc: 0.5172]
+Epoch: 1000 	Train:[Loss: 49.0809, Acc: 0.4404] 	Val:[Loss: 39.5730, Acc: 0.5528]
+Epoch: 1100 	Train:[Loss: 45.9525, Acc: 0.4764] 	Val:[Loss: 35.8083, Acc: 0.5953]
+Epoch: 1200 	Train:[Loss: 42.7055, Acc: 0.5135] 	Val:[Loss: 32.9379, Acc: 0.6278]
+Epoch: 1300 	Train:[Loss: 39.5869, Acc: 0.5492] 	Val:[Loss: 30.6442, Acc: 0.6537]
+Epoch: 1400 	Train:[Loss: 36.0774, Acc: 0.5892] 	Val:[Loss: 28.6114, Acc: 0.6767]
+Epoch: 1500 	Train:[Loss: 32.9371, Acc: 0.6248] 	Val:[Loss: 26.9297, Acc: 0.6957]
+Epoch: 1600 	Train:[Loss: 30.3371, Acc: 0.6543] 	Val:[Loss: 25.3273, Acc: 0.7138]
+Epoch: 1700 	Train:[Loss: 28.1595, Acc: 0.6791] 	Val:[Loss: 23.7554, Acc: 0.7315]
+Epoch: 1800 	Train:[Loss: 26.2921, Acc: 0.7004] 	Val:[Loss: 22.2733, Acc: 0.7483]
+Epoch: 1900 	Train:[Loss: 24.6633, Acc: 0.7190] 	Val:[Loss: 20.8952, Acc: 0.7639]
+Epoch: 2000 	Train:[Loss: 23.2274, Acc: 0.7353] 	Val:[Loss: 19.6461, Acc: 0.7780]
+Epoch: 2100 	Train:[Loss: 21.9483, Acc: 0.7499] 	Val:[Loss: 18.5404, Acc: 0.7905]
+Epoch: 2200 	Train:[Loss: 20.7846, Acc: 0.7632] 	Val:[Loss: 17.5759, Acc: 0.8014]
+Epoch: 2300 	Train:[Loss: 19.6968, Acc: 0.7756] 	Val:[Loss: 16.7389, Acc: 0.8108]
+Epoch: 2400 	Train:[Loss: 18.6831, Acc: 0.7871] 	Val:[Loss: 16.0063, Acc: 0.8191]
+Epoch: 2500 	Train:[Loss: 17.7585, Acc: 0.7977] 	Val:[Loss: 15.3569, Acc: 0.8264]
+Epoch: 2600 	Train:[Loss: 16.9147, Acc: 0.8073] 	Val:[Loss: 14.7808, Acc: 0.8330]
+Epoch: 2700 	Train:[Loss: 16.1411, Acc: 0.8160] 	Val:[Loss: 14.2724, Acc: 0.8387]
+Epoch: 2800 	Train:[Loss: 15.4297, Acc: 0.8241] 	Val:[Loss: 13.8272, Acc: 0.8437]
+Epoch: 2900 	Train:[Loss: 14.7740, Acc: 0.8316] 	Val:[Loss: 13.4401, Acc: 0.8481]
+Epoch: 3000 	Train:[Loss: 14.1693, Acc: 0.8384] 	Val:[Loss: 13.1044, Acc: 0.8519]
+Epoch: 3100 	Train:[Loss: 13.6108, Acc: 0.8448] 	Val:[Loss: 12.8148, Acc: 0.8552]
+Epoch: 3200 	Train:[Loss: 13.0928, Acc: 0.8507] 	Val:[Loss: 12.5678, Acc: 0.8580]
+Epoch: 3300 	Train:[Loss: 12.6095, Acc: 0.8562] 	Val:[Loss: 12.3564, Acc: 0.8604]
+Epoch: 3400 	Train:[Loss: 12.1575, Acc: 0.8613] 	Val:[Loss: 12.1663, Acc: 0.8625]
+Epoch: 3500 	Train:[Loss: 11.7363, Acc: 0.8661] 	Val:[Loss: 11.9795, Acc: 0.8646]
+Epoch: 3600 	Train:[Loss: 11.3463, Acc: 0.8706] 	Val:[Loss: 11.7814, Acc: 0.8669]
+Epoch: 3700 	Train:[Loss: 10.9866, Acc: 0.8747] 	Val:[Loss: 11.5682, Acc: 0.8693]
+Epoch: 3800 	Train:[Loss: 10.6545, Acc: 0.8785] 	Val:[Loss: 11.3459, Acc: 0.8718]
+Epoch: 3900 	Train:[Loss: 10.3470, Acc: 0.8820] 	Val:[Loss: 11.1232, Acc: 0.8743]
+Epoch: 3999 	Train:[Loss: 10.0639, Acc: 0.8852] 	Val:[Loss: 10.9091, Acc: 0.8767]
+================Test set metrics======================
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:216: RuntimeWarning: divide by zero encountered in scalar divide
+  r2 = 1 - (ss_residual / ss_total)
+
+R2 Score ::  -inf
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 56, in run
+    print("MSE :: ", mlp.loss.MSELoss.__call__(ground_truth,predictions))
+TypeError: loss.MSELoss.__call__() missing 1 required positional argument: 'y_pred'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 56, in run
+    print("MSE :: ", mlp.loss.MSELoss.__call__(ground_truth,predictions))
+TypeError: loss.MSELoss.__call__() missing 1 required positional argument: 'y_pred'

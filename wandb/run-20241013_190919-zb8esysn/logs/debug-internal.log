@@ -1,0 +1,20 @@
+{"time":"2024-10-13T19:09:19.307047139+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:09:19.307066857+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241013_190919-zb8esysn/logs/debug-core.log"}
+{"time":"2024-10-13T19:09:19.31484054+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:09:19.330565762+05:30","level":"INFO","msg":"created new stream","id":"zb8esysn"}
+{"time":"2024-10-13T19:09:19.33064694+05:30","level":"INFO","msg":"stream: started","id":"zb8esysn"}
+{"time":"2024-10-13T19:09:19.330687148+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"zb8esysn"}}
+{"time":"2024-10-13T19:09:19.33078114+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"zb8esysn"}}
+{"time":"2024-10-13T19:09:19.330880423+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"zb8esysn"}}
+{"time":"2024-10-13T19:09:19.748265363+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:09:19.749625031+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:19:06.297516938+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:19:06.297612854+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:19:06.818283877+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-13T19:19:06.81830605+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-13T19:19:08.236283161+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:19:09.641577199+05:30","level":"INFO","msg":"stream: closing","id":"zb8esysn"}
+{"time":"2024-10-13T19:19:09.641597168+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"zb8esysn"}}
+{"time":"2024-10-13T19:19:09.641626915+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"zb8esysn"}}
+{"time":"2024-10-13T19:19:09.641639129+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"zb8esysn"}}
+{"time":"2024-10-13T19:19:09.641734334+05:30","level":"INFO","msg":"stream: closed","id":"zb8esysn"}

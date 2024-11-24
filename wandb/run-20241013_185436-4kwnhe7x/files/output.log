@@ -1,0 +1,31 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:16] [activation:Linear]
+Layer: [in:16] [out:64] [activation:Linear]
+Layer: [in:64] [out:128] [activation:Linear]
+Layer: [in:128] [out:256] [activation:Linear]
+Layer: [in:256] [out:6] [activation:Softmax]
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [03:44<00:00,  4.44epoch/s, Train Acc=0.627, Val Acc=0.688]
+
+Epoch: 0 	Train:[Loss: 8.4249, Acc: 0.0723] 	Val:[Loss: 11.9443, Acc: 0.3542]
+Epoch: 100 	Train:[Loss: 0.9490, Acc: 0.6035] 	Val:[Loss: 1.2070, Acc: 0.6562]
+Epoch: 200 	Train:[Loss: 0.8967, Acc: 0.6230] 	Val:[Loss: 1.0536, Acc: 0.6667]
+Epoch: 300 	Train:[Loss: 0.8915, Acc: 0.6191] 	Val:[Loss: 1.0517, Acc: 0.6875]
+Epoch: 400 	Train:[Loss: 0.8886, Acc: 0.6250] 	Val:[Loss: 1.0563, Acc: 0.6458]
+Epoch: 500 	Train:[Loss: 0.8848, Acc: 0.6406] 	Val:[Loss: 1.0391, Acc: 0.6875]
+Epoch: 600 	Train:[Loss: 0.8856, Acc: 0.6230] 	Val:[Loss: 1.0415, Acc: 0.6875]
+Epoch: 700 	Train:[Loss: 0.8897, Acc: 0.6270] 	Val:[Loss: 1.0631, Acc: 0.6458]
+Epoch: 800 	Train:[Loss: 0.8838, Acc: 0.6406] 	Val:[Loss: 1.0436, Acc: 0.6562]
+Epoch: 900 	Train:[Loss: 0.8859, Acc: 0.6348] 	Val:[Loss: 1.0502, Acc: 0.6458]
+Epoch: 999 	Train:[Loss: 0.8845, Acc: 0.6270] 	Val:[Loss: 1.0387, Acc: 0.6875]
+================Test set metrics======================
+
+accuracy ::  0.8611111111111112
+precision ::  0.33073430202387133
+recall ::  0.2751067038926864
+F1-score ::  0.3003666731220472
+
+======================================================

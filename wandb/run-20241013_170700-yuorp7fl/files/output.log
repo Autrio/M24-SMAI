@@ -1,0 +1,52 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:8] [activation:Tanh]
+Layer: [in:8] [out:16] [activation:Tanh]
+Layer: [in:16] [out:16] [activation:Tanh]
+Layer: [in:16] [out:8] [activation:Tanh]
+Layer: [in:8] [out:1] [activation:Linear]
+Training:   8%|████████▉                                                                                                           | 308/4000 [00:01<00:13, 272.42epoch/s, Train Acc=-.166, Val Acc=-.0623]
+
+Epoch: 0 	Train:[Loss: 618.2079, Acc: -6.0649] 	Val:[Loss: 613.4266, Acc: -5.9325]
+Epoch: 100 	Train:[Loss: 277.8148, Acc: -2.1731] 	Val:[Loss: 260.8132, Acc: -1.9475]
+Epoch: 200 	Train:[Loss: 154.4821, Acc: -0.7640] 	Val:[Loss: 144.2578, Acc: -0.6303]
+Epoch: 300 	Train:[Loss: 104.3989, Acc: -0.1917] 	Val:[Loss: 96.2474, Acc: -0.0877]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 52, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 715, in train
+    train_metrics = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 628, in train_step
+    acc += self.accuracy(y_pred, y)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 551, in regression_accuracy
+    return self.metrics.r2_score(y, y_pred)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 213, in r2_score
+    y_mean = np.mean(y_true)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 52, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 715, in train
+    train_metrics = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 628, in train_step
+    acc += self.accuracy(y_pred, y)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 551, in regression_accuracy
+    return self.metrics.r2_score(y, y_pred)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 213, in r2_score
+    y_mean = np.mean(y_true)
+KeyboardInterrupt

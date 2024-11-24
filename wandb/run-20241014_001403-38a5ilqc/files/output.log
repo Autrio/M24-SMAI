@@ -1,0 +1,50 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:64] [activation:Sigmoid]
+Layer: [in:64] [out:128] [activation:Sigmoid]
+Layer: [in:128] [out:256] [activation:Sigmoid]
+Layer: [in:256] [out:1] [activation:Linear]
+Training:   3%|███▊                                                                                                                | 164/5000 [00:32<16:05,  5.01epoch/s, Train Acc=-.0147, Val Acc=-.0043]
+
+Epoch: 0 	Train:[Loss: 3316.8112, Acc: -32.8062] 	Val:[Loss: 524.2211, Acc: -4.9244]
+Epoch: 100 	Train:[Loss: 87.9728, Acc: -0.0147] 	Val:[Loss: 88.8657, Acc: -0.0043]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 759, in train
+    train_metrics = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 668, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 633, in backward
+    self.dW.append(np.mean(dw, axis=0))
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 3380, in _mean_dispatcher
+    def _mean_dispatcher(a, axis=None, dtype=None, out=None, keepdims=None, *,
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 759, in train
+    train_metrics = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 668, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 633, in backward
+    self.dW.append(np.mean(dw, axis=0))
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 3380, in _mean_dispatcher
+    def _mean_dispatcher(a, axis=None, dtype=None, out=None, keepdims=None, *,
+KeyboardInterrupt

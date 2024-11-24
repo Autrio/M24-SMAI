@@ -1,0 +1,44 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [04:29<00:00,  3.71epoch/s, Train Acc=0.784, Val Acc=0.573]
+Epoch: 0 	Train:[Loss: 0.2857, Acc: 0.0794] 	Val:[Loss: 0.2745, Acc: 0.1042]
+Epoch: 128 	Train:[Loss: 0.0958, Acc: 0.5938] 	Val:[Loss: 0.1201, Acc: 0.5312]
+Epoch: 256 	Train:[Loss: 0.0792, Acc: 0.6562] 	Val:[Loss: 0.1149, Acc: 0.5833]
+Epoch: 384 	Train:[Loss: 0.0701, Acc: 0.7070] 	Val:[Loss: 0.1152, Acc: 0.5521]
+Epoch: 512 	Train:[Loss: 0.0637, Acc: 0.7383] 	Val:[Loss: 0.1166, Acc: 0.5625]
+Epoch: 640 	Train:[Loss: 0.0587, Acc: 0.7630] 	Val:[Loss: 0.1168, Acc: 0.5625]
+Epoch: 768 	Train:[Loss: 0.0550, Acc: 0.7799] 	Val:[Loss: 0.1164, Acc: 0.5729]
+Epoch: 896 	Train:[Loss: 0.0522, Acc: 0.7826] 	Val:[Loss: 0.1160, Acc: 0.5833]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 52, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 47, in run
+    grad_check = model.grad_check(model.Xtrain[0:1],model.Ytrain[0:1])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 471, in grad_check
+    grad = layer.get_grads()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 287, in get_grads
+    grads = [np.stack(self.dzw, axis=1),
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/shape_base.py", line 445, in stack
+    raise ValueError('need at least one array to stack')
+ValueError: need at least one array to stack
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 52, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 47, in run
+    grad_check = model.grad_check(model.Xtrain[0:1],model.Ytrain[0:1])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 471, in grad_check
+    grad = layer.get_grads()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 287, in get_grads
+    grads = [np.stack(self.dzw, axis=1),
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/shape_base.py", line 445, in stack
+    raise ValueError('need at least one array to stack')
+ValueError: need at least one array to stack

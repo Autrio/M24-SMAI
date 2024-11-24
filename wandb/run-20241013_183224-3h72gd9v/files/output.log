@@ -1,0 +1,39 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:32] [activation:Sigmoid]
+Layer: [in:32] [out:128] [activation:Sigmoid]
+Layer: [in:128] [out:128] [activation:Sigmoid]
+Layer: [in:128] [out:32] [activation:Sigmoid]
+Layer: [in:32] [out:6] [activation:Softmax]
+Training:  80%|█████████████████████████████████████████████████████████████████████████████████████████████▍                       | 1598/2000 [03:34<00:54,  7.44epoch/s, Train Acc=0.473, Val Acc=0.521]
+
+Epoch: 0 	Train:[Loss: 0.5433, Acc: 0.1191] 	Val:[Loss: 0.4059, Acc: 0.3958]
+Epoch: 100 	Train:[Loss: 0.3367, Acc: 0.4160] 	Val:[Loss: 0.3244, Acc: 0.4375]
+Epoch: 200 	Train:[Loss: 0.3364, Acc: 0.4160] 	Val:[Loss: 0.3241, Acc: 0.4375]
+Epoch: 300 	Train:[Loss: 0.3360, Acc: 0.4160] 	Val:[Loss: 0.3237, Acc: 0.4375]
+Epoch: 400 	Train:[Loss: 0.3355, Acc: 0.4160] 	Val:[Loss: 0.3233, Acc: 0.4375]
+Epoch: 500 	Train:[Loss: 0.3348, Acc: 0.4141] 	Val:[Loss: 0.3227, Acc: 0.4375]
+Epoch: 600 	Train:[Loss: 0.3338, Acc: 0.4199] 	Val:[Loss: 0.3217, Acc: 0.4375]
+Epoch: 700 	Train:[Loss: 0.3321, Acc: 0.4277] 	Val:[Loss: 0.3200, Acc: 0.4479]
+Epoch: 800 	Train:[Loss: 0.3288, Acc: 0.4688] 	Val:[Loss: 0.3167, Acc: 0.5000]
+Epoch: 900 	Train:[Loss: 0.3217, Acc: 0.5215] 	Val:[Loss: 0.3096, Acc: 0.5521]
+Epoch: 1000 	Train:[Loss: 0.3064, Acc: 0.5254] 	Val:[Loss: 0.2954, Acc: 0.5833]
+Epoch: 1100 	Train:[Loss: 0.2934, Acc: 0.5566] 	Val:[Loss: 0.2862, Acc: 0.6458]
+Epoch: 1200 	Train:[Loss: 0.2973, Acc: 0.5391] 	Val:[Loss: 0.3029, Acc: 0.6042]
+Epoch: 1300 	Train:[Loss: 0.2994, Acc: 0.5469] 	Val:[Loss: 0.3232, Acc: 0.5729]
+Epoch: 1400 	Train:[Loss: 0.3094, Acc: 0.5176] 	Val:[Loss: 0.3428, Acc: 0.5208]
+Epoch: 1500 	Train:[Loss: 0.3141, Acc: 0.5059] 	Val:[Loss: 0.3591, Acc: 0.5833]
+Early stopping triggered at epoch 1598.
+Model weights restored to epoch 1086.
+best validation loss::0.28573357678142847
+================Test set metrics======================
+
+accuracy ::  0.847953216374269
+precision ::  0.32676896845694803
+recall ::  0.18976926286062706
+F1-score ::  0.24010112905535336
+
+======================================================

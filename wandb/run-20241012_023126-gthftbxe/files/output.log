@@ -1,0 +1,72 @@
+TypeError: float() argument must be a string or a real number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/5-2.py", line 55, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/5-2.py", line 35, in run
+    model.Preprocess(categorical=['gender', 'education', 'married','city', 'occupation', 'most bought item'],drop=None,multi_hot="labels")
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 565, in Preprocess
+    return super().Preprocess(drop, nan, categorical, multi_hot)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 100, in Preprocess
+    imputer.fit_transform(self.df[self.numerical_features]),
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 140, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/base.py", line 878, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/impute/_base.py", line 390, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/impute/_base.py", line 344, in _validate_input
+    raise ve
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/impute/_base.py", line 327, in _validate_input
+    X = self._validate_data(
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/base.py", line 565, in _validate_data
+    X = check_array(X, input_name="X", **check_params)
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/utils/validation.py", line 879, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/utils/_array_api.py", line 185, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+  File "/home/autrio/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 1998, in __array__
+    arr = np.asarray(values, dtype=dtype)
+ValueError: setting an array element with a sequence.
+TypeError: float() argument must be a string or a real number, not 'list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/5-2.py", line 55, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/5-2.py", line 35, in run
+    model.Preprocess(categorical=['gender', 'education', 'married','city', 'occupation', 'most bought item'],drop=None,multi_hot="labels")
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 565, in Preprocess
+    return super().Preprocess(drop, nan, categorical, multi_hot)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 100, in Preprocess
+    imputer.fit_transform(self.df[self.numerical_features]),
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/utils/_set_output.py", line 140, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/base.py", line 878, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/impute/_base.py", line 390, in fit
+    X = self._validate_input(X, in_fit=True)
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/impute/_base.py", line 344, in _validate_input
+    raise ve
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/impute/_base.py", line 327, in _validate_input
+    X = self._validate_data(
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/base.py", line 565, in _validate_data
+    X = check_array(X, input_name="X", **check_params)
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/utils/validation.py", line 879, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+  File "/home/autrio/.local/lib/python3.10/site-packages/sklearn/utils/_array_api.py", line 185, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+  File "/home/autrio/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 1998, in __array__
+    arr = np.asarray(values, dtype=dtype)
+ValueError: setting an array element with a sequence.

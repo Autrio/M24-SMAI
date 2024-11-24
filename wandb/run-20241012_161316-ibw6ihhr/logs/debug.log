@@ -1,0 +1,34 @@
+2024-10-12 16:13:16,747 INFO    Thread-27 (_run_job):1113666 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-12 16:13:16,747 INFO    Thread-27 (_run_job):1113666 [wandb_setup.py:_flush():79] Configure stats pid to 1113666
+2024-10-12 16:13:16,747 INFO    Thread-27 (_run_job):1113666 [wandb_setup.py:_flush():79] Loading settings from /home/autrio/.config/wandb/settings
+2024-10-12 16:13:16,747 INFO    Thread-27 (_run_job):1113666 [wandb_setup.py:_flush():79] Loading settings from /home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/settings
+2024-10-12 16:13:16,747 INFO    Thread-27 (_run_job):1113666 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'SMAI-A3-MLP-regression', 'entity': 'autrio-das-international-institute-of-information-techno', 'root_dir': '/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio', 'run_id': 'ibw6ihhr', 'sweep_param_path': '/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/sweep-i5idz45o/config-ibw6ihhr.yaml', 'sweep_id': 'i5idz45o'}
+2024-10-12 16:13:16,747 INFO    Thread-27 (_run_job):1113666 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-12 16:13:16,747 WARNING Thread-27 (_run_job):1113666 [wandb_setup.py:_flush():79] Could not find program at -m assignments.3.3.3
+2024-10-12 16:13:16,747 INFO    Thread-27 (_run_job):1113666 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': None, 'program': '-m assignments.3.3.3'}
+2024-10-12 16:13:16,747 INFO    Thread-27 (_run_job):1113666 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-12 16:13:16,747 INFO    Thread-27 (_run_job):1113666 [wandb_init.py:_log_setup():532] Logging user logs to /home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241012_161316-ibw6ihhr/logs/debug.log
+2024-10-12 16:13:16,747 INFO    Thread-27 (_run_job):1113666 [wandb_init.py:_log_setup():533] Logging internal logs to /home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241012_161316-ibw6ihhr/logs/debug-internal.log
+2024-10-12 16:13:16,747 INFO    Thread-27 (_run_job):1113666 [wandb_init.py:init():617] calling init triggers
+2024-10-12 16:13:16,748 INFO    Thread-27 (_run_job):1113666 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'Relu', 'batch_size': 512, 'epoch': 3000, 'loss_fn': 'MSELoss', 'lr': 0.08601357122414062, 'model_architecture': 'arch5', 'type': 'regression'}
+config: {'lr': 0.001, 'batch_size': 256, 'epoch': 1000, 'optimizer': 'mini-batch', 'loss_fn': <models.MLP.MLP2.loss.MSELoss object at 0x7359b216a740>, 'activation': <models.MLP.MLP2.activations.Tanh object at 0x7359b371f8b0>, 'type': 'regression'}
+2024-10-12 16:13:16,748 INFO    Thread-27 (_run_job):1113666 [wandb_init.py:init():667] starting backend
+2024-10-12 16:13:16,748 INFO    Thread-27 (_run_job):1113666 [wandb_init.py:init():671] sending inform_init request
+2024-10-12 16:13:16,756 INFO    Thread-27 (_run_job):1113666 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-12 16:13:16,758 INFO    Thread-27 (_run_job):1113666 [wandb_init.py:init():684] backend started and connected
+2024-10-12 16:13:16,774 INFO    Thread-27 (_run_job):1113666 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'Relu', 'batch_size': 512, 'epoch': 3000, 'loss_fn': 'MSELoss', 'lr': 0.08601357122414062, 'model_architecture': 'arch5', 'type': 'regression'}
+2024-10-12 16:13:16,774 INFO    Thread-27 (_run_job):1113666 [wandb_init.py:init():779] updated telemetry
+2024-10-12 16:13:16,783 INFO    Thread-27 (_run_job):1113666 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-12 16:13:17,292 INFO    Thread-27 (_run_job):1113666 [wandb_init.py:init():863] starting run threads in backend
+2024-10-12 16:13:17,881 INFO    Thread-27 (_run_job):1113666 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-12 16:13:17,881 INFO    Thread-27 (_run_job):1113666 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-12 16:13:17,882 INFO    Thread-27 (_run_job):1113666 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-12 16:13:17,882 INFO    Thread-27 (_run_job):1113666 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-12 16:13:17,883 INFO    Thread-27 (_run_job):1113666 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-12 16:20:19,412 INFO    Thread-27 (_run_job):1113666 [wandb_run.py:_finish():2164] finishing run autrio-das-international-institute-of-information-techno/SMAI-A3-MLP-regression/ibw6ihhr
+2024-10-12 16:20:19,412 INFO    Thread-27 (_run_job):1113666 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-12 16:20:19,412 INFO    Thread-27 (_run_job):1113666 [wandb_run.py:_restore():2410] restore
+2024-10-12 16:20:19,417 INFO    Thread-27 (_run_job):1113666 [wandb_run.py:_restore():2416] restore done
+2024-10-12 16:20:22,746 INFO    Thread-27 (_run_job):1113666 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-12 16:20:22,746 INFO    Thread-27 (_run_job):1113666 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-12 16:20:22,756 INFO    Thread-27 (_run_job):1113666 [wandb_run.py:_footer_sync_info():4008] logging synced files

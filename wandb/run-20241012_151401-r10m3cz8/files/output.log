@@ -1,0 +1,20 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:64] [activation:Sigmoid]
+Layer: [in:64] [out:128] [activation:Sigmoid]
+Layer: [in:128] [out:256] [activation:Sigmoid]
+Layer: [in:256] [out:1] [activation:Linear]
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [01:39<00:00, 10.04epoch/s, Train Acc=0.181, Val Acc=0.238]
+
+Epoch: 0 	Train:[Loss: 601.5792, Acc: -5.6726] 	Val:[Loss: 441.9895, Acc: -3.9951]
+Epoch: 128 	Train:[Loss: 89.8780, Acc: 0.0031] 	Val:[Loss: 88.0874, Acc: 0.0045]
+Epoch: 256 	Train:[Loss: 89.5200, Acc: 0.0071] 	Val:[Loss: 87.5670, Acc: 0.0104]
+Epoch: 384 	Train:[Loss: 89.0365, Acc: 0.0124] 	Val:[Loss: 86.8753, Acc: 0.0182]
+Epoch: 512 	Train:[Loss: 88.3019, Acc: 0.0206] 	Val:[Loss: 85.8516, Acc: 0.0298]
+Epoch: 640 	Train:[Loss: 87.0754, Acc: 0.0342] 	Val:[Loss: 84.1925, Acc: 0.0485]
+Epoch: 768 	Train:[Loss: 84.8401, Acc: 0.0590] 	Val:[Loss: 81.2600, Acc: 0.0817]
+Epoch: 896 	Train:[Loss: 80.4337, Acc: 0.1078] 	Val:[Loss: 75.6505, Acc: 0.1450]

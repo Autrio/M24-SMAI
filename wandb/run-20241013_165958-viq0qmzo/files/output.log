@@ -1,0 +1,35 @@
+Index(['age', 'gender', 'income', 'education', 'married', 'children', 'city',
+       'occupation', 'purchase_amount', 'most bought item', 'labels'],
+      dtype='object')
+(1000, 8)
+(1000, 10)
+Data split into training (800 samples), validation (100 samples), and testing (100 samples) sets.
+Number of classes: 8
+Feature data normalized using z-score normalization.
+Training:  25%|█████████████████████████████▍                                                                                       | 1260/5000 [00:23<01:09, 53.58epoch/s, Train Acc=0.652, Val Acc=0.673]
+Epoch: 0 	Train:[Loss: 0.7588, Acc: 0.4958] 	Val:[Loss: 0.7541, Acc: 0.5156]
+Epoch: 100 	Train:[Loss: 0.6820, Acc: 0.5724] 	Val:[Loss: 0.6752, Acc: 0.5859]
+Epoch: 200 	Train:[Loss: 0.6611, Acc: 0.6193] 	Val:[Loss: 0.6537, Acc: 0.6276]
+Epoch: 300 	Train:[Loss: 0.6532, Acc: 0.6362] 	Val:[Loss: 0.6463, Acc: 0.6510]
+Epoch: 400 	Train:[Loss: 0.6491, Acc: 0.6436] 	Val:[Loss: 0.6431, Acc: 0.6576]
+Epoch: 500 	Train:[Loss: 0.6465, Acc: 0.6496] 	Val:[Loss: 0.6417, Acc: 0.6628]
+Epoch: 600 	Train:[Loss: 0.6446, Acc: 0.6509] 	Val:[Loss: 0.6411, Acc: 0.6680]
+Epoch: 700 	Train:[Loss: 0.6432, Acc: 0.6520] 	Val:[Loss: 0.6408, Acc: 0.6693]
+Epoch: 800 	Train:[Loss: 0.6420, Acc: 0.6514] 	Val:[Loss: 0.6408, Acc: 0.6706]
+Epoch: 900 	Train:[Loss: 0.6411, Acc: 0.6510] 	Val:[Loss: 0.6410, Acc: 0.6719]
+Epoch: 1000 	Train:[Loss: 0.6402, Acc: 0.6512] 	Val:[Loss: 0.6411, Acc: 0.6719]
+Epoch: 1100 	Train:[Loss: 0.6395, Acc: 0.6517] 	Val:[Loss: 0.6413, Acc: 0.6732]
+Epoch: 1200 	Train:[Loss: 0.6388, Acc: 0.6525] 	Val:[Loss: 0.6415, Acc: 0.6732]
+Early stopping triggered at epoch 1260.
+Model weights restored to epoch 748.
+best validation loss::0.6408290197810674
+['beauty', 'books', 'clothing', 'electronics', 'food', 'furniture', 'home', 'sports']
+================Test set metrics======================
+
+accuracy ::  0.013666666666666666
+precision ::  0.03833333333333334
+recall ::  0.016666666666666666
+F1-score ::  0.021333333333333333
+Hamming Loss ::  0.3425
+
+======================================================

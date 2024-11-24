@@ -1,0 +1,34 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:16] [activation:ReLU]
+Layer: [in:16] [out:32] [activation:ReLU]
+Layer: [in:32] [out:64] [activation:ReLU]
+Layer: [in:64] [out:32] [activation:ReLU]
+Layer: [in:32] [out:16] [activation:ReLU]
+Layer: [in:16] [out:6] [activation:Linear]
+Training:   0%|                                                                                                                                                                 | 0/3000 [00:00<?, ?epoch/s]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:328: RuntimeWarning: invalid value encountered in log
+  return np.mean(np.sum(-y  * np.log(y_pred+1e-9), axis=-1))
+Training:  10%|███████████▌                                                                                                           | 290/3000 [00:22<03:15, 13.87epoch/s, Train Acc=0.967, Val Acc=0.875][34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
+
+Epoch: 0 	Train:[Loss: nan, Acc: 0.8309] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 16 	Train:[Loss: nan, Acc: 0.8739] 	Val:[Loss: nan, Acc: 0.8854]
+Epoch: 32 	Train:[Loss: nan, Acc: 0.8830] 	Val:[Loss: nan, Acc: 0.8872]
+Epoch: 48 	Train:[Loss: nan, Acc: 0.8960] 	Val:[Loss: nan, Acc: 0.8854]
+Epoch: 64 	Train:[Loss: nan, Acc: 0.9113] 	Val:[Loss: nan, Acc: 0.8837]
+Epoch: 80 	Train:[Loss: nan, Acc: 0.9249] 	Val:[Loss: nan, Acc: 0.8854]
+Epoch: 96 	Train:[Loss: nan, Acc: 0.9321] 	Val:[Loss: nan, Acc: 0.8715]
+Epoch: 112 	Train:[Loss: nan, Acc: 0.9412] 	Val:[Loss: nan, Acc: 0.8802]
+Epoch: 128 	Train:[Loss: nan, Acc: 0.9440] 	Val:[Loss: nan, Acc: 0.8819]
+Epoch: 144 	Train:[Loss: nan, Acc: 0.9507] 	Val:[Loss: nan, Acc: 0.8837]
+Epoch: 160 	Train:[Loss: nan, Acc: 0.9583] 	Val:[Loss: nan, Acc: 0.8889]
+Epoch: 176 	Train:[Loss: nan, Acc: 0.9593] 	Val:[Loss: nan, Acc: 0.8819]
+Epoch: 192 	Train:[Loss: nan, Acc: 0.9598] 	Val:[Loss: nan, Acc: 0.8993]
+Epoch: 208 	Train:[Loss: nan, Acc: 0.9606] 	Val:[Loss: nan, Acc: 0.8819]
+Epoch: 224 	Train:[Loss: nan, Acc: 0.9669] 	Val:[Loss: nan, Acc: 0.8767]
+Epoch: 240 	Train:[Loss: nan, Acc: 0.9652] 	Val:[Loss: nan, Acc: 0.8750]
+Epoch: 256 	Train:[Loss: nan, Acc: 0.9613] 	Val:[Loss: nan, Acc: 0.8854]
+Epoch: 272 	Train:[Loss: nan, Acc: 0.9637] 	Val:[Loss: nan, Acc: 0.8837]
+Epoch: 288 	Train:[Loss: nan, Acc: 0.9645] 	Val:[Loss: nan, Acc: 0.8854]

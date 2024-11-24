@@ -1,0 +1,30 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:16] [activation:Linear]
+Layer: [in:16] [out:64] [activation:Linear]
+Layer: [in:64] [out:128] [activation:Linear]
+Layer: [in:128] [out:256] [activation:Linear]
+Layer: [in:256] [out:6] [activation:Softmax]
+Training:  65%|█████████████████████████████████████████████████████████████████████████████                                         | 653/1000 [02:25<01:17,  4.50epoch/s, Train Acc=0.629, Val Acc=0.677]
+
+Epoch: 0 	Train:[Loss: 5.0422, Acc: 0.1934] 	Val:[Loss: 7.3098, Acc: 0.4167]
+Epoch: 100 	Train:[Loss: 1.0073, Acc: 0.5645] 	Val:[Loss: 1.2134, Acc: 0.5729]
+Epoch: 200 	Train:[Loss: 0.9158, Acc: 0.6270] 	Val:[Loss: 1.1048, Acc: 0.6562]
+Epoch: 300 	Train:[Loss: 0.8939, Acc: 0.6426] 	Val:[Loss: 1.0575, Acc: 0.6458]
+Epoch: 400 	Train:[Loss: 0.8874, Acc: 0.6309] 	Val:[Loss: 1.0502, Acc: 0.6771]
+Epoch: 500 	Train:[Loss: 0.8874, Acc: 0.6309] 	Val:[Loss: 1.0530, Acc: 0.6771]
+Epoch: 600 	Train:[Loss: 0.8867, Acc: 0.6309] 	Val:[Loss: 1.0525, Acc: 0.6771]
+Early stopping triggered at epoch 653.
+Model weights restored to epoch 141.
+best validation loss::1.0262216147330694
+================Test set metrics======================
+
+accuracy ::  0.8728070175438597
+precision ::  0.34476744186046515
+recall ::  0.28361734219055873
+F1-score ::  0.31121703776443876
+
+======================================================

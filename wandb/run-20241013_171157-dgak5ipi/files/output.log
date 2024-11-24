@@ -1,0 +1,41 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:8] [activation:Sigmoid]
+Layer: [in:8] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:8] [activation:Sigmoid]
+Layer: [in:8] [out:6] [activation:Linear]
+Training: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2000/2000 [00:15<00:00, 126.49epoch/s, Train Acc=0.833, Val Acc=0.833]
+
+Epoch: 0 	Train:[Loss: 0.5598, Acc: 0.6766] 	Val:[Loss: 0.5384, Acc: 0.6771]
+Epoch: 100 	Train:[Loss: 0.1163, Acc: 0.8333] 	Val:[Loss: 0.1144, Acc: 0.8333]
+Epoch: 200 	Train:[Loss: 0.1083, Acc: 0.8333] 	Val:[Loss: 0.1068, Acc: 0.8333]
+Epoch: 300 	Train:[Loss: 0.1080, Acc: 0.8333] 	Val:[Loss: 0.1066, Acc: 0.8333]
+Epoch: 400 	Train:[Loss: 0.1080, Acc: 0.8333] 	Val:[Loss: 0.1065, Acc: 0.8333]
+Epoch: 500 	Train:[Loss: 0.1080, Acc: 0.8333] 	Val:[Loss: 0.1065, Acc: 0.8333]
+Epoch: 600 	Train:[Loss: 0.1080, Acc: 0.8333] 	Val:[Loss: 0.1065, Acc: 0.8333]
+Epoch: 700 	Train:[Loss: 0.1080, Acc: 0.8333] 	Val:[Loss: 0.1065, Acc: 0.8333]
+Epoch: 800 	Train:[Loss: 0.1079, Acc: 0.8333] 	Val:[Loss: 0.1065, Acc: 0.8333]
+Epoch: 900 	Train:[Loss: 0.1079, Acc: 0.8333] 	Val:[Loss: 0.1064, Acc: 0.8333]
+Epoch: 1000 	Train:[Loss: 0.1079, Acc: 0.8333] 	Val:[Loss: 0.1064, Acc: 0.8333]
+Epoch: 1100 	Train:[Loss: 0.1079, Acc: 0.8333] 	Val:[Loss: 0.1064, Acc: 0.8333]
+Epoch: 1200 	Train:[Loss: 0.1079, Acc: 0.8333] 	Val:[Loss: 0.1064, Acc: 0.8333]
+Epoch: 1300 	Train:[Loss: 0.1079, Acc: 0.8333] 	Val:[Loss: 0.1064, Acc: 0.8333]
+Epoch: 1400 	Train:[Loss: 0.1079, Acc: 0.8333] 	Val:[Loss: 0.1064, Acc: 0.8333]
+Epoch: 1500 	Train:[Loss: 0.1079, Acc: 0.8333] 	Val:[Loss: 0.1063, Acc: 0.8333]
+Epoch: 1600 	Train:[Loss: 0.1078, Acc: 0.8333] 	Val:[Loss: 0.1063, Acc: 0.8333]
+Epoch: 1700 	Train:[Loss: 0.1078, Acc: 0.8333] 	Val:[Loss: 0.1063, Acc: 0.8333]
+Epoch: 1800 	Train:[Loss: 0.1078, Acc: 0.8333] 	Val:[Loss: 0.1063, Acc: 0.8333]
+Epoch: 1900 	Train:[Loss: 0.1078, Acc: 0.8333] 	Val:[Loss: 0.1063, Acc: 0.8333]
+Epoch: 1999 	Train:[Loss: 0.1078, Acc: 0.8333] 	Val:[Loss: 0.1062, Acc: 0.8333]
+================Test set metrics======================
+
+accuracy ::  0.8333333333333334
+precision ::  0.0
+recall ::  0.0
+F1-score ::  0
+
+======================================================

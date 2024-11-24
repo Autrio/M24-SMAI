@@ -1,0 +1,21 @@
+{"time":"2024-10-10T14:43:37.365358156+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-10T14:43:37.365369718+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241010_144337-m4dwx5yj/logs/debug-core.log"}
+{"time":"2024-10-10T14:43:37.442507093+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-10T14:43:37.447875635+05:30","level":"INFO","msg":"created new stream","id":"m4dwx5yj"}
+{"time":"2024-10-10T14:43:37.44789311+05:30","level":"INFO","msg":"stream: started","id":"m4dwx5yj"}
+{"time":"2024-10-10T14:43:37.447932366+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"m4dwx5yj"}}
+{"time":"2024-10-10T14:43:37.4479391+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"m4dwx5yj"}}
+{"time":"2024-10-10T14:43:37.447941374+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"m4dwx5yj"}}
+{"time":"2024-10-10T14:43:37.959711106+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-10T14:43:37.961357854+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-10T14:43:38.189238619+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-10T14:43:38.189383713+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-10T14:43:39.200660797+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-10T14:43:39.200703782+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-10T14:43:40.930451856+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-10T14:43:42.600171947+05:30","level":"INFO","msg":"stream: closing","id":"m4dwx5yj"}
+{"time":"2024-10-10T14:43:42.600211665+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"m4dwx5yj"}}
+{"time":"2024-10-10T14:43:42.600241042+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"m4dwx5yj"}}
+{"time":"2024-10-10T14:43:42.600305047+05:30","level":"ERROR","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2024-10-10T14:43:42.601059984+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"m4dwx5yj"}}
+{"time":"2024-10-10T14:43:42.601089411+05:30","level":"INFO","msg":"stream: closed","id":"m4dwx5yj"}

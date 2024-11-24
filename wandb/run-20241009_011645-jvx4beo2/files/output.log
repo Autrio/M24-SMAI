@@ -1,0 +1,69 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Training: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:31<00:00,  3.19epoch/s, Train Acc=0.608, Val Acc=0.562]
+Epoch: 0 	Train:[Loss: 0.2486, Acc: 0.1689] 	Val:[Loss: 0.2323, Acc: 0.1771]
+Epoch: 50 	Train:[Loss: 0.1005, Acc: 0.5611] 	Val:[Loss: 0.1160, Acc: 0.5312]
+[34m[1mwandb[0m: [32m[41mERROR[0m dictionary update sequence element #0 has length 1; 2 is required
+Traceback (most recent call last):
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3252, in upsert_sweep
+    config = self._validate_config_and_fill_distribution(config)
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3114, in _validate_config_and_fill_distribution
+    config = dict(config)
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 49, in <module>
+    sweep_id = wandb.sweep(sweep="hni4upj0", project="SMAI-M24-MLP")
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/sdk/wandb_sweep.py", line 86, in sweep
+    sweep_id, warnings = api.upsert_sweep(sweep, prior_runs=prior_runs)
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/apis/internal.py", line 133, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3252, in upsert_sweep
+    config = self._validate_config_and_fill_distribution(config)
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3114, in _validate_config_and_fill_distribution
+    config = dict(config)
+wandb.errors.errors.CommError: dictionary update sequence element #0 has length 1; 2 is required
+Traceback (most recent call last):
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3252, in upsert_sweep
+    config = self._validate_config_and_fill_distribution(config)
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3114, in _validate_config_and_fill_distribution
+    config = dict(config)
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 49, in <module>
+    sweep_id = wandb.sweep(sweep="hni4upj0", project="SMAI-M24-MLP")
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/sdk/wandb_sweep.py", line 86, in sweep
+    sweep_id, warnings = api.upsert_sweep(sweep, prior_runs=prior_runs)
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/apis/internal.py", line 133, in upsert_sweep
+    return self.api.upsert_sweep(*args, **kwargs)
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3252, in upsert_sweep
+    config = self._validate_config_and_fill_distribution(config)
+  File "/home/autrio/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 3114, in _validate_config_and_fill_distribution
+    config = dict(config)
+wandb.errors.errors.CommError: dictionary update sequence element #0 has length 1; 2 is required

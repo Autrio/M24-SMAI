@@ -1,0 +1,20 @@
+{"time":"2024-10-10T19:55:28.120201952+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-10T19:55:28.120212683+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241010_195528-yptvqopy/logs/debug-core.log"}
+{"time":"2024-10-10T19:55:28.188858971+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-10T19:55:28.193787477+05:30","level":"INFO","msg":"created new stream","id":"yptvqopy"}
+{"time":"2024-10-10T19:55:28.193804981+05:30","level":"INFO","msg":"stream: started","id":"yptvqopy"}
+{"time":"2024-10-10T19:55:28.193844037+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"yptvqopy"}}
+{"time":"2024-10-10T19:55:28.193856601+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"yptvqopy"}}
+{"time":"2024-10-10T19:55:28.19385068+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"yptvqopy"}}
+{"time":"2024-10-10T19:55:28.609907773+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-10T19:55:28.610929759+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-10T19:55:28.83034217+05:30","level":"INFO","msg":"stream: closing","id":"yptvqopy"}
+{"time":"2024-10-10T19:55:28.830381307+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-10T19:55:28.83047585+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-10T19:55:29.772326127+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-10T19:55:29.772343982+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-10T19:55:31.152939755+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-10T19:55:31.521397688+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"yptvqopy"}}
+{"time":"2024-10-10T19:55:31.521508313+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"yptvqopy"}}
+{"time":"2024-10-10T19:55:31.521538432+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"yptvqopy"}}
+{"time":"2024-10-10T19:55:31.521709193+05:30","level":"INFO","msg":"stream: closed","id":"yptvqopy"}

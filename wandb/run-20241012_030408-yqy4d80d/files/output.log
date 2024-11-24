@@ -1,0 +1,64 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:8] [activation:Tanh]
+Layer: [in:8] [out:16] [activation:Tanh]
+Layer: [in:16] [out:16] [activation:Tanh]
+Layer: [in:16] [out:8] [activation:Tanh]
+Layer: [in:8] [out:1] [activation:Linear]
+Training:  24%|████████████████████████████▉                                                                                         | 980/4000 [00:04<00:13, 221.95epoch/s, Train Acc=0.409, Val Acc=0.451]
+
+Epoch: 0 	Train:[Loss: 631.6006, Acc: -6.2124] 	Val:[Loss: 606.2763, Acc: -5.8517]
+Epoch: 64 	Train:[Loss: 374.9733, Acc: -3.2824] 	Val:[Loss: 346.0667, Acc: -2.9110]
+Epoch: 128 	Train:[Loss: 242.2815, Acc: -1.7680] 	Val:[Loss: 220.2829, Acc: -1.4895]
+Epoch: 192 	Train:[Loss: 162.1980, Acc: -0.8541] 	Val:[Loss: 148.9328, Acc: -0.6831]
+Epoch: 256 	Train:[Loss: 119.6107, Acc: -0.3676] 	Val:[Loss: 110.7979, Acc: -0.2522]
+Epoch: 320 	Train:[Loss: 96.0357, Acc: -0.0979] 	Val:[Loss: 89.9637, Acc: -0.0167]
+Epoch: 384 	Train:[Loss: 82.4839, Acc: 0.0572] 	Val:[Loss: 78.2083, Acc: 0.1161]
+Epoch: 448 	Train:[Loss: 73.8167, Acc: 0.1569] 	Val:[Loss: 71.2746, Acc: 0.1945]
+Epoch: 512 	Train:[Loss: 68.0046, Acc: 0.2236] 	Val:[Loss: 66.4788, Acc: 0.2487]
+Epoch: 576 	Train:[Loss: 63.2005, Acc: 0.2784] 	Val:[Loss: 61.6634, Acc: 0.3031]
+Epoch: 640 	Train:[Loss: 59.4536, Acc: 0.3210] 	Val:[Loss: 57.9349, Acc: 0.3453]
+Epoch: 704 	Train:[Loss: 57.1634, Acc: 0.3471] 	Val:[Loss: 55.2495, Acc: 0.3756]
+Epoch: 768 	Train:[Loss: 55.4785, Acc: 0.3662] 	Val:[Loss: 53.2218, Acc: 0.3985]
+Epoch: 832 	Train:[Loss: 53.8933, Acc: 0.3842] 	Val:[Loss: 50.8253, Acc: 0.4256]
+Epoch: 896 	Train:[Loss: 52.7290, Acc: 0.3975] 	Val:[Loss: 49.4212, Acc: 0.4415]
+Epoch: 960 	Train:[Loss: 51.9303, Acc: 0.4067] 	Val:[Loss: 48.7138, Acc: 0.4495]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 52, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 492, in train
+    train_loss, train_acc = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 462, in train_step
+    y_pred = self.__call__(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 434, in __call__
+    x = layer(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 385, in __call__
+    self.daz.append(daz)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 52, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 492, in train
+    train_loss, train_acc = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 462, in train_step
+    y_pred = self.__call__(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 434, in __call__
+    x = layer(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 385, in __call__
+    self.daz.append(daz)
+KeyboardInterrupt

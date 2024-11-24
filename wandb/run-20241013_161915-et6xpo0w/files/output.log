@@ -1,0 +1,23 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:16] [activation:ReLU]
+Layer: [in:16] [out:64] [activation:ReLU]
+Layer: [in:64] [out:128] [activation:ReLU]
+Layer: [in:128] [out:256] [activation:ReLU]
+Layer: [in:256] [out:6] [activation:Linear]
+Training:   0%|                                                                                                                         | 4/5000 [00:00<10:56,  7.61epoch/s, Train Acc=0.322, Val Acc=0.688]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:488: RuntimeWarning: overflow encountered in matmul
+
+Epoch: 0 	Train:[Loss: 2.7244, Acc: 0.7207] 	Val:[Loss: 782.5936, Acc: 0.3125]
+  z = x @ self.W.T + self.b
+Training:   0%|                                                                                                                         | 5/5000 [00:00<11:12,  7.42epoch/s, Train Acc=0.678, Val Acc=0.312]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:600: RuntimeWarning: invalid value encountered in multiply
+  dw = dLy[:, :, None] * dzw
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:598: RuntimeWarning: invalid value encountered in matmul
+  dLy = dLy @ self.layers[i + 1].W
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:599: RuntimeWarning: invalid value encountered in multiply
+  dLy = dLy * daz
+Training:   4%|█████▎                                                                                                                 | 223/5000 [00:31<11:32,  6.90epoch/s, Train Acc=0.833, Val Acc=0.833][34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
+Epoch: 100 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 200 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]

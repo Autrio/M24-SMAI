@@ -1,0 +1,54 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+{'lr': 0.04048311536648026, 'batch_size': 64, 'epoch': 5000, 'optimizer': 'mini-batch', 'loss_fn': 'MSELoss', 'activation': 'Tanh', 'type': 'regression', 'early_stopping': True, 'activations': 'Relu', 'model_architecture': 'arch5'}
+Layer: [in:13] [out:16] [activation:ReLU]
+Layer: [in:16] [out:64] [activation:ReLU]
+Layer: [in:64] [out:128] [activation:ReLU]
+Layer: [in:128] [out:256] [activation:ReLU]
+Layer: [in:256] [out:1] [activation:Linear]
+                                                                                                                                                                                                           
+
+Epoch: 0 	Train:[Loss: 599.6507, Acc: -5.6512] 	Val:[Loss: 337.7735, Acc: -2.8173]
+Epoch: 100 	Train:[Loss: 18.1393, Acc: 0.7988] 	Val:[Loss: 21.2761, Acc: 0.7596]
+Epoch: 200 	Train:[Loss: 11.7377, Acc: 0.8698] 	Val:[Loss: 20.4272, Acc: 0.7691]
+Epoch: 300 	Train:[Loss: 9.2694, Acc: 0.8972] 	Val:[Loss: 19.9461, Acc: 0.7746]
+Epoch: 400 	Train:[Loss: 7.8723, Acc: 0.9127] 	Val:[Loss: 19.3594, Acc: 0.7812]
+Epoch: 500 	Train:[Loss: 6.6484, Acc: 0.9263] 	Val:[Loss: 18.4426, Acc: 0.7916]
+Epoch: 600 	Train:[Loss: 6.0267, Acc: 0.9332] 	Val:[Loss: 17.9982, Acc: 0.7966]
+Epoch: 700 	Train:[Loss: 5.5657, Acc: 0.9383] 	Val:[Loss: 17.5674, Acc: 0.8015]
+Epoch: 800 	Train:[Loss: 5.0757, Acc: 0.9437] 	Val:[Loss: 17.1748, Acc: 0.8059]
+Epoch: 900 	Train:[Loss: 4.8251, Acc: 0.9465] 	Val:[Loss: 17.0181, Acc: 0.8077]
+Epoch: 1000 	Train:[Loss: 4.4290, Acc: 0.9509] 	Val:[Loss: 16.6493, Acc: 0.8118]
+Epoch: 1100 	Train:[Loss: 4.0896, Acc: 0.9546] 	Val:[Loss: 16.3676, Acc: 0.8150]
+Epoch: 1200 	Train:[Loss: 3.8675, Acc: 0.9571] 	Val:[Loss: 16.2236, Acc: 0.8167]
+Epoch: 1300 	Train:[Loss: 3.5835, Acc: 0.9603] 	Val:[Loss: 15.8746, Acc: 0.8206]
+Epoch: 1400 	Train:[Loss: 3.4779, Acc: 0.9614] 	Val:[Loss: 15.8431, Acc: 0.8210]
+Epoch: 1500 	Train:[Loss: 3.3367, Acc: 0.9630] 	Val:[Loss: 15.6359, Acc: 0.8233]
+Epoch: 1600 	Train:[Loss: 3.2699, Acc: 0.9637] 	Val:[Loss: 15.5744, Acc: 0.8240]
+Epoch: 1700 	Train:[Loss: 3.0594, Acc: 0.9661] 	Val:[Loss: 15.3992, Acc: 0.8260]
+Epoch: 1800 	Train:[Loss: 2.8966, Acc: 0.9679] 	Val:[Loss: 15.2610, Acc: 0.8275]
+Epoch: 1900 	Train:[Loss: 2.8665, Acc: 0.9682] 	Val:[Loss: 15.2936, Acc: 0.8272]
+Epoch: 2000 	Train:[Loss: 2.7850, Acc: 0.9691] 	Val:[Loss: 15.1690, Acc: 0.8286]
+Epoch: 2100 	Train:[Loss: 2.6502, Acc: 0.9706] 	Val:[Loss: 14.9510, Acc: 0.8310]
+Epoch: 2200 	Train:[Loss: 2.4536, Acc: 0.9728] 	Val:[Loss: 14.6639, Acc: 0.8343]
+Epoch: 2300 	Train:[Loss: 2.4632, Acc: 0.9727] 	Val:[Loss: 14.7476, Acc: 0.8333]
+Epoch: 2400 	Train:[Loss: 2.3487, Acc: 0.9739] 	Val:[Loss: 14.5994, Acc: 0.8350]
+Epoch: 2500 	Train:[Loss: 2.0930, Acc: 0.9768] 	Val:[Loss: 14.2430, Acc: 0.8390]
+Epoch: 2600 	Train:[Loss: 1.8626, Acc: 0.9793] 	Val:[Loss: 13.9106, Acc: 0.8428]
+Epoch: 2700 	Train:[Loss: 1.9284, Acc: 0.9786] 	Val:[Loss: 14.0806, Acc: 0.8409]
+Epoch: 2800 	Train:[Loss: 1.9697, Acc: 0.9782] 	Val:[Loss: 14.1928, Acc: 0.8396]
+Epoch: 2900 	Train:[Loss: 2.0027, Acc: 0.9778] 	Val:[Loss: 14.2834, Acc: 0.8386]
+Epoch: 3000 	Train:[Loss: 1.9267, Acc: 0.9786] 	Val:[Loss: 14.2280, Acc: 0.8392]
+Epoch: 3100 	Train:[Loss: 1.7870, Acc: 0.9802] 	Val:[Loss: 14.1011, Acc: 0.8406]
+Epoch: 3200 	Train:[Loss: 1.6683, Acc: 0.9815] 	Val:[Loss: 14.0008, Acc: 0.8418]
+Epoch: 3300 	Train:[Loss: 1.5842, Acc: 0.9824] 	Val:[Loss: 13.9066, Acc: 0.8428]
+Epoch: 3400 	Train:[Loss: 1.4565, Acc: 0.9838] 	Val:[Loss: 13.7881, Acc: 0.8442]
+Epoch: 3500 	Train:[Loss: 1.3393, Acc: 0.9851] 	Val:[Loss: 13.6888, Acc: 0.8453]
+Epoch: 3600 	Train:[Loss: 1.2185, Acc: 0.9865] 	Val:[Loss: 13.5525, Acc: 0.8468]
+Epoch: 3700 	Train:[Loss: 1.2010, Acc: 0.9867] 	Val:[Loss: 13.6448, Acc: 0.8458]
+Early stopping triggered at epoch 3708.
+Model weights restored to epoch 3196.
+best validation loss::10.500184457789715

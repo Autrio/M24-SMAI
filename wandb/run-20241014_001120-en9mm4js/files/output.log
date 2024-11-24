@@ -1,0 +1,29 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:16] [activation:Tanh]
+Layer: [in:16] [out:32] [activation:Tanh]
+Layer: [in:32] [out:32] [activation:Tanh]
+Layer: [in:32] [out:16] [activation:Tanh]
+Layer: [in:16] [out:1] [activation:Linear]
+Training:  11%|█████████████▎                                                                                                        | 566/5000 [00:06<00:47, 93.01epoch/s, Train Acc=0.385, Val Acc=0.546]
+
+Epoch: 0 	Train:[Loss: 1024.9654, Acc: -12.5385] 	Val:[Loss: 795.1871, Acc: -7.9867]
+Epoch: 100 	Train:[Loss: 41.4817, Acc: 0.4933] 	Val:[Loss: 35.0424, Acc: 0.6040]
+Epoch: 200 	Train:[Loss: 43.9260, Acc: 0.4590] 	Val:[Loss: 41.7642, Acc: 0.5280]
+Epoch: 300 	Train:[Loss: 52.2260, Acc: 0.3732] 	Val:[Loss: 39.3789, Acc: 0.5550]
+Epoch: 400 	Train:[Loss: 51.8032, Acc: 0.3747] 	Val:[Loss: 39.7200, Acc: 0.5511]
+Epoch: 500 	Train:[Loss: 50.4114, Acc: 0.3869] 	Val:[Loss: 40.6126, Acc: 0.5410]
+Early stopping triggered at epoch 566.
+Model weights restored to epoch 54.
+best validation loss::31.441562197079644
+================Test set metrics======================
+
+R2 Score ::  0.5539802133193353
+MSE ::  28.360187760960674
+RMSE ::  5.32542841102579
+MAE ::  3.462217793041739
+
+======================================================

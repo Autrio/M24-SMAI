@@ -1,0 +1,26 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:16] [activation:ReLU]
+Layer: [in:16] [out:64] [activation:ReLU]
+Layer: [in:64] [out:128] [activation:ReLU]
+Layer: [in:128] [out:256] [activation:ReLU]
+Layer: [in:256] [out:6] [activation:Linear]
+Training:  52%|█████████████████████████████████████████████████████████████                                                         | 518/1000 [03:06<02:53,  2.78epoch/s, Train Acc=0.999, Val Acc=0.885]
+
+Epoch: 0 	Train:[Loss: 13.8448, Acc: 0.8052] 	Val:[Loss: 4.4218, Acc: 0.8125]
+Epoch: 100 	Train:[Loss: 0.3858, Acc: 0.9581] 	Val:[Loss: 3.4111, Acc: 0.8906]
+Epoch: 200 	Train:[Loss: 0.1852, Acc: 0.9827] 	Val:[Loss: 4.3156, Acc: 0.8924]
+Epoch: 300 	Train:[Loss: 0.0618, Acc: 0.9963] 	Val:[Loss: 5.0306, Acc: 0.8958]
+Epoch: 400 	Train:[Loss: 0.0265, Acc: 0.9985] 	Val:[Loss: 5.7338, Acc: 0.8941]
+Epoch: 500 	Train:[Loss: 0.0147, Acc: 0.9989] 	Val:[Loss: 6.4396, Acc: 0.8872]
+Early stopping triggered at epoch 518.
+Model weights restored to epoch 6.
+best validation loss::2.5154853245048465
+================Test set metrics======================
+Traceback (most recent call last):
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/3.py", line 111, in run
+    print("accuracy :: ", mlp.Metrics.accuracy_score(ground_truth,predictions))
+TypeError: Metrics.accuracy_score() missing 1 required positional argument: 'y_pred'

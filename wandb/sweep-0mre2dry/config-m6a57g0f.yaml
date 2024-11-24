@@ -1,0 +1,14 @@
+wandb_version: 1
+
+activation:
+  value: Softmax
+batch_size:
+  value: 215
+epoch:
+  value: 1656
+loss_fn:
+  value: <models.MLP.MLP2.Loss.MSELoss object at 0x7dd352ee1660>
+lr:
+  value: 0.003314267535279654
+type:
+  value: classification

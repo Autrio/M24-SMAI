@@ -1,0 +1,79 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 229
+Feature data normalized using z-score normalization.
+Training:   0%|                                                                                                                                                                 | 0/4000 [00:00<?, ?epoch/s]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:266: RuntimeWarning: overflow encountered in exp
+  return (np.exp(x) - np.exp(-x))/(np.exp(x) + np.exp(-x))
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:266: RuntimeWarning: invalid value encountered in divide
+  return (np.exp(x) - np.exp(-x))/(np.exp(x) + np.exp(-x))
+Training:  17%|████████████████████▏                                                                                                     | 661/4000 [00:03<00:17, 185.88epoch/s, Train Acc=nan, Val Acc=nan]
+Epoch: 0 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 32 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 64 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 96 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 128 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 160 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 192 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 224 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 256 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 288 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 320 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 352 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 384 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 416 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 448 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 480 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 512 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 544 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 576 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 608 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 640 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2/1.py", line 48, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2/1.py", line 44, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 476, in train
+    train_loss, train_acc = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 450, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 432, in backward
+    self.dW.append(np.mean(dw, axis=0))
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 3504, in mean
+    return _methods._mean(a, axis=axis, dtype=dtype,
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/_methods.py", line 120, in _mean
+    with _no_nep50_warning():
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/_ufunc_config.py", line 462, in _no_nep50_warning
+    token = NO_NEP50_WARNING.set(True)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2/1.py", line 48, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2/1.py", line 44, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 476, in train
+    train_loss, train_acc = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 450, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 432, in backward
+    self.dW.append(np.mean(dw, axis=0))
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 3504, in mean
+    return _methods._mean(a, axis=axis, dtype=dtype,
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/_methods.py", line 120, in _mean
+    with _no_nep50_warning():
+  File "/usr/lib/python3.10/contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/_ufunc_config.py", line 462, in _no_nep50_warning
+    token = NO_NEP50_WARNING.set(True)
+KeyboardInterrupt

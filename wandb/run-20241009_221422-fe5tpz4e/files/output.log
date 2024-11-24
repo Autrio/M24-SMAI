@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/3.py", line 68, in run
+    "CELoss": mlp.loss.CELoss
+AttributeError: type object 'loss' has no attribute 'CELoss'

@@ -1,0 +1,27 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+{'lr': 0.06085357326213492, 'batch_size': 64, 'epoch': 5000, 'optimizer': 'mini-batch', 'loss_fn': 'MSELoss', 'activation': 'Tanh', 'type': 'regression', 'early_stopping': True, 'activations': 'Tanh', 'model_architecture': 'arch5'}
+Layer: [in:13] [out:16] [activation:Tanh]
+Layer: [in:16] [out:64] [activation:Tanh]
+Layer: [in:64] [out:128] [activation:Tanh]
+Layer: [in:128] [out:256] [activation:Tanh]
+Layer: [in:256] [out:1] [activation:Linear]
+Training:  20%|████████████████████████▏                                                                                             | 1023/5000 [01:35<06:09, 10.77epoch/s, Train Acc=0.97, Val Acc=0.932]
+
+Epoch: 0 	Train:[Loss: 599.0303, Acc: -5.6444] 	Val:[Loss: 562.9145, Acc: -5.3617]
+Epoch: 100 	Train:[Loss: 20.1747, Acc: 0.7762] 	Val:[Loss: 15.7382, Acc: 0.8221]
+Epoch: 200 	Train:[Loss: 10.5647, Acc: 0.8828] 	Val:[Loss: 10.9099, Acc: 0.8767]
+Epoch: 300 	Train:[Loss: 6.5359, Acc: 0.9275] 	Val:[Loss: 7.0343, Acc: 0.9205]
+Epoch: 400 	Train:[Loss: 4.8702, Acc: 0.9460] 	Val:[Loss: 5.9905, Acc: 0.9323]
+Epoch: 500 	Train:[Loss: 17.0712, Acc: 0.8106] 	Val:[Loss: 15.8408, Acc: 0.8210]
+Epoch: 600 	Train:[Loss: 3.8086, Acc: 0.9578] 	Val:[Loss: 5.1959, Acc: 0.9413]
+Epoch: 700 	Train:[Loss: 3.7170, Acc: 0.9588] 	Val:[Loss: 5.3637, Acc: 0.9394]
+Epoch: 800 	Train:[Loss: 3.3082, Acc: 0.9633] 	Val:[Loss: 5.4962, Acc: 0.9379]
+Epoch: 900 	Train:[Loss: 2.9822, Acc: 0.9669] 	Val:[Loss: 5.7080, Acc: 0.9355]
+Epoch: 1000 	Train:[Loss: 2.7382, Acc: 0.9696] 	Val:[Loss: 5.9734, Acc: 0.9325]
+Early stopping triggered at epoch 1023.
+Model weights restored to epoch 511.
+best validation loss::5.031812673118395

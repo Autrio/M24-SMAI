@@ -1,0 +1,31 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+{'lr': 0.04507158993612989, 'batch_size': 32, 'epoch': 5000, 'optimizer': 'mini-batch', 'loss_fn': 'MSELoss', 'activation': 'Tanh', 'type': 'regression', 'early_stopping': True, 'activations': 'Tanh', 'model_architecture': 'arch5'}
+Layer: [in:13] [out:16] [activation:Tanh]
+Layer: [in:16] [out:64] [activation:Tanh]
+Layer: [in:64] [out:128] [activation:Tanh]
+Layer: [in:128] [out:256] [activation:Tanh]
+Layer: [in:256] [out:1] [activation:Linear]
+Training:  29%|█████████████████████████████████▋                                                                                   | 1438/5000 [02:06<05:14, 11.34epoch/s, Train Acc=0.973, Val Acc=0.902]
+
+Epoch: 0 	Train:[Loss: 602.7155, Acc: -5.6852] 	Val:[Loss: 554.6913, Acc: -5.2688]
+Epoch: 100 	Train:[Loss: 20.4789, Acc: 0.7729] 	Val:[Loss: 18.2325, Acc: 0.7939]
+Epoch: 200 	Train:[Loss: 11.1960, Acc: 0.8758] 	Val:[Loss: 10.0828, Acc: 0.8861]
+Epoch: 300 	Train:[Loss: 7.8822, Acc: 0.9126] 	Val:[Loss: 8.4826, Acc: 0.9041]
+Epoch: 400 	Train:[Loss: 6.1352, Acc: 0.9319] 	Val:[Loss: 8.0733, Acc: 0.9088]
+Epoch: 500 	Train:[Loss: 5.0360, Acc: 0.9441] 	Val:[Loss: 7.8774, Acc: 0.9110]
+Epoch: 600 	Train:[Loss: 4.2827, Acc: 0.9525] 	Val:[Loss: 7.6858, Acc: 0.9131]
+Epoch: 700 	Train:[Loss: 3.7447, Acc: 0.9585] 	Val:[Loss: 7.5038, Acc: 0.9152]
+Epoch: 800 	Train:[Loss: 3.3488, Acc: 0.9629] 	Val:[Loss: 7.3746, Acc: 0.9167]
+Epoch: 900 	Train:[Loss: 3.0433, Acc: 0.9662] 	Val:[Loss: 7.3188, Acc: 0.9173]
+Epoch: 1000 	Train:[Loss: 2.7947, Acc: 0.9690] 	Val:[Loss: 7.3362, Acc: 0.9171]
+Epoch: 1100 	Train:[Loss: 2.5838, Acc: 0.9713] 	Val:[Loss: 7.4187, Acc: 0.9162]
+Epoch: 1200 	Train:[Loss: 2.4001, Acc: 0.9734] 	Val:[Loss: 7.5536, Acc: 0.9146]
+Epoch: 1300 	Train:[Loss: 2.2505, Acc: 0.9750] 	Val:[Loss: 7.6494, Acc: 0.9136]
+Epoch: 1400 	Train:[Loss: 2.1290, Acc: 0.9764] 	Val:[Loss: 7.9073, Acc: 0.9106]
+Early stopping triggered at epoch 1438.
+Model weights restored to epoch 926.
+best validation loss::7.316504043929671

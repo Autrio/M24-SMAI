@@ -1,0 +1,42 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: quality    6
+dtype: int64
+Feature data normalized using z-score normalization.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 49, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 43, in run
+    model.set_arch(arch=architecture,activation=activation_fn)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 578, in set_arch
+    return arch(self, activation)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 559, in arch3
+    self.add(network.Layer(32, self.num_classes, self.final_act))
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 333, in __init__
+    self.W = np.random.randn(self.dim_out, self.dim_in)
+  File "numpy/random/mtrand.pyx", line 1287, in numpy.random.mtrand.RandomState.randn
+  File "numpy/random/mtrand.pyx", line 1448, in numpy.random.mtrand.RandomState.standard_normal
+  File "_common.pyx", line 636, in numpy.random._common.cont
+TypeError: 'Series' object cannot be interpreted as an integer
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 49, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 43, in run
+    model.set_arch(arch=architecture,activation=activation_fn)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 578, in set_arch
+    return arch(self, activation)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 559, in arch3
+    self.add(network.Layer(32, self.num_classes, self.final_act))
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 333, in __init__
+    self.W = np.random.randn(self.dim_out, self.dim_in)
+  File "numpy/random/mtrand.pyx", line 1287, in numpy.random.mtrand.RandomState.randn
+  File "numpy/random/mtrand.pyx", line 1448, in numpy.random.mtrand.RandomState.standard_normal
+  File "_common.pyx", line 636, in numpy.random._common.cont
+TypeError: 'Series' object cannot be interpreted as an integer

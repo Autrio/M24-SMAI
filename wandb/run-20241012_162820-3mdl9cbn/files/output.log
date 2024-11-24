@@ -1,0 +1,13 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:16] [activation:Tanh]
+Layer: [in:16] [out:64] [activation:Tanh]
+Layer: [in:64] [out:128] [activation:Tanh]
+Layer: [in:128] [out:256] [activation:Tanh]
+Layer: [in:256] [out:1] [activation:Linear]
+Training:   2%|█▊                                                                                                                      | 60/4000 [00:08<09:51,  6.66epoch/s, Train Acc=0.674, Val Acc=0.699][34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
+
+Epoch: 0 	Train:[Loss: 609.3735, Acc: -5.7591] 	Val:[Loss: 578.7029, Acc: -5.5401]

@@ -1,0 +1,42 @@
+Index(['age', 'gender', 'income', 'education', 'married', 'children', 'city',
+       'occupation', 'purchase_amount', 'most bought item', 'labels'],
+      dtype='object')
+(1000, 8)
+(1000, 10)
+Data split into training (800 samples), validation (100 samples), and testing (100 samples) sets.
+Number of classes: 8
+Feature data normalized using z-score normalization.
+Training:  39%|█████████████████████████████████████████████▌                                                                      | 1962/5000 [00:17<00:27, 111.96epoch/s, Train Acc=0.656, Val Acc=0.663]
+Epoch: 0 	Train:[Loss: 0.7575, Acc: 0.5067] 	Val:[Loss: 0.7666, Acc: 0.4974]
+Epoch: 100 	Train:[Loss: 0.6844, Acc: 0.5669] 	Val:[Loss: 0.6848, Acc: 0.5794]
+Epoch: 200 	Train:[Loss: 0.6625, Acc: 0.6089] 	Val:[Loss: 0.6658, Acc: 0.6172]
+Epoch: 300 	Train:[Loss: 0.6528, Acc: 0.6286] 	Val:[Loss: 0.6573, Acc: 0.6484]
+Epoch: 400 	Train:[Loss: 0.6475, Acc: 0.6403] 	Val:[Loss: 0.6526, Acc: 0.6602]
+Epoch: 500 	Train:[Loss: 0.6441, Acc: 0.6463] 	Val:[Loss: 0.6498, Acc: 0.6549]
+Epoch: 600 	Train:[Loss: 0.6418, Acc: 0.6491] 	Val:[Loss: 0.6479, Acc: 0.6576]
+Epoch: 700 	Train:[Loss: 0.6402, Acc: 0.6502] 	Val:[Loss: 0.6468, Acc: 0.6602]
+Epoch: 800 	Train:[Loss: 0.6389, Acc: 0.6519] 	Val:[Loss: 0.6460, Acc: 0.6589]
+Epoch: 900 	Train:[Loss: 0.6378, Acc: 0.6528] 	Val:[Loss: 0.6455, Acc: 0.6628]
+Epoch: 1000 	Train:[Loss: 0.6370, Acc: 0.6535] 	Val:[Loss: 0.6452, Acc: 0.6641]
+Epoch: 1100 	Train:[Loss: 0.6362, Acc: 0.6540] 	Val:[Loss: 0.6450, Acc: 0.6628]
+Epoch: 1200 	Train:[Loss: 0.6355, Acc: 0.6545] 	Val:[Loss: 0.6449, Acc: 0.6641]
+Epoch: 1300 	Train:[Loss: 0.6349, Acc: 0.6546] 	Val:[Loss: 0.6448, Acc: 0.6654]
+Epoch: 1400 	Train:[Loss: 0.6344, Acc: 0.6559] 	Val:[Loss: 0.6448, Acc: 0.6654]
+Epoch: 1500 	Train:[Loss: 0.6338, Acc: 0.6561] 	Val:[Loss: 0.6448, Acc: 0.6654]
+Epoch: 1600 	Train:[Loss: 0.6333, Acc: 0.6556] 	Val:[Loss: 0.6448, Acc: 0.6641]
+Epoch: 1700 	Train:[Loss: 0.6329, Acc: 0.6561] 	Val:[Loss: 0.6449, Acc: 0.6641]
+Epoch: 1800 	Train:[Loss: 0.6324, Acc: 0.6559] 	Val:[Loss: 0.6449, Acc: 0.6641]
+Epoch: 1900 	Train:[Loss: 0.6319, Acc: 0.6561] 	Val:[Loss: 0.6450, Acc: 0.6615]
+Early stopping triggered at epoch 1962.
+Model weights restored to epoch 1450.
+best validation loss::0.6448176997161852
+['beauty', 'books', 'clothing', 'electronics', 'food', 'furniture', 'home', 'sports']
+================Test set metrics======================
+
+accuracy ::  0.65875
+precision ::  0.058519793459552494
+recall ::  0.12142857142857143
+F1-score ::  0.07897793263646921
+Hamming Loss ::  0.34125
+
+======================================================

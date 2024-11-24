@@ -1,0 +1,51 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+(11,)
+Training:   4%|████▌                                                                                                                | 395/10000 [00:04<01:43, 92.97epoch/s, Train Acc=0.655, Val Acc=0.677]
+Epoch: 0 	Train:[Loss: 0.1453, Acc: 0.1886] 	Val:[Loss: 0.1380, Acc: 0.2188]
+Epoch: 100 	Train:[Loss: 0.0895, Acc: 0.5804] 	Val:[Loss: 0.0830, Acc: 0.6042]
+Epoch: 200 	Train:[Loss: 0.0853, Acc: 0.6138] 	Val:[Loss: 0.0793, Acc: 0.6354]
+Epoch: 300 	Train:[Loss: 0.0825, Acc: 0.6451] 	Val:[Loss: 0.0769, Acc: 0.6562]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2.py", line 63, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2.py", line 48, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 760, in train
+    val_metrics = self.validate_step(val_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 711, in validate_step
+    y_pred = self.__call__(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 619, in __call__
+    x = layer(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 518, in __call__
+    self.a = self.activation(z)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 414, in __call__
+    def __call__(self, x):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2.py", line 63, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2.py", line 48, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 760, in train
+    val_metrics = self.validate_step(val_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 711, in validate_step
+    y_pred = self.__call__(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 619, in __call__
+    x = layer(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 518, in __call__
+    self.a = self.activation(z)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 414, in __call__
+    def __call__(self, x):
+KeyboardInterrupt

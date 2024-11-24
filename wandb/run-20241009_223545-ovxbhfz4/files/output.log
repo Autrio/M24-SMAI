@@ -1,0 +1,11 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Training:   0%|                                                                                                                                                                 | 0/1000 [00:00<?, ?epoch/s]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:229: RuntimeWarning: overflow encountered in exp
+  return (np.exp(x)/np.sum(np.exp(x), axis=-1, keepdims=True))
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:229: RuntimeWarning: invalid value encountered in divide
+  return (np.exp(x)/np.sum(np.exp(x), axis=-1, keepdims=True))
+Training:  27%|████████████████████████████████▉                                                                                        | 272/1000 [02:24<06:55,  1.75epoch/s, Train Acc=0.00781, Val Acc=0][34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
+Epoch: 0 	Train:[Loss: nan, Acc: 0.0078] 	Val:[Loss: nan, Acc: 0.0000]
+Epoch: 128 	Train:[Loss: nan, Acc: 0.0078] 	Val:[Loss: nan, Acc: 0.0000]
+Epoch: 256 	Train:[Loss: nan, Acc: 0.0078] 	Val:[Loss: nan, Acc: 0.0000]

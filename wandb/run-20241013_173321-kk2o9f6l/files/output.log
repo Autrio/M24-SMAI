@@ -1,0 +1,29 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:16] [activation:Tanh]
+Layer: [in:16] [out:64] [activation:Tanh]
+Layer: [in:64] [out:128] [activation:Tanh]
+Layer: [in:128] [out:256] [activation:Tanh]
+Layer: [in:256] [out:6] [activation:Linear]
+Training:   2%|█▊                                                                                                                     | 30/2000 [00:10<12:07,  2.71epoch/s, Train Acc=0.499, Val Acc=0.438]/home/autrio/.local/lib/python3.10/site-packages/numpy/core/_methods.py:118: RuntimeWarning: overflow encountered in reduce
+
+Epoch: 0 	Train:[Loss: 2.5325, Acc: 0.6031] 	Val:[Loss: 0.9336, Acc: 0.6736]
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:405: RuntimeWarning: overflow encountered in square
+  def __call__(self, y, y_pred):
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:594: RuntimeWarning: overflow encountered in matmul
+  dzw, dzx, daz = self.layers[i].get_grads()
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:595: RuntimeWarning: invalid value encountered in multiply
+  if i != len(self.layers) - 1:
+Training:  26%|██████████████████████████████▎                                                                                       | 513/2000 [03:12<09:17,  2.67epoch/s, Train Acc=0.833, Val Acc=0.833]
+Epoch: 100 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 200 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 300 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 400 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 500 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Early stopping triggered at epoch 513.
+Model weights restored to epoch 1.
+best validation loss::0.9335980865901027

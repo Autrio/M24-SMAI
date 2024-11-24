@@ -1,0 +1,5 @@
+Index(['fixed acidity', 'volatile acidity', 'citric acid', 'residual sugar',
+       'chlorides', 'free sulfur dioxide', 'total sulfur dioxide', 'density',
+       'pH', 'sulphates', 'alcohol', 'quality'],
+      dtype='object')
+Target column 'quality' not found in dataframe.

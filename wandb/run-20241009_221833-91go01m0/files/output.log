@@ -1,0 +1,8 @@
+[34m[1mwandb[0m: [33mWARNING[0m Config item 'loss_fn' was locked by 'sweep' (ignored update).
+{'lr': 0.05811879836131998, 'batch_size': 128, 'epoch': 3000, 'optimizer': 'mini-batch', 'loss_fn': 'BCELoss', 'activation': 'Tanh', 'type': 'classification', 'activations': 'Tanh', 'model_architecture': 'arch5'}
+Traceback (most recent call last):
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/3.py", line 93, in run
+    exit()
+  File "/usr/lib/python3.10/_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: None

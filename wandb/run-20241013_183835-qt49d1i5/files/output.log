@@ -1,0 +1,61 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:8] [activation:Sigmoid]
+Layer: [in:8] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:8] [activation:Sigmoid]
+Layer: [in:8] [out:6] [activation:Softmax]
+                                                                                                                                                                                                           
+
+Epoch: 0 	Train:[Loss: 0.4763, Acc: 0.0176] 	Val:[Loss: 0.4672, Acc: 0.3958]
+Epoch: 100 	Train:[Loss: 0.3369, Acc: 0.4160] 	Val:[Loss: 0.3254, Acc: 0.4375]
+Epoch: 200 	Train:[Loss: 0.3364, Acc: 0.4160] 	Val:[Loss: 0.3239, Acc: 0.4375]
+Epoch: 300 	Train:[Loss: 0.3364, Acc: 0.4160] 	Val:[Loss: 0.3238, Acc: 0.4375]
+Epoch: 400 	Train:[Loss: 0.3364, Acc: 0.4160] 	Val:[Loss: 0.3238, Acc: 0.4375]
+Epoch: 500 	Train:[Loss: 0.3363, Acc: 0.4160] 	Val:[Loss: 0.3237, Acc: 0.4375]
+Epoch: 600 	Train:[Loss: 0.3363, Acc: 0.4160] 	Val:[Loss: 0.3237, Acc: 0.4375]
+Epoch: 700 	Train:[Loss: 0.3363, Acc: 0.4160] 	Val:[Loss: 0.3237, Acc: 0.4375]
+Epoch: 800 	Train:[Loss: 0.3363, Acc: 0.4160] 	Val:[Loss: 0.3237, Acc: 0.4375]
+Epoch: 900 	Train:[Loss: 0.3362, Acc: 0.4160] 	Val:[Loss: 0.3237, Acc: 0.4375]
+Epoch: 1000 	Train:[Loss: 0.3362, Acc: 0.4160] 	Val:[Loss: 0.3236, Acc: 0.4375]
+Epoch: 1100 	Train:[Loss: 0.3362, Acc: 0.4160] 	Val:[Loss: 0.3236, Acc: 0.4375]
+Epoch: 1200 	Train:[Loss: 0.3361, Acc: 0.4160] 	Val:[Loss: 0.3236, Acc: 0.4375]
+Epoch: 1300 	Train:[Loss: 0.3361, Acc: 0.4160] 	Val:[Loss: 0.3236, Acc: 0.4375]
+Epoch: 1400 	Train:[Loss: 0.3361, Acc: 0.4160] 	Val:[Loss: 0.3235, Acc: 0.4375]
+Epoch: 1500 	Train:[Loss: 0.3360, Acc: 0.4160] 	Val:[Loss: 0.3235, Acc: 0.4375]
+Epoch: 1600 	Train:[Loss: 0.3360, Acc: 0.4160] 	Val:[Loss: 0.3235, Acc: 0.4375]
+Epoch: 1700 	Train:[Loss: 0.3359, Acc: 0.4160] 	Val:[Loss: 0.3234, Acc: 0.4375]
+Epoch: 1800 	Train:[Loss: 0.3359, Acc: 0.4160] 	Val:[Loss: 0.3234, Acc: 0.4375]
+Epoch: 1900 	Train:[Loss: 0.3358, Acc: 0.4160] 	Val:[Loss: 0.3233, Acc: 0.4375]
+Epoch: 2000 	Train:[Loss: 0.3358, Acc: 0.4160] 	Val:[Loss: 0.3233, Acc: 0.4375]
+Epoch: 2100 	Train:[Loss: 0.3357, Acc: 0.4160] 	Val:[Loss: 0.3232, Acc: 0.4375]
+Epoch: 2200 	Train:[Loss: 0.3356, Acc: 0.4160] 	Val:[Loss: 0.3232, Acc: 0.4375]
+Epoch: 2300 	Train:[Loss: 0.3356, Acc: 0.4160] 	Val:[Loss: 0.3231, Acc: 0.4375]
+Epoch: 2400 	Train:[Loss: 0.3355, Acc: 0.4160] 	Val:[Loss: 0.3230, Acc: 0.4375]
+Epoch: 2500 	Train:[Loss: 0.3354, Acc: 0.4160] 	Val:[Loss: 0.3229, Acc: 0.4375]
+Epoch: 2600 	Train:[Loss: 0.3352, Acc: 0.4199] 	Val:[Loss: 0.3228, Acc: 0.4479]
+Epoch: 2700 	Train:[Loss: 0.3351, Acc: 0.4258] 	Val:[Loss: 0.3227, Acc: 0.4583]
+Epoch: 2800 	Train:[Loss: 0.3349, Acc: 0.4395] 	Val:[Loss: 0.3226, Acc: 0.4583]
+Epoch: 2900 	Train:[Loss: 0.3347, Acc: 0.4570] 	Val:[Loss: 0.3224, Acc: 0.4896]
+Epoch: 3000 	Train:[Loss: 0.3345, Acc: 0.4648] 	Val:[Loss: 0.3222, Acc: 0.4896]
+Epoch: 3100 	Train:[Loss: 0.3342, Acc: 0.4766] 	Val:[Loss: 0.3220, Acc: 0.5000]
+Epoch: 3200 	Train:[Loss: 0.3339, Acc: 0.4785] 	Val:[Loss: 0.3217, Acc: 0.5000]
+Epoch: 3300 	Train:[Loss: 0.3335, Acc: 0.4766] 	Val:[Loss: 0.3215, Acc: 0.4896]
+Epoch: 3400 	Train:[Loss: 0.3331, Acc: 0.4902] 	Val:[Loss: 0.3211, Acc: 0.5000]
+Epoch: 3500 	Train:[Loss: 0.3326, Acc: 0.4980] 	Val:[Loss: 0.3208, Acc: 0.5000]
+Epoch: 3600 	Train:[Loss: 0.3320, Acc: 0.4980] 	Val:[Loss: 0.3204, Acc: 0.4896]
+Epoch: 3700 	Train:[Loss: 0.3312, Acc: 0.4961] 	Val:[Loss: 0.3199, Acc: 0.4688]
+Epoch: 3800 	Train:[Loss: 0.3304, Acc: 0.4941] 	Val:[Loss: 0.3195, Acc: 0.4896]
+Epoch: 3900 	Train:[Loss: 0.3295, Acc: 0.4902] 	Val:[Loss: 0.3191, Acc: 0.4792]
+Epoch: 3999 	Train:[Loss: 0.3284, Acc: 0.4902] 	Val:[Loss: 0.3187, Acc: 0.5000]
+================Test set metrics======================
+
+accuracy ::  0.8333333333333334
+precision ::  0.0
+recall ::  0.0
+F1-score ::  0
+
+======================================================

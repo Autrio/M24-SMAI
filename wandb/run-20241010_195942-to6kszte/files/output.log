@@ -1,0 +1,5 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: quality    6
+dtype: int64
+Feature data normalized using z-score normalization.
+(915, 1)

@@ -1,0 +1,9 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Traceback (most recent call last):
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/3.py", line 101, in run
+    model.set_arch(arch=architecture, activation=activation_fn)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 572, in set_arch
+    return arch(self, activation)
+TypeError: Model.arch_base() takes 1 positional argument but 2 were given

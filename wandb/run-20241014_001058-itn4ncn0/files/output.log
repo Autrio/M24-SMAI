@@ -1,0 +1,65 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:32] [activation:Tanh]
+Layer: [in:32] [out:128] [activation:Tanh]
+Layer: [in:128] [out:128] [activation:Tanh]
+Layer: [in:128] [out:32] [activation:Tanh]
+Layer: [in:32] [out:1] [activation:Linear]
+Training:   1%|▉                                                                                                            | 42/5000 [00:02<05:21, 15.43epoch/s, Train Acc=-3.77e+298, Val Acc=-5.85e+299]/home/autrio/.local/lib/python3.10/site-packages/numpy/core/_methods.py:118: RuntimeWarning: overflow encountered in reduce
+
+Epoch: 0 	Train:[Loss: 334008720250.1556, Acc: -5184588435.3672] 	Val:[Loss: 59086058447126.7734, Acc: -667751740972.4431]
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/home/autrio/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:88: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:438: RuntimeWarning: overflow encountered in square
+  return np.mean((self.y - self.y_pred) ** 2)
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:215: RuntimeWarning: overflow encountered in square
+  ss_residual = np.sum((y_true - y_pred) ** 2)
+Training:   1%|█                                                                                                                        | 42/5000 [00:02<05:21, 15.43epoch/s, Train Acc=-inf, Val Acc=-inf]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:628: RuntimeWarning: overflow encountered in matmul
+  dLy = dLy @ self.layers[i + 1].W
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:629: RuntimeWarning: invalid value encountered in multiply
+  dLy = dLy * daz
+Training:   1%|█▍                                                                                                                         | 59/5000 [00:03<05:16, 15.60epoch/s, Train Acc=nan, Val Acc=nan]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 759, in train
+    train_metrics = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 660, in train_step
+    y_pred = self.__call__(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 619, in __call__
+    x = layer(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 525, in __call__
+    dzw, dzx, daz = neuron.calculate_grad(x, z, self.W, i)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 479, in calculate_grad
+    self.daz = self.activation.grad(z[:, index])
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 759, in train
+    train_metrics = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 660, in train_step
+    y_pred = self.__call__(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 619, in __call__
+    x = layer(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 525, in __call__
+    dzw, dzx, daz = neuron.calculate_grad(x, z, self.W, i)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 479, in calculate_grad
+    self.daz = self.activation.grad(z[:, index])
+KeyboardInterrupt

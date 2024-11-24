@@ -1,0 +1,25 @@
+Index(['age', 'gender', 'income', 'education', 'married', 'children', 'city',
+       'occupation', 'purchase_amount', 'most bought item', 'labels'],
+      dtype='object')
+(1000, 8)
+(1000, 10)
+Data split into training (800 samples), validation (100 samples), and testing (100 samples) sets.
+Number of classes: 8
+Feature data normalized using z-score normalization.
+Training: 100%|███████████████████████████████████████████████████████████████████████████████████████| 5000/5000 [00:42<00:00, 117.94epoch/s, Train Acc=0.763, Val Acc=0.603, Train F1=0.351, Val F1=0.153]
+Epoch: 1/5000||Train Loss: 0.7447||Val Loss: 0.7148||Train Acc: 0.5163||Val Acc: 0.5495||Train Precision: 0.1312||Val Precision: 0.1167||Train Recall: 0.1253||Val Recall: 0.1274||Train F1: 0.1282||Val F1: 0.1218
+Epoch: 501/5000||Train Loss: 0.5770||Val Loss: 0.6963||Train Acc: 0.6994||Val Acc: 0.6211||Train Precision: 0.2674||Val Precision: 0.1505||Train Recall: 0.2747||Val Recall: 0.1415||Train F1: 0.2710||Val F1: 0.1459
+Epoch: 1001/5000||Train Loss: 0.5315||Val Loss: 0.7676||Train Acc: 0.7327||Val Acc: 0.6133||Train Precision: 0.2940||Val Precision: 0.2679||Train Recall: 0.2959||Val Recall: 0.1856||Train F1: 0.2950||Val F1: 0.2193
+Epoch: 1501/5000||Train Loss: 0.5048||Val Loss: 0.8367||Train Acc: 0.7492||Val Acc: 0.6055||Train Precision: 0.2888||Val Precision: 0.1780||Train Recall: 0.2875||Val Recall: 0.2036||Train F1: 0.2881||Val F1: 0.1899
+Epoch: 2001/5000||Train Loss: 0.4879||Val Loss: 0.8884||Train Acc: 0.7635||Val Acc: 0.5898||Train Precision: 0.3000||Val Precision: 0.1128||Train Recall: 0.2947||Val Recall: 0.1496||Train F1: 0.2973||Val F1: 0.1286
+Epoch: 2501/5000||Train Loss: 0.4791||Val Loss: 0.9217||Train Acc: 0.7708||Val Acc: 0.5703||Train Precision: 0.2981||Val Precision: 0.1182||Train Recall: 0.3139||Val Recall: 0.1487||Train F1: 0.3058||Val F1: 0.1317
+Epoch: 3001/5000||Train Loss: 0.4790||Val Loss: 0.9226||Train Acc: 0.7660||Val Acc: 0.5833||Train Precision: 0.3209||Val Precision: 0.1446||Train Recall: 0.3170||Val Recall: 0.1540||Train F1: 0.3189||Val F1: 0.1492
+Epoch: 3501/5000||Train Loss: 0.4749||Val Loss: 0.9568||Train Acc: 0.7689||Val Acc: 0.5885||Train Precision: 0.4298||Val Precision: 0.1644||Train Recall: 0.3162||Val Recall: 0.1687||Train F1: 0.3644||Val F1: 0.1665
+Epoch: 4001/5000||Train Loss: 0.4847||Val Loss: 0.9438||Train Acc: 0.7625||Val Acc: 0.5977||Train Precision: 0.3400||Val Precision: 0.1570||Train Recall: 0.3161||Val Recall: 0.1645||Train F1: 0.3276||Val F1: 0.1606
+Epoch: 4501/5000||Train Loss: 0.4711||Val Loss: 0.9439||Train Acc: 0.7723||Val Acc: 0.6003||Train Precision: 0.3682||Val Precision: 0.1565||Train Recall: 0.3457||Val Recall: 0.1606||Train F1: 0.3566||Val F1: 0.1585
+Epoch: 5000/5000||Train Loss: 0.4769||Val Loss: 0.9238||Train Acc: 0.7627||Val Acc: 0.6029||Train Precision: 0.3739||Val Precision: 0.1464||Train Recall: 0.3305||Val Recall: 0.1603||Train F1: 0.3509||Val F1: 0.1530
+['beauty', 'books', 'clothing', 'electronics', 'food', 'furniture', 'home', 'sports']
+[0. 1. 0. 0. 0. 0. 0. 0.]
+[[0.23590209 0.38419877 0.07051914 0.42914928 0.37214304 0.12482631
+  0.50876401 0.00512566]]
+[[0. 0. 0. 0. 0. 0. 1. 0.]]

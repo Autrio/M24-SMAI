@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activations:
+  value: Relu
+batch_size:
+  value: 32
+epoch:
+  value: 3000
+loss_fn:
+  value: CELoss
+lr:
+  value: 0.08579657298502708
+model_architecture:
+  value: arch2
+type:
+  value: classification

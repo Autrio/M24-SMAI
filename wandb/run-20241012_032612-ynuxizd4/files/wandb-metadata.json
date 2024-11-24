@@ -1,0 +1,40 @@
+{
+  "os":  "Linux-6.8.0-45-generic-x86_64-with-glibc2.35",
+  "python":  "3.10.12",
+  "startedAt":  "2024-10-11T21:56:12.090320Z",
+  "program":  "-m assignments.3.4.2",
+  "git":  {
+    "remote":  "https://github.com/smai-monsoon-24/smai-m24-assignments-Autrio.git",
+    "commit":  "36c671fcd7a0d65942941c347050f8ab2f7544b1"
+  },
+  "email":  "autrio.das@research.iiit.ac.in",
+  "root":  "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio",
+  "host":  "oranos",
+  "username":  "autrio",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "246564478976",
+      "used":  "225047138304"
+    }
+  },
+  "memory":  {
+    "total":  "15965675520"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  16
+  },
+  "gpu_amd":  [
+    {
+      "id":  "0x1681",
+      "uniqueId":  "N/A",
+      "vbiosVersion":  "113-REMBRANDT-X37",
+      "performanceLevel":  "auto",
+      "sku":  "REMBRANDT"
+    }
+  ]
+}

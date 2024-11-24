@@ -1,0 +1,48 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:32] [activation:ReLU]
+Layer: [in:32] [out:128] [activation:ReLU]
+Layer: [in:128] [out:128] [activation:ReLU]
+Layer: [in:128] [out:32] [activation:ReLU]
+Layer: [in:32] [out:6] [activation:Sigmoid]
+Training:   0%|                                                                                                                                                                | 0/10000 [00:00<?, ?epoch/s]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:208: RuntimeWarning: overflow encountered in exp
+  return 1/(1 + np.exp(-x))
+Training:   4%|████▋                                                                                                                 | 399/10000 [00:53<21:27,  7.46epoch/s, Train Acc=0.152, Val Acc=0.198]
+
+Epoch: 0 	Train:[Loss: 11.4730, Acc: 0.1354] 	Val:[Loss: 11.5491, Acc: 0.1875]
+Epoch: 128 	Train:[Loss: 11.5324, Acc: 0.1523] 	Val:[Loss: 11.7403, Acc: 0.1979]
+Epoch: 256 	Train:[Loss: 11.5951, Acc: 0.1523] 	Val:[Loss: 11.8864, Acc: 0.1979]
+Epoch: 384 	Train:[Loss: 11.5976, Acc: 0.1523] 	Val:[Loss: 11.8841, Acc: 0.1979]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 49, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 45, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 456, in train
+    train_loss, train_acc = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 434, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 410, in backward
+    if i != len(self.layers) - 1:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 49, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 45, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 456, in train
+    train_loss, train_acc = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 434, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 410, in backward
+    if i != len(self.layers) - 1:
+KeyboardInterrupt

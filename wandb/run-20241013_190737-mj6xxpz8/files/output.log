@@ -1,0 +1,60 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:16] [activation:ReLU]
+Layer: [in:16] [out:32] [activation:ReLU]
+Layer: [in:32] [out:32] [activation:ReLU]
+Layer: [in:32] [out:16] [activation:ReLU]
+Layer: [in:16] [out:1] [activation:Linear]
+Training:   0%|▎                                                                                                              | 3/1000 [00:00<00:17, 57.36epoch/s, Train Acc=-4.22e+20, Val Acc=-5.61e+132]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:517: RuntimeWarning: overflow encountered in matmul
+
+Epoch: 0 	Train:[Loss: 560.4009, Acc: -5.2159] 	Val:[Loss: 5924.5821, Acc: -65.9557]
+  z = x @ self.W.T + self.b
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:517: RuntimeWarning: invalid value encountered in matmul
+  z = x @ self.W.T + self.b
+Training:  32%|███████████████████████████████████████▎                                                                                  | 322/1000 [00:04<00:09, 68.02epoch/s, Train Acc=nan, Val Acc=nan]
+Epoch: 100 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 200 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 300 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 759, in train
+    train_metrics = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 668, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 626, in backward
+    dzw, dzx, daz = self.layers[i].get_grads()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 497, in get_grads
+    grads = [np.stack(self.dzw, axis=1),
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/shape_base.py", line 456, in stack
+    return _nx.concatenate(expanded_arrays, axis=axis, out=out,
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/4.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 759, in train
+    train_metrics = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 668, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 626, in backward
+    dzw, dzx, daz = self.layers[i].get_grads()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 497, in get_grads
+    grads = [np.stack(self.dzw, axis=1),
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/shape_base.py", line 456, in stack
+    return _nx.concatenate(expanded_arrays, axis=axis, out=out,
+KeyboardInterrupt

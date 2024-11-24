@@ -1,0 +1,82 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:8] [activation:Tanh]
+Layer: [in:8] [out:16] [activation:Tanh]
+Layer: [in:16] [out:16] [activation:Tanh]
+Layer: [in:16] [out:8] [activation:Tanh]
+Layer: [in:8] [out:1] [activation:Linear]
+                                                                                                                                                                                                           
+
+Epoch: 0 	Train:[Loss: 621.3425, Acc: -6.0977] 	Val:[Loss: 598.1301, Acc: -5.7597]
+Epoch: 100 	Train:[Loss: 354.7132, Acc: -3.0514] 	Val:[Loss: 333.3809, Acc: -2.7677]
+Epoch: 200 	Train:[Loss: 178.8417, Acc: -1.0420] 	Val:[Loss: 167.1389, Acc: -0.8889]
+Epoch: 300 	Train:[Loss: 113.1214, Acc: -0.2911] 	Val:[Loss: 106.3471, Acc: -0.2019]
+Epoch: 400 	Train:[Loss: 83.1571, Acc: 0.0511] 	Val:[Loss: 78.2660, Acc: 0.1155]
+Epoch: 500 	Train:[Loss: 69.2869, Acc: 0.2096] 	Val:[Loss: 65.1040, Acc: 0.2642]
+Epoch: 600 	Train:[Loss: 61.7632, Acc: 0.2955] 	Val:[Loss: 57.5819, Acc: 0.3492]
+Epoch: 700 	Train:[Loss: 56.3841, Acc: 0.3568] 	Val:[Loss: 51.3635, Acc: 0.4195]
+Epoch: 800 	Train:[Loss: 52.4069, Acc: 0.4022] 	Val:[Loss: 46.7910, Acc: 0.4712]
+Epoch: 900 	Train:[Loss: 49.7913, Acc: 0.4321] 	Val:[Loss: 43.7200, Acc: 0.5059]
+Epoch: 1000 	Train:[Loss: 47.6983, Acc: 0.4562] 	Val:[Loss: 41.4949, Acc: 0.5311]
+Epoch: 1100 	Train:[Loss: 45.4153, Acc: 0.4826] 	Val:[Loss: 39.0451, Acc: 0.5587]
+Epoch: 1200 	Train:[Loss: 43.1192, Acc: 0.5091] 	Val:[Loss: 36.3793, Acc: 0.5889]
+Epoch: 1300 	Train:[Loss: 40.6350, Acc: 0.5376] 	Val:[Loss: 33.6262, Acc: 0.6200]
+Epoch: 1400 	Train:[Loss: 37.8889, Acc: 0.5688] 	Val:[Loss: 30.9657, Acc: 0.6500]
+Epoch: 1500 	Train:[Loss: 35.1687, Acc: 0.5997] 	Val:[Loss: 28.2736, Acc: 0.6805]
+Epoch: 1600 	Train:[Loss: 32.6465, Acc: 0.6283] 	Val:[Loss: 26.1943, Acc: 0.7040]
+Epoch: 1700 	Train:[Loss: 30.4663, Acc: 0.6530] 	Val:[Loss: 24.5478, Acc: 0.7226]
+Epoch: 1800 	Train:[Loss: 28.5742, Acc: 0.6744] 	Val:[Loss: 23.2815, Acc: 0.7369]
+Epoch: 1900 	Train:[Loss: 26.9313, Acc: 0.6930] 	Val:[Loss: 22.3129, Acc: 0.7478]
+Epoch: 2000 	Train:[Loss: 25.4949, Acc: 0.7093] 	Val:[Loss: 21.5546, Acc: 0.7564]
+Epoch: 2100 	Train:[Loss: 24.2239, Acc: 0.7237] 	Val:[Loss: 20.9404, Acc: 0.7633]
+Epoch: 2200 	Train:[Loss: 23.0764, Acc: 0.7367] 	Val:[Loss: 20.4383, Acc: 0.7690]
+Epoch: 2300 	Train:[Loss: 21.9938, Acc: 0.7491] 	Val:[Loss: 20.0546, Acc: 0.7734]
+Epoch: 2400 	Train:[Loss: 20.8867, Acc: 0.7618] 	Val:[Loss: 19.8260, Acc: 0.7759]
+Epoch: 2500 	Train:[Loss: 19.6459, Acc: 0.7762] 	Val:[Loss: 19.6820, Acc: 0.7776]
+Epoch: 2600 	Train:[Loss: 18.4644, Acc: 0.7898] 	Val:[Loss: 19.2194, Acc: 0.7828]
+Epoch: 2700 	Train:[Loss: 17.5687, Acc: 0.8000] 	Val:[Loss: 18.5776, Acc: 0.7900]
+Epoch: 2800 	Train:[Loss: 16.8146, Acc: 0.8085] 	Val:[Loss: 18.0236, Acc: 0.7963]
+Epoch: 2900 	Train:[Loss: 16.1510, Acc: 0.8161] 	Val:[Loss: 17.5338, Acc: 0.8018]
+Epoch: 3000 	Train:[Loss: 15.5549, Acc: 0.8229] 	Val:[Loss: 17.0734, Acc: 0.8070]
+Epoch: 3100 	Train:[Loss: 15.0112, Acc: 0.8290] 	Val:[Loss: 16.6162, Acc: 0.8122]
+Epoch: 3200 	Train:[Loss: 14.5094, Acc: 0.8348] 	Val:[Loss: 16.1450, Acc: 0.8175]
+Epoch: 3300 	Train:[Loss: 14.0431, Acc: 0.8401] 	Val:[Loss: 15.6566, Acc: 0.8231]
+Epoch: 3400 	Train:[Loss: 13.6085, Acc: 0.8450] 	Val:[Loss: 15.1611, Acc: 0.8287]
+Epoch: 3500 	Train:[Loss: 13.2033, Acc: 0.8497] 	Val:[Loss: 14.6734, Acc: 0.8342]
+Epoch: 3600 	Train:[Loss: 12.8263, Acc: 0.8540] 	Val:[Loss: 14.2072, Acc: 0.8394]
+Epoch: 3700 	Train:[Loss: 12.4760, Acc: 0.8580] 	Val:[Loss: 13.7723, Acc: 0.8444]
+Epoch: 3800 	Train:[Loss: 12.1508, Acc: 0.8617] 	Val:[Loss: 13.3737, Acc: 0.8489]
+Epoch: 3900 	Train:[Loss: 11.8490, Acc: 0.8651] 	Val:[Loss: 13.0124, Acc: 0.8529]
+Epoch: 3999 	Train:[Loss: 11.5715, Acc: 0.8683] 	Val:[Loss: 12.6899, Acc: 0.8566]
+================Test set metrics======================
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 63, in <module>
+    if __name__=="__main__":
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 53, in run
+    print()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 561, in regression_accuracy
+    return self.metrics.r2_score(y, y_pred)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 212, in r2_score
+    assert y_true.shape == y_pred.shape, "Shapes of y_true and y_pred must match."
+AssertionError: Shapes of y_true and y_pred must match.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 63, in <module>
+    if __name__=="__main__":
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 53, in run
+    print()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 561, in regression_accuracy
+    return self.metrics.r2_score(y, y_pred)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 212, in r2_score
+    assert y_true.shape == y_pred.shape, "Shapes of y_true and y_pred must match."
+AssertionError: Shapes of y_true and y_pred must match.

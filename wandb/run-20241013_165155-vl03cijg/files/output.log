@@ -1,0 +1,48 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:32] [activation:Sigmoid]
+Layer: [in:32] [out:32] [activation:Sigmoid]
+Layer: [in:32] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:6] [activation:Linear]
+                                                                                                                                                                                                           
+
+Epoch: 0 	Train:[Loss: 0.2040, Acc: 0.8316] 	Val:[Loss: 0.1065, Acc: 0.8333]
+Epoch: 100 	Train:[Loss: 0.1068, Acc: 0.8333] 	Val:[Loss: 0.1049, Acc: 0.8333]
+Epoch: 200 	Train:[Loss: 0.1040, Acc: 0.8385] 	Val:[Loss: 0.1017, Acc: 0.8663]
+Epoch: 300 	Train:[Loss: 0.0979, Acc: 0.8513] 	Val:[Loss: 0.0942, Acc: 0.8646]
+Epoch: 400 	Train:[Loss: 0.0938, Acc: 0.8529] 	Val:[Loss: 0.0876, Acc: 0.8611]
+Epoch: 500 	Train:[Loss: 0.0928, Acc: 0.8544] 	Val:[Loss: 0.0860, Acc: 0.8628]
+Epoch: 600 	Train:[Loss: 0.0923, Acc: 0.8557] 	Val:[Loss: 0.0856, Acc: 0.8628]
+Epoch: 700 	Train:[Loss: 0.0920, Acc: 0.8561] 	Val:[Loss: 0.0854, Acc: 0.8594]
+Epoch: 800 	Train:[Loss: 0.0917, Acc: 0.8570] 	Val:[Loss: 0.0853, Acc: 0.8559]
+Epoch: 900 	Train:[Loss: 0.0915, Acc: 0.8563] 	Val:[Loss: 0.0852, Acc: 0.8559]
+Epoch: 1000 	Train:[Loss: 0.0913, Acc: 0.8563] 	Val:[Loss: 0.0851, Acc: 0.8559]
+Epoch: 1100 	Train:[Loss: 0.0911, Acc: 0.8572] 	Val:[Loss: 0.0850, Acc: 0.8576]
+Epoch: 1200 	Train:[Loss: 0.0909, Acc: 0.8566] 	Val:[Loss: 0.0848, Acc: 0.8576]
+Epoch: 1300 	Train:[Loss: 0.0907, Acc: 0.8570] 	Val:[Loss: 0.0846, Acc: 0.8594]
+Epoch: 1400 	Train:[Loss: 0.0905, Acc: 0.8572] 	Val:[Loss: 0.0844, Acc: 0.8594]
+Epoch: 1500 	Train:[Loss: 0.0903, Acc: 0.8585] 	Val:[Loss: 0.0841, Acc: 0.8611]
+Epoch: 1600 	Train:[Loss: 0.0901, Acc: 0.8589] 	Val:[Loss: 0.0838, Acc: 0.8628]
+Epoch: 1700 	Train:[Loss: 0.0898, Acc: 0.8592] 	Val:[Loss: 0.0835, Acc: 0.8628]
+Epoch: 1800 	Train:[Loss: 0.0895, Acc: 0.8615] 	Val:[Loss: 0.0832, Acc: 0.8663]
+Epoch: 1900 	Train:[Loss: 0.0893, Acc: 0.8646] 	Val:[Loss: 0.0828, Acc: 0.8646]
+Epoch: 2000 	Train:[Loss: 0.0889, Acc: 0.8652] 	Val:[Loss: 0.0824, Acc: 0.8628]
+Epoch: 2100 	Train:[Loss: 0.0886, Acc: 0.8668] 	Val:[Loss: 0.0820, Acc: 0.8681]
+Epoch: 2200 	Train:[Loss: 0.0883, Acc: 0.8687] 	Val:[Loss: 0.0816, Acc: 0.8681]
+Epoch: 2300 	Train:[Loss: 0.0879, Acc: 0.8698] 	Val:[Loss: 0.0811, Acc: 0.8698]
+Epoch: 2400 	Train:[Loss: 0.0876, Acc: 0.8724] 	Val:[Loss: 0.0807, Acc: 0.8733]
+Epoch: 2500 	Train:[Loss: 0.0873, Acc: 0.8724] 	Val:[Loss: 0.0803, Acc: 0.8767]
+Epoch: 2600 	Train:[Loss: 0.0869, Acc: 0.8739] 	Val:[Loss: 0.0798, Acc: 0.8750]
+Epoch: 2700 	Train:[Loss: 0.0866, Acc: 0.8763] 	Val:[Loss: 0.0794, Acc: 0.8733]
+Epoch: 2800 	Train:[Loss: 0.0862, Acc: 0.8767] 	Val:[Loss: 0.0791, Acc: 0.8750]
+Epoch: 2900 	Train:[Loss: 0.0859, Acc: 0.8774] 	Val:[Loss: 0.0787, Acc: 0.8767]
+Epoch: 2999 	Train:[Loss: 0.0856, Acc: 0.8783] 	Val:[Loss: 0.0784, Acc: 0.8785]
+================Test set metrics======================
+Traceback (most recent call last):
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/3.py", line 111, in run
+    print("accuracy :: ", mlp.Metrics.accuracy_score(ground_truth,predictions))
+TypeError: Metrics.accuracy_score() missing 1 required positional argument: 'y_pred'

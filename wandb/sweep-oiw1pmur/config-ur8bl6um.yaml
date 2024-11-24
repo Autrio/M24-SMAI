@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activations:
+  value: Linear
+batch_size:
+  value: 512
+epoch:
+  value: 3000
+loss_fn:
+  value: MSELoss
+lr:
+  value: 0.0793652148752003
+model_architecture:
+  value: arch2
+type:
+  value: regression

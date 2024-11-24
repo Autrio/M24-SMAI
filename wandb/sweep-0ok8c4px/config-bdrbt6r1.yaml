@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activations:
+  value: Relu
+batch_size:
+  value: 64
+epoch:
+  value: 2000
+loss_fn:
+  value: CELoss
+lr:
+  value: 0.0036996372470472186
+model_architecture:
+  value: arch5
+type:
+  value: regression

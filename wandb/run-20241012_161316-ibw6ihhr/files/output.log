@@ -1,0 +1,36 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:16] [activation:ReLU]
+Layer: [in:16] [out:64] [activation:ReLU]
+Layer: [in:64] [out:128] [activation:ReLU]
+Layer: [in:128] [out:256] [activation:ReLU]
+Layer: [in:256] [out:1] [activation:Linear]
+Training: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3000/3000 [07:01<00:00,  7.12epoch/s, Train Acc=0.979, Val Acc=0.881]
+
+Epoch: 0 	Train:[Loss: 639.2751, Acc: -6.0908] 	Val:[Loss: 193.8862, Acc: -1.1912]
+Epoch: 128 	Train:[Loss: 15.0987, Acc: 0.8325] 	Val:[Loss: 13.5579, Acc: 0.8468]
+Epoch: 256 	Train:[Loss: 9.1293, Acc: 0.8987] 	Val:[Loss: 9.6951, Acc: 0.8904]
+Epoch: 384 	Train:[Loss: 7.1135, Acc: 0.9211] 	Val:[Loss: 9.0590, Acc: 0.8976]
+Epoch: 512 	Train:[Loss: 5.9467, Acc: 0.9340] 	Val:[Loss: 8.7385, Acc: 0.9012]
+Epoch: 640 	Train:[Loss: 5.1207, Acc: 0.9432] 	Val:[Loss: 8.6557, Acc: 0.9022]
+Epoch: 768 	Train:[Loss: 4.6427, Acc: 0.9485] 	Val:[Loss: 8.7332, Acc: 0.9013]
+Epoch: 896 	Train:[Loss: 4.0524, Acc: 0.9551] 	Val:[Loss: 8.6088, Acc: 0.9027]
+Epoch: 1024 	Train:[Loss: 3.8038, Acc: 0.9578] 	Val:[Loss: 8.6820, Acc: 0.9019]
+Epoch: 1152 	Train:[Loss: 3.4349, Acc: 0.9619] 	Val:[Loss: 8.6156, Acc: 0.9026]
+Epoch: 1280 	Train:[Loss: 3.0947, Acc: 0.9657] 	Val:[Loss: 8.5609, Acc: 0.9033]
+Epoch: 1408 	Train:[Loss: 2.9733, Acc: 0.9670] 	Val:[Loss: 8.6691, Acc: 0.9020]
+Epoch: 1536 	Train:[Loss: 2.8368, Acc: 0.9685] 	Val:[Loss: 8.7406, Acc: 0.9012]
+Epoch: 1664 	Train:[Loss: 2.6429, Acc: 0.9707] 	Val:[Loss: 8.7696, Acc: 0.9009]
+Epoch: 1792 	Train:[Loss: 2.4549, Acc: 0.9728] 	Val:[Loss: 8.8291, Acc: 0.9002]
+Epoch: 1920 	Train:[Loss: 2.2230, Acc: 0.9753] 	Val:[Loss: 8.7887, Acc: 0.9007]
+Epoch: 2048 	Train:[Loss: 2.3400, Acc: 0.9740] 	Val:[Loss: 9.0500, Acc: 0.8977]
+Epoch: 2176 	Train:[Loss: 1.9121, Acc: 0.9788] 	Val:[Loss: 8.8761, Acc: 0.8997]
+Epoch: 2304 	Train:[Loss: 2.0076, Acc: 0.9777] 	Val:[Loss: 9.0868, Acc: 0.8973]
+Epoch: 2432 	Train:[Loss: 1.9440, Acc: 0.9784] 	Val:[Loss: 9.1651, Acc: 0.8964]
+Epoch: 2560 	Train:[Loss: 1.6793, Acc: 0.9814] 	Val:[Loss: 9.1121, Acc: 0.8970]
+Epoch: 2688 	Train:[Loss: 1.9811, Acc: 0.9780] 	Val:[Loss: 9.4873, Acc: 0.8928]
+Epoch: 2816 	Train:[Loss: 1.8933, Acc: 0.9790] 	Val:[Loss: 9.4726, Acc: 0.8929]
+Epoch: 2944 	Train:[Loss: 1.4292, Acc: 0.9841] 	Val:[Loss: 9.1975, Acc: 0.8961]

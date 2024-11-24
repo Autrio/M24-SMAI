@@ -1,0 +1,12 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+(11,)
+Training:  16%|██████████████████▏                                                                                                  | 1552/10000 [00:16<01:30, 92.84epoch/s, Train Acc=0.666, Val Acc=0.604]
+Epoch: 0 	Train:[Loss: 0.1469, Acc: 0.1585] 	Val:[Loss: 0.1495, Acc: 0.1354]
+Epoch: 1000 	Train:[Loss: 0.0785, Acc: 0.6384] 	Val:[Loss: 0.0833, Acc: 0.6354]
+Early stopping triggered at epoch 1552.
+Model weights restored to epoch 528.
+[1.         0.98245614 0.70175439 0.59649123 0.86842105 0.99122807]

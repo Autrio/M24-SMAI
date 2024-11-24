@@ -1,0 +1,29 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:8] [activation:ReLU]
+Layer: [in:8] [out:16] [activation:ReLU]
+Layer: [in:16] [out:16] [activation:ReLU]
+Layer: [in:16] [out:8] [activation:ReLU]
+Layer: [in:8] [out:6] [activation:Softmax]
+Training:  53%|██████████████████████████████████████████████████████████████▉                                                       | 533/1000 [00:12<00:11, 42.06epoch/s, Train Acc=0.828, Val Acc=0.615]
+
+Epoch: 0 	Train:[Loss: 1.4139, Acc: 0.3873] 	Val:[Loss: 1.1942, Acc: 0.4688]
+Epoch: 100 	Train:[Loss: 0.7933, Acc: 0.6741] 	Val:[Loss: 1.0822, Acc: 0.5625]
+Epoch: 200 	Train:[Loss: 0.6359, Acc: 0.7366] 	Val:[Loss: 1.3628, Acc: 0.5625]
+Epoch: 300 	Train:[Loss: 0.7293, Acc: 0.7210] 	Val:[Loss: 1.2003, Acc: 0.6146]
+Epoch: 400 	Train:[Loss: 0.5159, Acc: 0.7835] 	Val:[Loss: 1.3553, Acc: 0.5833]
+Epoch: 500 	Train:[Loss: 0.5642, Acc: 0.7824] 	Val:[Loss: 1.4639, Acc: 0.6146]
+Early stopping triggered at epoch 533.
+Model weights restored to epoch 21.
+best validation loss::0.9668621264251009
+================Test set metrics======================
+
+accuracy ::  0.8669590643274854
+precision ::  0.2496124031007752
+recall ::  0.2512307050479766
+F1-score ::  0.2504189395817836
+
+======================================================

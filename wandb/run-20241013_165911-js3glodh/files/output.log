@@ -1,0 +1,54 @@
+Index(['age', 'gender', 'income', 'education', 'married', 'children', 'city',
+       'occupation', 'purchase_amount', 'most bought item', 'labels'],
+      dtype='object')
+(1000, 8)
+(1000, 10)
+Data split into training (800 samples), validation (100 samples), and testing (100 samples) sets.
+Number of classes: 8
+Feature data normalized using z-score normalization.
+Training:  30%|██████████████████████████████████▉                                                                                  | 1494/5000 [00:25<01:00, 57.82epoch/s, Train Acc=0.655, Val Acc=0.671]
+Epoch: 0 	Train:[Loss: 0.7605, Acc: 0.4910] 	Val:[Loss: 0.7802, Acc: 0.4779]
+Epoch: 100 	Train:[Loss: 0.6710, Acc: 0.6076] 	Val:[Loss: 0.6714, Acc: 0.6003]
+Epoch: 200 	Train:[Loss: 0.6549, Acc: 0.6392] 	Val:[Loss: 0.6506, Acc: 0.6458]
+Epoch: 300 	Train:[Loss: 0.6491, Acc: 0.6466] 	Val:[Loss: 0.6443, Acc: 0.6602]
+Epoch: 400 	Train:[Loss: 0.6458, Acc: 0.6493] 	Val:[Loss: 0.6415, Acc: 0.6667]
+Epoch: 500 	Train:[Loss: 0.6435, Acc: 0.6517] 	Val:[Loss: 0.6400, Acc: 0.6654]
+Epoch: 600 	Train:[Loss: 0.6418, Acc: 0.6527] 	Val:[Loss: 0.6392, Acc: 0.6706]
+Epoch: 700 	Train:[Loss: 0.6404, Acc: 0.6538] 	Val:[Loss: 0.6387, Acc: 0.6732]
+Epoch: 800 	Train:[Loss: 0.6392, Acc: 0.6538] 	Val:[Loss: 0.6384, Acc: 0.6732]
+Epoch: 900 	Train:[Loss: 0.6383, Acc: 0.6546] 	Val:[Loss: 0.6382, Acc: 0.6745]
+Epoch: 1000 	Train:[Loss: 0.6374, Acc: 0.6551] 	Val:[Loss: 0.6382, Acc: 0.6758]
+Epoch: 1100 	Train:[Loss: 0.6366, Acc: 0.6551] 	Val:[Loss: 0.6383, Acc: 0.6732]
+Epoch: 1200 	Train:[Loss: 0.6359, Acc: 0.6548] 	Val:[Loss: 0.6384, Acc: 0.6693]
+Epoch: 1300 	Train:[Loss: 0.6353, Acc: 0.6551] 	Val:[Loss: 0.6385, Acc: 0.6693]
+Epoch: 1400 	Train:[Loss: 0.6347, Acc: 0.6549] 	Val:[Loss: 0.6387, Acc: 0.6706]
+Early stopping triggered at epoch 1494.
+Model weights restored to epoch 982.
+best validation loss::0.6382048331820354
+['beauty', 'books', 'clothing', 'electronics', 'food', 'furniture', 'home', 'sports']
+================Test set metrics======================
+
+accuracy ::  0.011666666666666665
+precision ::  0.03
+recall ::  0.011666666666666665
+F1-score ::  0.016666666666666666
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/6.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/6.py", line 57, in run
+    print("Hamming Loss :: ", metrics.hamming_loss(ground_truth,predictions,multilabel=True))
+TypeError: Metrics.hamming_loss() got an unexpected keyword argument 'multilabel'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/6.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/6.py", line 57, in run
+    print("Hamming Loss :: ", metrics.hamming_loss(ground_truth,predictions,multilabel=True))
+TypeError: Metrics.hamming_loss() got an unexpected keyword argument 'multilabel'

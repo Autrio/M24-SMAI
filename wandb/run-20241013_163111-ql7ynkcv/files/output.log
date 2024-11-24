@@ -1,0 +1,16 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:32] [activation:ReLU]
+Layer: [in:32] [out:128] [activation:ReLU]
+Layer: [in:128] [out:128] [activation:ReLU]
+Layer: [in:128] [out:32] [activation:ReLU]
+Layer: [in:32] [out:6] [activation:Linear]
+Training:   8%|█████████▊                                                                                                             | 330/4000 [01:06<10:43,  5.70epoch/s, Train Acc=0.998, Val Acc=0.889][34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
+
+Epoch: 0 	Train:[Loss: 9.3405, Acc: 0.8337] 	Val:[Loss: 4.0673, Acc: 0.8611]
+Epoch: 100 	Train:[Loss: 0.2175, Acc: 0.9907] 	Val:[Loss: 5.6775, Acc: 0.8976]
+Epoch: 200 	Train:[Loss: 0.0615, Acc: 0.9980] 	Val:[Loss: 5.4282, Acc: 0.8889]
+Epoch: 300 	Train:[Loss: 0.0141, Acc: 0.9983] 	Val:[Loss: 6.5387, Acc: 0.8889]

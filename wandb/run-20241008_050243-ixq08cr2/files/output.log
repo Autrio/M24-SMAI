@@ -1,0 +1,47 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Training:  35%|█████████████████████████████████████████▋                                                                             | 350/1000 [02:02<03:47,  2.85epoch/s, Train Acc=0.771, Val Acc=0.562]
+Epoch: 0 	Train:[Loss: 0.2153, Acc: 0.3022] 	Val:[Loss: 0.2021, Acc: 0.3333]
+Epoch: 50 	Train:[Loss: 0.0931, Acc: 0.6122] 	Val:[Loss: 0.1334, Acc: 0.4792]
+Epoch: 100 	Train:[Loss: 0.0772, Acc: 0.6744] 	Val:[Loss: 0.1247, Acc: 0.5000]
+Epoch: 150 	Train:[Loss: 0.0694, Acc: 0.6978] 	Val:[Loss: 0.1210, Acc: 0.5208]
+Epoch: 200 	Train:[Loss: 0.0637, Acc: 0.7233] 	Val:[Loss: 0.1193, Acc: 0.5417]
+Epoch: 250 	Train:[Loss: 0.0590, Acc: 0.7400] 	Val:[Loss: 0.1181, Acc: 0.5417]
+Epoch: 300 	Train:[Loss: 0.0550, Acc: 0.7511] 	Val:[Loss: 0.1160, Acc: 0.5729]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 46, in <module>
+    model.train(epochs=1000)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 437, in train
+    train_loss, train_acc = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 415, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 397, in backward
+    self.dW.append(np.mean(dw, axis=0))
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 3504, in mean
+    return _methods._mean(a, axis=axis, dtype=dtype,
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/_methods.py", line 118, in _mean
+    ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 46, in <module>
+    model.train(epochs=1000)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 437, in train
+    train_loss, train_acc = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 415, in train_step
+    self.backward()
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 397, in backward
+    self.dW.append(np.mean(dw, axis=0))
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py", line 3504, in mean
+    return _methods._mean(a, axis=axis, dtype=dtype,
+  File "/home/autrio/.local/lib/python3.10/site-packages/numpy/core/_methods.py", line 118, in _mean
+    ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+KeyboardInterrupt

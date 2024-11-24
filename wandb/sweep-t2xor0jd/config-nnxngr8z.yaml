@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activations:
+  value: Linear
+batch_size:
+  value: 64
+epoch:
+  value: 5000
+loss_fn:
+  value: CELoss
+lr:
+  value: 0.037483928120232005
+model_architecture:
+  value: arch_base
+type:
+  value: classification

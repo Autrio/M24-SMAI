@@ -1,0 +1,31 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 51, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 40, in run
+    model.add(mlp.network.Layer(11, 16, mlp.activations.Tanh()))
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 281, in __init__
+    self.neurons = [Network.Neuron(self.dim_in, activation) for _ in range(self.dim_out)]
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 281, in <listcomp>
+    self.neurons = [Network.Neuron(self.dim_in, activation) for _ in range(self.dim_out)]
+NameError: name 'Network' is not defined
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 51, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 40, in run
+    model.add(mlp.network.Layer(11, 16, mlp.activations.Tanh()))
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 281, in __init__
+    self.neurons = [Network.Neuron(self.dim_in, activation) for _ in range(self.dim_out)]
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 281, in <listcomp>
+    self.neurons = [Network.Neuron(self.dim_in, activation) for _ in range(self.dim_out)]
+NameError: name 'Network' is not defined. Did you mean: 'network'?

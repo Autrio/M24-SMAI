@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activations:
+  value: Sigmoid
+batch_size:
+  value: 256
+epoch:
+  value: 3000
+loss_fn:
+  value: CELoss
+lr:
+  value: 0.014038137415085404
+model_architecture:
+  value: arch3
+type:
+  value: classification

@@ -1,0 +1,75 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:8] [activation:Tanh]
+Layer: [in:8] [out:16] [activation:Tanh]
+Layer: [in:16] [out:16] [activation:Tanh]
+Layer: [in:16] [out:8] [activation:Tanh]
+Layer: [in:8] [out:1] [activation:Linear]
+Training:  36%|█████████████████████████████████████████▌                                                                           | 1422/4000 [00:06<00:11, 229.58epoch/s, Train Acc=0.462, Val Acc=0.415]
+
+Epoch: 0 	Train:[Loss: 582.3312, Acc: -5.6534] 	Val:[Loss: 571.2824, Acc: -5.4563]
+Epoch: 64 	Train:[Loss: 363.7023, Acc: -3.1560] 	Val:[Loss: 373.3157, Acc: -3.2190]
+Epoch: 128 	Train:[Loss: 241.0682, Acc: -1.7554] 	Val:[Loss: 223.2765, Acc: -1.5233]
+Epoch: 192 	Train:[Loss: 167.2611, Acc: -0.9116] 	Val:[Loss: 156.1312, Acc: -0.7645]
+Epoch: 256 	Train:[Loss: 130.3039, Acc: -0.4889] 	Val:[Loss: 120.8476, Acc: -0.3657]
+Epoch: 320 	Train:[Loss: 107.5498, Acc: -0.2285] 	Val:[Loss: 99.8413, Acc: -0.1283]
+Epoch: 384 	Train:[Loss: 93.4752, Acc: -0.0675] 	Val:[Loss: 82.3606, Acc: 0.0692]
+Epoch: 448 	Train:[Loss: 85.0974, Acc: 0.0283] 	Val:[Loss: 74.3271, Acc: 0.1600]
+Epoch: 512 	Train:[Loss: 78.1216, Acc: 0.1080] 	Val:[Loss: 68.1194, Acc: 0.2302]
+Epoch: 576 	Train:[Loss: 72.5178, Acc: 0.1719] 	Val:[Loss: 63.9892, Acc: 0.2768]
+Epoch: 640 	Train:[Loss: 67.6843, Acc: 0.2271] 	Val:[Loss: 60.8918, Acc: 0.3118]
+Epoch: 704 	Train:[Loss: 64.0981, Acc: 0.2681] 	Val:[Loss: 58.8705, Acc: 0.3347]
+Epoch: 768 	Train:[Loss: 60.6252, Acc: 0.3080] 	Val:[Loss: 57.3218, Acc: 0.3522]
+Epoch: 832 	Train:[Loss: 57.9417, Acc: 0.3387] 	Val:[Loss: 56.0615, Acc: 0.3664]
+Epoch: 896 	Train:[Loss: 55.6980, Acc: 0.3643] 	Val:[Loss: 54.7805, Acc: 0.3809]
+Epoch: 960 	Train:[Loss: 53.7533, Acc: 0.3865] 	Val:[Loss: 54.0496, Acc: 0.3892]
+Epoch: 1024 	Train:[Loss: 52.2454, Acc: 0.4037] 	Val:[Loss: 53.6133, Acc: 0.3941]
+Epoch: 1088 	Train:[Loss: 51.0993, Acc: 0.4168] 	Val:[Loss: 53.1668, Acc: 0.3991]
+Epoch: 1152 	Train:[Loss: 50.1760, Acc: 0.4274] 	Val:[Loss: 52.7734, Acc: 0.4036]
+Epoch: 1216 	Train:[Loss: 49.3870, Acc: 0.4364] 	Val:[Loss: 52.4747, Acc: 0.4070]
+Epoch: 1280 	Train:[Loss: 48.6773, Acc: 0.4445] 	Val:[Loss: 52.2530, Acc: 0.4095]
+Epoch: 1344 	Train:[Loss: 47.9856, Acc: 0.4525] 	Val:[Loss: 52.0246, Acc: 0.4121]
+Epoch: 1408 	Train:[Loss: 47.2952, Acc: 0.4604] 	Val:[Loss: 51.8331, Acc: 0.4142]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 52, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 492, in train
+    train_loss, train_acc = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 462, in train_step
+    y_pred = self.__call__(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 434, in __call__
+    x = layer(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 375, in __call__
+    self.a = self.activation(z)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 278, in __call__
+    return (np.exp(x+1e-9) - np.exp(-x+1e-9))/(np.exp(x+1e-9) + np.exp(-x+1e-9))
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 52, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/3/2.py", line 46, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 492, in train
+    train_loss, train_acc = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 462, in train_step
+    y_pred = self.__call__(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 434, in __call__
+    x = layer(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 375, in __call__
+    self.a = self.activation(z)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 278, in __call__
+    return (np.exp(x+1e-9) - np.exp(-x+1e-9))/(np.exp(x+1e-9) + np.exp(-x+1e-9))
+KeyboardInterrupt

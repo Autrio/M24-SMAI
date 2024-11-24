@@ -1,0 +1,31 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:32] [activation:Sigmoid]
+Layer: [in:32] [out:32] [activation:Sigmoid]
+Layer: [in:32] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:1] [activation:Linear]
+Training:  16%|██████████████████▎                                                                                                   | 777/5000 [00:27<02:30, 28.13epoch/s, Train Acc=0.979, Val Acc=0.933]
+
+Epoch: 0 	Train:[Loss: 180.4506, Acc: -1.2686] 	Val:[Loss: 88.5073, Acc: -0.0003]
+Epoch: 100 	Train:[Loss: 9.1503, Acc: 0.8874] 	Val:[Loss: 7.2624, Acc: 0.9179]
+Epoch: 200 	Train:[Loss: 4.5748, Acc: 0.9458] 	Val:[Loss: 5.6091, Acc: 0.9366]
+Epoch: 300 	Train:[Loss: 3.9908, Acc: 0.9533] 	Val:[Loss: 5.3568, Acc: 0.9395]
+Epoch: 400 	Train:[Loss: 3.1650, Acc: 0.9630] 	Val:[Loss: 5.7049, Acc: 0.9355]
+Epoch: 500 	Train:[Loss: 2.2311, Acc: 0.9737] 	Val:[Loss: 5.3748, Acc: 0.9393]
+Epoch: 600 	Train:[Loss: 1.9849, Acc: 0.9764] 	Val:[Loss: 5.4038, Acc: 0.9389]
+Epoch: 700 	Train:[Loss: 1.6814, Acc: 0.9798] 	Val:[Loss: 5.8597, Acc: 0.9338]
+Early stopping triggered at epoch 777.
+Model weights restored to epoch 265.
+best validation loss::4.964299160190082
+================Test set metrics======================
+
+R2 Score ::  0.9234419547481992
+MSE ::  4.867946675889746
+RMSE ::  2.2063423750383224
+MAE ::  1.7560656076080323
+
+======================================================

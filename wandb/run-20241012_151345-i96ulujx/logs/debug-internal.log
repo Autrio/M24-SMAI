@@ -1,0 +1,20 @@
+{"time":"2024-10-12T15:13:45.610943921+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T15:13:45.610962848+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241012_151345-i96ulujx/logs/debug-core.log"}
+{"time":"2024-10-12T15:13:45.618468924+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-12T15:13:45.626646977+05:30","level":"INFO","msg":"created new stream","id":"i96ulujx"}
+{"time":"2024-10-12T15:13:45.626672877+05:30","level":"INFO","msg":"stream: started","id":"i96ulujx"}
+{"time":"2024-10-12T15:13:45.62669477+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"i96ulujx"}}
+{"time":"2024-10-12T15:13:45.626781228+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"i96ulujx"}}
+{"time":"2024-10-12T15:13:45.626846785+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"i96ulujx"}}
+{"time":"2024-10-12T15:13:46.006561385+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T15:13:46.007794952+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-12T15:13:55.304520911+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-12T15:13:55.30459267+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-12T15:13:55.800080204+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-12T15:13:55.800115683+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-12T15:13:56.668577549+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-12T15:13:58.530015633+05:30","level":"INFO","msg":"stream: closing","id":"i96ulujx"}
+{"time":"2024-10-12T15:13:58.530035311+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"i96ulujx"}}
+{"time":"2024-10-12T15:13:58.530059688+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"i96ulujx"}}
+{"time":"2024-10-12T15:13:58.530071842+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"i96ulujx"}}
+{"time":"2024-10-12T15:13:58.530133492+05:30","level":"INFO","msg":"stream: closed","id":"i96ulujx"}

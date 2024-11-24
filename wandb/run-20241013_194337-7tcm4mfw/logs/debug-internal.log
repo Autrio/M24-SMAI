@@ -1,0 +1,20 @@
+{"time":"2024-10-13T19:43:38.004473325+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:43:38.004495588+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241013_194337-7tcm4mfw/logs/debug-core.log"}
+{"time":"2024-10-13T19:43:38.023510955+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:43:38.039216865+05:30","level":"INFO","msg":"created new stream","id":"7tcm4mfw"}
+{"time":"2024-10-13T19:43:38.039283063+05:30","level":"INFO","msg":"stream: started","id":"7tcm4mfw"}
+{"time":"2024-10-13T19:43:38.039326127+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"7tcm4mfw"}}
+{"time":"2024-10-13T19:43:38.039301399+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"7tcm4mfw"}}
+{"time":"2024-10-13T19:43:38.039310366+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"7tcm4mfw"}}
+{"time":"2024-10-13T19:43:38.522058435+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:43:38.523364047+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:44:13.441934347+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:44:13.442073416+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:44:14.066221977+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-13T19:44:14.06624917+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-13T19:44:14.740787405+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:44:16.635275096+05:30","level":"INFO","msg":"stream: closing","id":"7tcm4mfw"}
+{"time":"2024-10-13T19:44:16.635300495+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"7tcm4mfw"}}
+{"time":"2024-10-13T19:44:16.635330734+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"7tcm4mfw"}}
+{"time":"2024-10-13T19:44:16.635384438+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"7tcm4mfw"}}
+{"time":"2024-10-13T19:44:16.635412633+05:30","level":"INFO","msg":"stream: closed","id":"7tcm4mfw"}

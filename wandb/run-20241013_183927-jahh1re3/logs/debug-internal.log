@@ -1,0 +1,20 @@
+{"time":"2024-10-13T18:39:27.392960367+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T18:39:27.392978301+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241013_183927-jahh1re3/logs/debug-core.log"}
+{"time":"2024-10-13T18:39:27.413217204+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T18:39:27.42505478+05:30","level":"INFO","msg":"created new stream","id":"jahh1re3"}
+{"time":"2024-10-13T18:39:27.425094667+05:30","level":"INFO","msg":"stream: started","id":"jahh1re3"}
+{"time":"2024-10-13T18:39:27.425103985+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"jahh1re3"}}
+{"time":"2024-10-13T18:39:27.425131088+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"jahh1re3"}}
+{"time":"2024-10-13T18:39:27.425151187+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"jahh1re3"}}
+{"time":"2024-10-13T18:39:27.835581778+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T18:39:27.837774429+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T18:39:28.467349277+05:30","level":"INFO","msg":"stream: closing","id":"jahh1re3"}
+{"time":"2024-10-13T18:39:28.467389475+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T18:39:28.46760288+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T18:39:29.365315548+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-13T18:39:29.365334935+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-13T18:39:30.974637286+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T18:39:31.289426747+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"jahh1re3"}}
+{"time":"2024-10-13T18:39:31.289482245+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"jahh1re3"}}
+{"time":"2024-10-13T18:39:31.289561149+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"jahh1re3"}}
+{"time":"2024-10-13T18:39:31.28957232+05:30","level":"INFO","msg":"stream: closed","id":"jahh1re3"}

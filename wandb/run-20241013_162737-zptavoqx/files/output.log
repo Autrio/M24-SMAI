@@ -1,0 +1,31 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:32] [activation:Sigmoid]
+Layer: [in:32] [out:128] [activation:Sigmoid]
+Layer: [in:128] [out:128] [activation:Sigmoid]
+Layer: [in:128] [out:32] [activation:Sigmoid]
+Layer: [in:32] [out:6] [activation:Linear]
+Training:  20%|███████████████████████▌                                                                                                | 589/3000 [01:38<06:42,  5.99epoch/s, Train Acc=0.866, Val Acc=0.88]
+
+Epoch: 0 	Train:[Loss: 11.3773, Acc: 0.7950] 	Val:[Loss: 1.1698, Acc: 0.8333]
+Epoch: 100 	Train:[Loss: 1.2937, Acc: 0.8517] 	Val:[Loss: 1.3328, Acc: 0.8576]
+Epoch: 200 	Train:[Loss: 1.2338, Acc: 0.8534] 	Val:[Loss: 1.5683, Acc: 0.8628]
+Epoch: 300 	Train:[Loss: 1.2432, Acc: 0.8592] 	Val:[Loss: 1.5534, Acc: 0.8733]
+Epoch: 400 	Train:[Loss: 1.1700, Acc: 0.8610] 	Val:[Loss: 1.2518, Acc: 0.8733]
+Epoch: 500 	Train:[Loss: 1.2243, Acc: 0.8642] 	Val:[Loss: 1.2501, Acc: 0.8733]
+Early stopping triggered at epoch 589.
+Model weights restored to epoch 77.
+best validation loss::1.0845482476231865
+Traceback (most recent call last):
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/3.py", line 106, in run
+    predictions = model.predict(model(model.Xtest))
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 821, in predict
+    y = self.__call__(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 589, in __call__
+    x = layer(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 486, in __call__
+    raise TypeError(f'Input should have dimension {self.dim_in} but found {x.shape[1]}')
+TypeError: Input should have dimension 11 but found 6

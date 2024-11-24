@@ -1,0 +1,16 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Training:   0%|                                                                                                                                                                 | 0/1000 [00:00<?, ?epoch/s]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:229: RuntimeWarning: overflow encountered in exp
+  return (np.exp(x)/np.sum(np.exp(x), axis=-1, keepdims=True))
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:229: RuntimeWarning: invalid value encountered in divide
+  return (np.exp(x)/np.sum(np.exp(x), axis=-1, keepdims=True))
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:252: RuntimeWarning: divide by zero encountered in log
+  return np.mean(np.sum(-y  * np.log(y_pred), axis=-1))
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:252: RuntimeWarning: invalid value encountered in multiply
+  return np.mean(np.sum(-y  * np.log(y_pred), axis=-1))
+Training: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:11<00:00, 89.50epoch/s, Train Acc=0.00977, Val Acc=0]
+Epoch: 0 	Train:[Loss: nan, Acc: 0.0195] 	Val:[Loss: nan, Acc: 0.0000]
+Epoch: 256 	Train:[Loss: nan, Acc: 0.0098] 	Val:[Loss: nan, Acc: 0.0000]
+Epoch: 512 	Train:[Loss: nan, Acc: 0.0098] 	Val:[Loss: nan, Acc: 0.0000]
+Epoch: 768 	Train:[Loss: nan, Acc: 0.0098] 	Val:[Loss: nan, Acc: 0.0000]

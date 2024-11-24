@@ -1,0 +1,73 @@
+Index(['age', 'gender', 'income', 'education', 'married', 'children', 'city',
+       'occupation', 'purchase_amount', 'most bought item', 'labels'],
+      dtype='object')
+(1000, 8)
+(1000, 10)
+Data split into training (800 samples), validation (100 samples), and testing (100 samples) sets.
+Number of classes: 8
+Feature data normalized using z-score normalization.
+                                                                                                                                                                                                           
+Epoch: 0 	Train:[Loss: 0.7446, Acc: 0.4976] 	Val:[Loss: 0.7354, Acc: 0.5156]
+Epoch: 100 	Train:[Loss: 0.6812, Acc: 0.5719] 	Val:[Loss: 0.6761, Acc: 0.5690]
+Epoch: 200 	Train:[Loss: 0.6615, Acc: 0.6160] 	Val:[Loss: 0.6572, Acc: 0.6341]
+Epoch: 300 	Train:[Loss: 0.6533, Acc: 0.6414] 	Val:[Loss: 0.6490, Acc: 0.6576]
+Epoch: 400 	Train:[Loss: 0.6489, Acc: 0.6473] 	Val:[Loss: 0.6449, Acc: 0.6667]
+Epoch: 500 	Train:[Loss: 0.6460, Acc: 0.6501] 	Val:[Loss: 0.6425, Acc: 0.6758]
+Epoch: 600 	Train:[Loss: 0.6440, Acc: 0.6527] 	Val:[Loss: 0.6411, Acc: 0.6810]
+Epoch: 700 	Train:[Loss: 0.6426, Acc: 0.6522] 	Val:[Loss: 0.6401, Acc: 0.6797]
+Epoch: 800 	Train:[Loss: 0.6414, Acc: 0.6522] 	Val:[Loss: 0.6395, Acc: 0.6810]
+Epoch: 900 	Train:[Loss: 0.6404, Acc: 0.6519] 	Val:[Loss: 0.6390, Acc: 0.6784]
+Epoch: 1000 	Train:[Loss: 0.6396, Acc: 0.6525] 	Val:[Loss: 0.6387, Acc: 0.6784]
+Epoch: 1100 	Train:[Loss: 0.6389, Acc: 0.6533] 	Val:[Loss: 0.6384, Acc: 0.6784]
+Epoch: 1200 	Train:[Loss: 0.6383, Acc: 0.6536] 	Val:[Loss: 0.6382, Acc: 0.6797]
+Epoch: 1300 	Train:[Loss: 0.6377, Acc: 0.6541] 	Val:[Loss: 0.6381, Acc: 0.6810]
+Epoch: 1400 	Train:[Loss: 0.6372, Acc: 0.6541] 	Val:[Loss: 0.6380, Acc: 0.6797]
+Epoch: 1500 	Train:[Loss: 0.6368, Acc: 0.6543] 	Val:[Loss: 0.6379, Acc: 0.6784]
+Epoch: 1600 	Train:[Loss: 0.6363, Acc: 0.6551] 	Val:[Loss: 0.6378, Acc: 0.6771]
+Epoch: 1700 	Train:[Loss: 0.6359, Acc: 0.6549] 	Val:[Loss: 0.6377, Acc: 0.6758]
+Epoch: 1800 	Train:[Loss: 0.6356, Acc: 0.6553] 	Val:[Loss: 0.6377, Acc: 0.6758]
+Epoch: 1900 	Train:[Loss: 0.6352, Acc: 0.6558] 	Val:[Loss: 0.6377, Acc: 0.6745]
+Epoch: 2000 	Train:[Loss: 0.6348, Acc: 0.6558] 	Val:[Loss: 0.6376, Acc: 0.6745]
+Epoch: 2100 	Train:[Loss: 0.6345, Acc: 0.6567] 	Val:[Loss: 0.6376, Acc: 0.6745]
+Epoch: 2200 	Train:[Loss: 0.6341, Acc: 0.6564] 	Val:[Loss: 0.6376, Acc: 0.6745]
+Epoch: 2300 	Train:[Loss: 0.6338, Acc: 0.6564] 	Val:[Loss: 0.6376, Acc: 0.6745]
+Epoch: 2400 	Train:[Loss: 0.6335, Acc: 0.6571] 	Val:[Loss: 0.6376, Acc: 0.6758]
+Epoch: 2500 	Train:[Loss: 0.6332, Acc: 0.6572] 	Val:[Loss: 0.6376, Acc: 0.6745]
+Epoch: 2600 	Train:[Loss: 0.6329, Acc: 0.6574] 	Val:[Loss: 0.6376, Acc: 0.6732]
+Epoch: 2700 	Train:[Loss: 0.6326, Acc: 0.6577] 	Val:[Loss: 0.6376, Acc: 0.6732]
+Epoch: 2800 	Train:[Loss: 0.6322, Acc: 0.6572] 	Val:[Loss: 0.6376, Acc: 0.6745]
+Epoch: 2900 	Train:[Loss: 0.6319, Acc: 0.6580] 	Val:[Loss: 0.6376, Acc: 0.6745]
+Epoch: 3000 	Train:[Loss: 0.6316, Acc: 0.6579] 	Val:[Loss: 0.6376, Acc: 0.6732]
+Epoch: 3100 	Train:[Loss: 0.6313, Acc: 0.6574] 	Val:[Loss: 0.6376, Acc: 0.6732]
+Epoch: 3200 	Train:[Loss: 0.6310, Acc: 0.6571] 	Val:[Loss: 0.6376, Acc: 0.6732]
+Epoch: 3300 	Train:[Loss: 0.6307, Acc: 0.6574] 	Val:[Loss: 0.6376, Acc: 0.6732]
+Early stopping triggered at epoch 3395.
+Model weights restored to epoch 2883.
+best validation loss::0.6375635791347506
+['beauty', 'books', 'clothing', 'electronics', 'food', 'furniture', 'home', 'sports']
+================Test set metrics======================
+
+accuracy ::  0.018666666666666668
+precision ::  0.04
+recall ::  0.018666666666666668
+F1-score ::  0.022857142857142857
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/6.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/6.py", line 57, in run
+    print("Hamming Loss :: ", metrics.hamming_loss(ground_truth,predictions,multilabel=True))
+TypeError: Metrics.hamming_loss() got an unexpected keyword argument 'multilabel'
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/6.py", line 65, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/6.py", line 57, in run
+    print("Hamming Loss :: ", metrics.hamming_loss(ground_truth,predictions,multilabel=True))
+TypeError: Metrics.hamming_loss() got an unexpected keyword argument 'multilabel'

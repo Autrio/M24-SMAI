@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/3.py", line 93, in run
+    model = mlp.Model(config)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 335, in __init__
+    self.logger = params["logger"] if "logger" in params.keys else wandb
+TypeError: argument of type 'method' is not iterable

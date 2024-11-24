@@ -1,0 +1,87 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+(11,)
+                                                                                                                                                                                                            
+Epoch: 0 	Train:[Loss: 0.1459, Acc: 0.2188] 	Val:[Loss: 0.1452, Acc: 0.2292]
+Epoch: 10 	Train:[Loss: 0.1096, Acc: 0.5000] 	Val:[Loss: 0.1070, Acc: 0.5312]
+Epoch: 20 	Train:[Loss: 0.1006, Acc: 0.5312] 	Val:[Loss: 0.0969, Acc: 0.5208]
+Epoch: 30 	Train:[Loss: 0.0963, Acc: 0.5525] 	Val:[Loss: 0.0928, Acc: 0.5521]
+Epoch: 40 	Train:[Loss: 0.0938, Acc: 0.5692] 	Val:[Loss: 0.0903, Acc: 0.5938]
+Epoch: 50 	Train:[Loss: 0.0921, Acc: 0.5703] 	Val:[Loss: 0.0885, Acc: 0.6250]
+Epoch: 60 	Train:[Loss: 0.0909, Acc: 0.5804] 	Val:[Loss: 0.0871, Acc: 0.6250]
+Epoch: 70 	Train:[Loss: 0.0899, Acc: 0.5859] 	Val:[Loss: 0.0858, Acc: 0.6354]
+Epoch: 80 	Train:[Loss: 0.0892, Acc: 0.6004] 	Val:[Loss: 0.0847, Acc: 0.6354]
+Epoch: 90 	Train:[Loss: 0.0885, Acc: 0.6016] 	Val:[Loss: 0.0837, Acc: 0.6458]
+Epoch: 100 	Train:[Loss: 0.0880, Acc: 0.6004] 	Val:[Loss: 0.0829, Acc: 0.6562]
+Epoch: 110 	Train:[Loss: 0.0876, Acc: 0.6004] 	Val:[Loss: 0.0822, Acc: 0.6458]
+Epoch: 120 	Train:[Loss: 0.0872, Acc: 0.6038] 	Val:[Loss: 0.0816, Acc: 0.6562]
+Epoch: 130 	Train:[Loss: 0.0868, Acc: 0.6083] 	Val:[Loss: 0.0810, Acc: 0.6458]
+Epoch: 140 	Train:[Loss: 0.0865, Acc: 0.6127] 	Val:[Loss: 0.0806, Acc: 0.6562]
+Epoch: 150 	Train:[Loss: 0.0862, Acc: 0.6161] 	Val:[Loss: 0.0802, Acc: 0.6667]
+Epoch: 160 	Train:[Loss: 0.0859, Acc: 0.6161] 	Val:[Loss: 0.0798, Acc: 0.6667]
+Epoch: 170 	Train:[Loss: 0.0857, Acc: 0.6138] 	Val:[Loss: 0.0795, Acc: 0.6667]
+Epoch: 180 	Train:[Loss: 0.0854, Acc: 0.6150] 	Val:[Loss: 0.0793, Acc: 0.6667]
+Epoch: 190 	Train:[Loss: 0.0852, Acc: 0.6161] 	Val:[Loss: 0.0791, Acc: 0.6562]
+Epoch: 200 	Train:[Loss: 0.0850, Acc: 0.6161] 	Val:[Loss: 0.0789, Acc: 0.6562]
+Epoch: 210 	Train:[Loss: 0.0848, Acc: 0.6183] 	Val:[Loss: 0.0788, Acc: 0.6562]
+Epoch: 220 	Train:[Loss: 0.0846, Acc: 0.6194] 	Val:[Loss: 0.0787, Acc: 0.6562]
+Epoch: 230 	Train:[Loss: 0.0844, Acc: 0.6194] 	Val:[Loss: 0.0786, Acc: 0.6667]
+Epoch: 240 	Train:[Loss: 0.0843, Acc: 0.6183] 	Val:[Loss: 0.0785, Acc: 0.6562]
+Epoch: 250 	Train:[Loss: 0.0841, Acc: 0.6172] 	Val:[Loss: 0.0784, Acc: 0.6562]
+Epoch: 260 	Train:[Loss: 0.0839, Acc: 0.6194] 	Val:[Loss: 0.0784, Acc: 0.6562]
+Epoch: 270 	Train:[Loss: 0.0838, Acc: 0.6205] 	Val:[Loss: 0.0783, Acc: 0.6562]
+Epoch: 280 	Train:[Loss: 0.0836, Acc: 0.6261] 	Val:[Loss: 0.0783, Acc: 0.6562]
+Epoch: 290 	Train:[Loss: 0.0834, Acc: 0.6283] 	Val:[Loss: 0.0783, Acc: 0.6458]
+Epoch: 300 	Train:[Loss: 0.0833, Acc: 0.6272] 	Val:[Loss: 0.0783, Acc: 0.6354]
+Epoch: 310 	Train:[Loss: 0.0831, Acc: 0.6283] 	Val:[Loss: 0.0783, Acc: 0.6458]
+Epoch: 320 	Train:[Loss: 0.0830, Acc: 0.6295] 	Val:[Loss: 0.0783, Acc: 0.6458]
+Epoch: 330 	Train:[Loss: 0.0829, Acc: 0.6306] 	Val:[Loss: 0.0784, Acc: 0.6562]
+Epoch: 340 	Train:[Loss: 0.0827, Acc: 0.6339] 	Val:[Loss: 0.0784, Acc: 0.6771]
+Epoch: 350 	Train:[Loss: 0.0826, Acc: 0.6384] 	Val:[Loss: 0.0784, Acc: 0.6771]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2.py", line 55, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2.py", line 48, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 714, in train
+    train_metrics = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 630, in train_step
+    y_pred = self.__call__(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 589, in __call__
+    x = layer(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 496, in __call__
+    dzw, dzx, daz = neuron.calculate_grad(x, z, self.W, i)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 450, in calculate_grad
+    self.daz = self.activation.grad(z[:, index])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 391, in grad
+    def grad(self, x):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2.py", line 55, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2.py", line 48, in run
+    model.train(epochs=params["epoch"])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 714, in train
+    train_metrics = self.train_step(train_loader)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 630, in train_step
+    y_pred = self.__call__(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 589, in __call__
+    x = layer(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 496, in __call__
+    dzw, dzx, daz = neuron.calculate_grad(x, z, self.W, i)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 450, in calculate_grad
+    self.daz = self.activation.grad(z[:, index])
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 391, in grad
+    def grad(self, x):
+KeyboardInterrupt

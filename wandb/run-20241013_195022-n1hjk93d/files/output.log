@@ -1,0 +1,34 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+{'lr': 0.04536663435007541, 'batch_size': 64, 'epoch': 4000, 'optimizer': 'mini-batch', 'loss_fn': 'MSELoss', 'activation': 'Tanh', 'type': 'regression', 'early_stopping': True, 'activations': 'Tanh', 'model_architecture': 'arch5'}
+Layer: [in:13] [out:16] [activation:Tanh]
+Layer: [in:16] [out:64] [activation:Tanh]
+Layer: [in:64] [out:128] [activation:Tanh]
+Layer: [in:128] [out:256] [activation:Tanh]
+Layer: [in:256] [out:1] [activation:Linear]
+Training:  44%|███████████████████████████████████████████████████▏                                                                 | 1751/4000 [02:42<03:28, 10.76epoch/s, Train Acc=0.983, Val Acc=0.908]
+
+Epoch: 0 	Train:[Loss: 612.8005, Acc: -5.7971] 	Val:[Loss: 549.0120, Acc: -5.2046]
+Epoch: 100 	Train:[Loss: 16.0953, Acc: 0.8215] 	Val:[Loss: 15.4121, Acc: 0.8258]
+Epoch: 200 	Train:[Loss: 8.9481, Acc: 0.9007] 	Val:[Loss: 10.9372, Acc: 0.8764]
+Epoch: 300 	Train:[Loss: 6.3536, Acc: 0.9295] 	Val:[Loss: 9.5835, Acc: 0.8917]
+Epoch: 400 	Train:[Loss: 4.9375, Acc: 0.9452] 	Val:[Loss: 9.0491, Acc: 0.8977]
+Epoch: 500 	Train:[Loss: 4.0803, Acc: 0.9547] 	Val:[Loss: 8.7251, Acc: 0.9014]
+Epoch: 600 	Train:[Loss: 3.5138, Acc: 0.9610] 	Val:[Loss: 8.4612, Acc: 0.9044]
+Epoch: 700 	Train:[Loss: 3.1044, Acc: 0.9656] 	Val:[Loss: 8.2473, Acc: 0.9068]
+Epoch: 800 	Train:[Loss: 2.7873, Acc: 0.9691] 	Val:[Loss: 8.0821, Acc: 0.9087]
+Epoch: 900 	Train:[Loss: 2.5294, Acc: 0.9719] 	Val:[Loss: 7.9574, Acc: 0.9101]
+Epoch: 1000 	Train:[Loss: 2.3128, Acc: 0.9743] 	Val:[Loss: 7.8711, Acc: 0.9110]
+Epoch: 1100 	Train:[Loss: 2.1269, Acc: 0.9764] 	Val:[Loss: 7.8277, Acc: 0.9115]
+Epoch: 1200 	Train:[Loss: 1.9722, Acc: 0.9781] 	Val:[Loss: 7.7368, Acc: 0.9126]
+Epoch: 1300 	Train:[Loss: 1.8487, Acc: 0.9795] 	Val:[Loss: 7.8498, Acc: 0.9113]
+Epoch: 1400 	Train:[Loss: 1.7160, Acc: 0.9810] 	Val:[Loss: 7.8725, Acc: 0.9110]
+Epoch: 1500 	Train:[Loss: 1.6994, Acc: 0.9812] 	Val:[Loss: 7.8371, Acc: 0.9114]
+Epoch: 1600 	Train:[Loss: 1.6160, Acc: 0.9821] 	Val:[Loss: 7.9138, Acc: 0.9106]
+Epoch: 1700 	Train:[Loss: 1.4947, Acc: 0.9834] 	Val:[Loss: 8.0558, Acc: 0.9090]
+Early stopping triggered at epoch 1751.
+Model weights restored to epoch 1239.
+best validation loss::7.572550467469092

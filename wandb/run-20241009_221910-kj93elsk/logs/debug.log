@@ -1,0 +1,22 @@
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_setup.py:_flush():79] Configure stats pid to 512521
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_setup.py:_flush():79] Loading settings from /home/autrio/.config/wandb/settings
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_setup.py:_flush():79] Loading settings from /home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/settings
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'project': 'SMAI-A3-MLP', 'entity': 'autrio-das-international-institute-of-information-techno', 'root_dir': '/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio', 'run_id': 'kj93elsk', 'sweep_param_path': '/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/sweep-t2xor0jd/config-kj93elsk.yaml', 'sweep_id': 't2xor0jd'}
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-09 22:19:10,558 WARNING Thread-5 (_run_job):512521 [wandb_setup.py:_flush():79] Could not find program at -m assignments.3.2.2.3
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': None, 'program': '-m assignments.3.2.2.3'}
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_init.py:_log_setup():532] Logging user logs to /home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241009_221910-kj93elsk/logs/debug.log
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_init.py:_log_setup():533] Logging internal logs to /home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241009_221910-kj93elsk/logs/debug-internal.log
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_init.py:init():617] calling init triggers
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_init.py:init():624] wandb.init called with sweep_config: {'activations': 'Tanh', 'batch_size': 256, 'epoch': 2000, 'loss_fn': 'BCELoss', 'lr': 0.00025668181143312987, 'model_architecture': 'arch1', 'type': 'classification'}
+config: {'lr': 0.001, 'batch_size': 256, 'epoch': 1000, 'optimizer': 'mini-batch', 'loss_fn': <models.MLP.MLP2.loss.MSELoss object at 0x7cd3213552d0>, 'activation': <models.MLP.MLP2.activations.Tanh object at 0x7cd321355300>, 'type': 'classification'}
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_init.py:init():667] starting backend
+2024-10-09 22:19:10,558 INFO    Thread-5 (_run_job):512521 [wandb_init.py:init():671] sending inform_init request
+2024-10-09 22:19:10,561 INFO    Thread-5 (_run_job):512521 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-09 22:19:10,561 INFO    Thread-5 (_run_job):512521 [wandb_init.py:init():684] backend started and connected
+2024-10-09 22:19:10,565 INFO    Thread-5 (_run_job):512521 [wandb_run.py:_config_callback():1394] config_cb None None {'activations': 'Tanh', 'batch_size': 256, 'epoch': 2000, 'loss_fn': 'BCELoss', 'lr': 0.00025668181143312987, 'model_architecture': 'arch1', 'type': 'classification'}
+2024-10-09 22:19:10,566 INFO    Thread-5 (_run_job):512521 [wandb_init.py:init():779] updated telemetry
+2024-10-09 22:19:10,569 INFO    Thread-5 (_run_job):512521 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-09 22:19:10,845 WARNING MsgRouterThr:512521 [router.py:message_loop():77] message_loop has been closed

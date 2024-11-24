@@ -1,0 +1,18 @@
+{"time":"2024-10-10T14:43:54.397031663+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-10T14:43:54.397043636+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241010_144354-nn694g14/logs/debug-core.log"}
+{"time":"2024-10-10T14:43:54.443570908+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-10T14:43:54.448208156+05:30","level":"INFO","msg":"created new stream","id":"nn694g14"}
+{"time":"2024-10-10T14:43:54.44822568+05:30","level":"INFO","msg":"stream: started","id":"nn694g14"}
+{"time":"2024-10-10T14:43:54.448252503+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"nn694g14"}}
+{"time":"2024-10-10T14:43:54.448268744+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"nn694g14"}}
+{"time":"2024-10-10T14:43:54.448270388+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"nn694g14"}}
+{"time":"2024-10-10T14:43:54.900649689+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-10T14:43:54.902641421+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-10T14:48:10.650374803+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/autrio-das-international-institute-of-information-techno/SMAI-A3-MLP/nn694g14/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2024-10-10T14:48:13.003440865+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/autrio-das-international-institute-of-information-techno/SMAI-A3-MLP/nn694g14/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2024-10-10T14:48:17.876562212+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/autrio-das-international-institute-of-information-techno/SMAI-A3-MLP/nn694g14/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2024-10-10T14:48:25.889393577+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/autrio-das-international-institute-of-information-techno/SMAI-A3-MLP/nn694g14/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2024-10-10T14:48:39.365549576+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2024-10-10T14:48:42.388780848+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/autrio-das-international-institute-of-information-techno/SMAI-A3-MLP/nn694g14/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: server misbehaving"}
+{"time":"2024-10-10T14:54:56.677346331+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2024-10-10T14:55:31.18886943+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}

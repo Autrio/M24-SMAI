@@ -1,0 +1,25 @@
+Index(['age', 'gender', 'income', 'education', 'married', 'children', 'city',
+       'occupation', 'purchase_amount', 'most bought item', 'labels'],
+      dtype='object')
+(1000, 8)
+(1000, 10)
+Data split into training (800 samples), validation (100 samples), and testing (100 samples) sets.
+Number of classes: 8
+Feature data normalized using z-score normalization.
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5000/5000 [00:43<00:00, 115.28epoch/s, Train Acc=0.767, Val Acc=0.594]
+Epoch: 0 	Train:[Loss: 0.7274, Acc: 0.5052] 	Val:[Loss: 0.7093, Acc: 0.5495]
+Epoch: 500 	Train:[Loss: 0.5829, Acc: 0.6951] 	Val:[Loss: 0.6807, Acc: 0.6367]
+Epoch: 1000 	Train:[Loss: 0.5391, Acc: 0.7297] 	Val:[Loss: 0.7525, Acc: 0.6263]
+Epoch: 1500 	Train:[Loss: 0.5107, Acc: 0.7464] 	Val:[Loss: 0.8021, Acc: 0.6120]
+Epoch: 2000 	Train:[Loss: 0.4932, Acc: 0.7606] 	Val:[Loss: 0.8645, Acc: 0.5964]
+Epoch: 2500 	Train:[Loss: 0.4844, Acc: 0.7637] 	Val:[Loss: 0.8767, Acc: 0.6016]
+Epoch: 3000 	Train:[Loss: 0.4752, Acc: 0.7699] 	Val:[Loss: 0.9053, Acc: 0.5951]
+Epoch: 3500 	Train:[Loss: 0.4709, Acc: 0.7718] 	Val:[Loss: 0.9433, Acc: 0.5977]
+Epoch: 4000 	Train:[Loss: 0.4823, Acc: 0.7630] 	Val:[Loss: 0.9488, Acc: 0.5924]
+Epoch: 4500 	Train:[Loss: 0.4670, Acc: 0.7716] 	Val:[Loss: 0.9326, Acc: 0.6042]
+Epoch: 4999 	Train:[Loss: 0.4720, Acc: 0.7674] 	Val:[Loss: 0.9381, Acc: 0.5938]
+['beauty', 'books', 'clothing', 'electronics', 'food', 'furniture', 'home', 'sports']
+[0. 1. 0. 0. 0. 0. 0. 0.]
+[[0.44127522 0.40475312 0.00387987 0.14418188 0.30901162 0.22763236
+  0.40483178 0.28389648]]
+[[0. 0. 0. 0. 0. 0. 0. 0.]]

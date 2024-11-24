@@ -1,0 +1,20 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+(11,)
+Training: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [01:16<00:00, 131.22epoch/s, Train Acc=0.759, Val Acc=0.594]
+Epoch: 0 	Train:[Loss: 0.1479, Acc: 0.1116] 	Val:[Loss: 0.1507, Acc: 0.0833]
+Epoch: 1000 	Train:[Loss: 0.0845, Acc: 0.6261] 	Val:[Loss: 0.0806, Acc: 0.6250]
+Epoch: 2000 	Train:[Loss: 0.0805, Acc: 0.6462] 	Val:[Loss: 0.0805, Acc: 0.6042]
+Epoch: 3000 	Train:[Loss: 0.0776, Acc: 0.6708] 	Val:[Loss: 0.0814, Acc: 0.5938]
+Epoch: 4000 	Train:[Loss: 0.0747, Acc: 0.6908] 	Val:[Loss: 0.0832, Acc: 0.6146]
+Epoch: 5000 	Train:[Loss: 0.0720, Acc: 0.6987] 	Val:[Loss: 0.0858, Acc: 0.5938]
+Epoch: 6000 	Train:[Loss: 0.0692, Acc: 0.7031] 	Val:[Loss: 0.0882, Acc: 0.5938]
+Epoch: 7000 	Train:[Loss: 0.0666, Acc: 0.7176] 	Val:[Loss: 0.0895, Acc: 0.5938]
+Epoch: 8000 	Train:[Loss: 0.0642, Acc: 0.7377] 	Val:[Loss: 0.0903, Acc: 0.5833]
+Epoch: 9000 	Train:[Loss: 0.0619, Acc: 0.7467] 	Val:[Loss: 0.0912, Acc: 0.5833]
+Epoch: 9999 	Train:[Loss: 0.0599, Acc: 0.7589] 	Val:[Loss: 0.0923, Acc: 0.5938]
+[0. 0. 0. 1. 0. 0.]
+[[0. 0. 1. 0. 0. 0.]]

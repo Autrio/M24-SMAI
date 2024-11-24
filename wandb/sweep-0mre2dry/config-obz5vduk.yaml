@@ -1,0 +1,14 @@
+wandb_version: 1
+
+activation:
+  value: Relu
+batch_size:
+  value: 590
+epoch:
+  value: 500
+loss_fn:
+  value: <models.MLP.MLP2.Loss.MSELoss object at 0x7dd352ee1660>
+lr:
+  value: 0.0011604015086770086
+type:
+  value: classification

@@ -1,0 +1,33 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:32] [activation:ReLU]
+Layer: [in:32] [out:128] [activation:ReLU]
+Layer: [in:128] [out:128] [activation:ReLU]
+Layer: [in:128] [out:32] [activation:ReLU]
+Layer: [in:32] [out:6] [activation:Linear]
+Training:  41%|████████████████████████████████████████████████▏                                                                    | 1234/3000 [02:35<03:42,  7.92epoch/s, Train Acc=0.979, Val Acc=0.898]
+
+Epoch: 0 	Train:[Loss: 2.1694, Acc: 0.6519] 	Val:[Loss: 0.7465, Acc: 0.6753]
+Epoch: 100 	Train:[Loss: 0.0752, Acc: 0.8937] 	Val:[Loss: 0.0969, Acc: 0.8802]
+Epoch: 200 	Train:[Loss: 0.0630, Acc: 0.9125] 	Val:[Loss: 0.1034, Acc: 0.8837]
+Epoch: 300 	Train:[Loss: 0.0554, Acc: 0.9303] 	Val:[Loss: 0.1059, Acc: 0.8906]
+Epoch: 400 	Train:[Loss: 0.0464, Acc: 0.9442] 	Val:[Loss: 0.1038, Acc: 0.8941]
+Epoch: 500 	Train:[Loss: 0.0391, Acc: 0.9570] 	Val:[Loss: 0.0988, Acc: 0.8958]
+Epoch: 600 	Train:[Loss: 0.0356, Acc: 0.9627] 	Val:[Loss: 0.1003, Acc: 0.8976]
+Epoch: 700 	Train:[Loss: 0.0329, Acc: 0.9661] 	Val:[Loss: 0.1005, Acc: 0.8958]
+Epoch: 800 	Train:[Loss: 0.0308, Acc: 0.9703] 	Val:[Loss: 0.1046, Acc: 0.8924]
+Epoch: 900 	Train:[Loss: 0.0252, Acc: 0.9759] 	Val:[Loss: 0.0987, Acc: 0.9010]
+Epoch: 1000 	Train:[Loss: 0.0241, Acc: 0.9766] 	Val:[Loss: 0.1012, Acc: 0.8958]
+Epoch: 1100 	Train:[Loss: 0.0207, Acc: 0.9787] 	Val:[Loss: 0.0983, Acc: 0.8993]
+Epoch: 1200 	Train:[Loss: 0.0194, Acc: 0.9807] 	Val:[Loss: 0.0990, Acc: 0.8993]
+Early stopping triggered at epoch 1234.
+Model weights restored to epoch 722.
+best validation loss::0.08624973098526377
+================Test set metrics======================
+Traceback (most recent call last):
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/3.py", line 111, in run
+    print("accuracy :: ", mlp.Metrics.accuracy_score(ground_truth,predictions))
+TypeError: Metrics.accuracy_score() missing 1 required positional argument: 'y_pred'

@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activations:
+  value: Tanh
+batch_size:
+  value: 64
+epoch:
+  value: 5000
+loss_fn:
+  value: MSELoss
+lr:
+  value: 0.04432457428306667
+model_architecture:
+  value: arch4
+type:
+  value: regression

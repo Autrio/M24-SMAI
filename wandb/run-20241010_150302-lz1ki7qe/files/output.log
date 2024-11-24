@@ -1,0 +1,19 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:32] [activation:ReLU]
+Layer: [in:32] [out:128] [activation:ReLU]
+Layer: [in:128] [out:128] [activation:ReLU]
+Layer: [in:128] [out:32] [activation:ReLU]
+Layer: [in:32] [out:6] [activation:Softmax]
+Training:   0%|                                                                                                                                                                 | 0/3000 [00:00<?, ?epoch/s]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:254: RuntimeWarning: divide by zero encountered in log
+  return np.mean(np.sum(-y  * np.log(y_pred), axis=-1))
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:254: RuntimeWarning: invalid value encountered in multiply
+  return np.mean(np.sum(-y  * np.log(y_pred), axis=-1))
+Training:   4%|█████▎                                                                                                                 | 134/3000 [00:18<06:47,  7.03epoch/s, Train Acc=0.426, Val Acc=0.438][34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
+
+Epoch: 0 	Train:[Loss: nan, Acc: 0.3940] 	Val:[Loss: 1.7998, Acc: 0.1250]
+Epoch: 32 	Train:[Loss: nan, Acc: 0.4263] 	Val:[Loss: 1.1756, Acc: 0.4375]
+Epoch: 64 	Train:[Loss: nan, Acc: 0.4263] 	Val:[Loss: 1.1635, Acc: 0.4375]
+Epoch: 96 	Train:[Loss: nan, Acc: 0.4263] 	Val:[Loss: 1.1588, Acc: 0.4375]
+Epoch: 128 	Train:[Loss: nan, Acc: 0.4263] 	Val:[Loss: 1.1563, Acc: 0.4375]

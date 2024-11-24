@@ -1,0 +1,20 @@
+{"time":"2024-10-12T02:26:51.128725079+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T02:26:51.12873583+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241012_022651-tt2i59cr/logs/debug-core.log"}
+{"time":"2024-10-12T02:26:51.139905901+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-12T02:26:51.144012148+05:30","level":"INFO","msg":"created new stream","id":"tt2i59cr"}
+{"time":"2024-10-12T02:26:51.144026396+05:30","level":"INFO","msg":"stream: started","id":"tt2i59cr"}
+{"time":"2024-10-12T02:26:51.14405925+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"tt2i59cr"}}
+{"time":"2024-10-12T02:26:51.144051365+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"tt2i59cr"}}
+{"time":"2024-10-12T02:26:51.144041405+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"tt2i59cr"}}
+{"time":"2024-10-12T02:26:51.552043367+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T02:26:51.552781065+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-12T02:27:41.683615722+05:30","level":"INFO","msg":"stream: closing","id":"tt2i59cr"}
+{"time":"2024-10-12T02:27:41.683649368+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-12T02:27:41.72255963+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-12T02:27:42.017829965+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-12T02:27:42.017850776+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-12T02:27:43.650732241+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-12T02:27:44.644492957+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"tt2i59cr"}}
+{"time":"2024-10-12T02:27:44.644590297+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"tt2i59cr"}}
+{"time":"2024-10-12T02:27:44.644576209+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"tt2i59cr"}}
+{"time":"2024-10-12T02:27:44.644729418+05:30","level":"INFO","msg":"stream: closed","id":"tt2i59cr"}

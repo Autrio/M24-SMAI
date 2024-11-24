@@ -1,0 +1,31 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:32] [activation:Sigmoid]
+Layer: [in:32] [out:32] [activation:Sigmoid]
+Layer: [in:32] [out:16] [activation:Sigmoid]
+Layer: [in:16] [out:6] [activation:Linear]
+Training:  26%|██████████████████████████████▏                                                                                       | 1023/4000 [00:52<02:32, 19.57epoch/s, Train Acc=0.894, Val Acc=0.875]
+
+Epoch: 0 	Train:[Loss: 0.1240, Acc: 0.8259] 	Val:[Loss: 0.1075, Acc: 0.8333]
+Epoch: 100 	Train:[Loss: 0.0906, Acc: 0.8618] 	Val:[Loss: 0.0859, Acc: 0.8750]
+Epoch: 200 	Train:[Loss: 0.0891, Acc: 0.8657] 	Val:[Loss: 0.0839, Acc: 0.8785]
+Epoch: 300 	Train:[Loss: 0.0875, Acc: 0.8694] 	Val:[Loss: 0.0818, Acc: 0.8819]
+Epoch: 400 	Train:[Loss: 0.0859, Acc: 0.8774] 	Val:[Loss: 0.0803, Acc: 0.8802]
+Epoch: 500 	Train:[Loss: 0.0844, Acc: 0.8791] 	Val:[Loss: 0.0799, Acc: 0.8889]
+Epoch: 600 	Train:[Loss: 0.0830, Acc: 0.8811] 	Val:[Loss: 0.0800, Acc: 0.8906]
+Epoch: 700 	Train:[Loss: 0.0813, Acc: 0.8828] 	Val:[Loss: 0.0807, Acc: 0.8837]
+Epoch: 800 	Train:[Loss: 0.0795, Acc: 0.8869] 	Val:[Loss: 0.0824, Acc: 0.8802]
+Epoch: 900 	Train:[Loss: 0.0777, Acc: 0.8906] 	Val:[Loss: 0.0844, Acc: 0.8819]
+Epoch: 1000 	Train:[Loss: 0.0760, Acc: 0.8929] 	Val:[Loss: 0.0848, Acc: 0.8750]
+Early stopping triggered at epoch 1023.
+Model weights restored to epoch 511.
+best validation loss::0.07987773756511803
+================Test set metrics======================
+Traceback (most recent call last):
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/3.py", line 111, in run
+    print("accuracy :: ", mlp.Metrics.accuracy_score(ground_truth,predictions))
+TypeError: Metrics.accuracy_score() missing 1 required positional argument: 'y_pred'

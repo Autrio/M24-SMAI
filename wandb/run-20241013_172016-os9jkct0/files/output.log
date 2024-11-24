@@ -1,0 +1,23 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:32] [activation:Linear]
+Layer: [in:32] [out:128] [activation:Linear]
+Layer: [in:128] [out:128] [activation:Linear]
+Layer: [in:128] [out:32] [activation:Linear]
+Layer: [in:32] [out:6] [activation:Linear]
+Training:   0%|                                                                                                                                                                | 0/3000 [00:00<?, ?epoch/s]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:484: RuntimeWarning: overflow encountered in matmul
+  raise TypeError(f'Input should have dimension {self.dim_in} but found {x.shape[1]}')
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:484: RuntimeWarning: invalid value encountered in matmul
+  raise TypeError(f'Input should have dimension {self.dim_in} but found {x.shape[1]}')
+Training:  17%|████████████████████▏                                                                                                 | 512/3000 [01:28<07:07,  5.81epoch/s, Train Acc=0.833, Val Acc=0.833]
+
+Epoch: 0 	Train:[Loss: nan, Acc: 0.7407] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 100 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 200 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 300 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 400 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 500 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Early stopping triggered at epoch 512.

@@ -1,0 +1,24 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:16] [activation:Tanh]
+Layer: [in:16] [out:32] [activation:Tanh]
+Layer: [in:32] [out:32] [activation:Tanh]
+Layer: [in:32] [out:16] [activation:Tanh]
+Layer: [in:16] [out:6] [activation:Linear]
+Training:  20%|████████████████████████▏                                                                                             | 820/4000 [00:18<01:10, 44.92epoch/s, Train Acc=0.949, Val Acc=0.887]
+
+Epoch: 0 	Train:[Loss: 14.6350, Acc: 0.7036] 	Val:[Loss: 6.9076, Acc: 0.7899]
+Epoch: 100 	Train:[Loss: 1.6084, Acc: 0.8819] 	Val:[Loss: 3.1649, Acc: 0.8750]
+Epoch: 200 	Train:[Loss: 1.3687, Acc: 0.8943] 	Val:[Loss: 2.8278, Acc: 0.8767]
+Epoch: 300 	Train:[Loss: 1.1320, Acc: 0.9036] 	Val:[Loss: 2.5467, Acc: 0.8785]
+Epoch: 400 	Train:[Loss: 0.9103, Acc: 0.9149] 	Val:[Loss: 3.4935, Acc: 0.8663]
+Epoch: 500 	Train:[Loss: 0.6428, Acc: 0.9236] 	Val:[Loss: 3.1800, Acc: 0.8663]
+Epoch: 600 	Train:[Loss: 0.5806, Acc: 0.9347] 	Val:[Loss: 3.1901, Acc: 0.8663]
+Epoch: 700 	Train:[Loss: 0.5272, Acc: 0.9425] 	Val:[Loss: 3.8278, Acc: 0.8698]
+Epoch: 800 	Train:[Loss: 0.4790, Acc: 0.9479] 	Val:[Loss: 3.8172, Acc: 0.8854]
+Early stopping triggered at epoch 820.
+Model weights restored to epoch 308.
+best validation loss::2.539829086366367

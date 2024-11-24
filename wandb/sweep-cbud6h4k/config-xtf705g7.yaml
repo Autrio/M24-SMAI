@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activations:
+  value: Relu
+batch_size:
+  value: 128
+epoch:
+  value: 2000
+loss_fn:
+  value: BCELoss
+lr:
+  value: 0.005679057581602715
+model_architecture:
+  value: arch5
+type:
+  value: single_label_classification

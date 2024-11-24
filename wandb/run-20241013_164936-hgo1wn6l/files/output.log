@@ -1,0 +1,28 @@
+Index(['age', 'gender', 'income', 'education', 'married', 'children', 'city',
+       'occupation', 'purchase_amount', 'most bought item', 'labels'],
+      dtype='object')
+(1000, 8)
+(1000, 10)
+Data split into training (800 samples), validation (100 samples), and testing (100 samples) sets.
+Number of classes: 8
+Feature data normalized using z-score normalization.
+Training:  11%|████████████▌                                                                                                         | 531/5000 [00:09<01:23, 53.67epoch/s, Train Acc=0.699, Val Acc=0.621]
+Epoch: 0 	Train:[Loss: 0.7443, Acc: 0.5148] 	Val:[Loss: 0.6967, Acc: 0.5625]
+Epoch: 100 	Train:[Loss: 0.6242, Acc: 0.6592] 	Val:[Loss: 0.6515, Acc: 0.6576]
+Epoch: 200 	Train:[Loss: 0.6098, Acc: 0.6720] 	Val:[Loss: 0.6675, Acc: 0.6445]
+Epoch: 300 	Train:[Loss: 0.5996, Acc: 0.6785] 	Val:[Loss: 0.6817, Acc: 0.6263]
+Epoch: 400 	Train:[Loss: 0.5889, Acc: 0.6899] 	Val:[Loss: 0.6927, Acc: 0.6289]
+Epoch: 500 	Train:[Loss: 0.5773, Acc: 0.6991] 	Val:[Loss: 0.7053, Acc: 0.6146]
+Early stopping triggered at epoch 531.
+Model weights restored to epoch 19.
+best validation loss::0.638229948543782
+['beauty', 'books', 'clothing', 'electronics', 'food', 'furniture', 'home', 'sports']
+================Test set metrics======================
+
+accuracy ::  0.66125
+precision ::  0.19642857142857142
+recall ::  0.1464285714285714
+F1-score ::  0.16778273809523805
+Hamming Loss ::  0.33875
+
+======================================================

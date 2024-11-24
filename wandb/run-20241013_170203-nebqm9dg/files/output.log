@@ -1,0 +1,39 @@
+Index(['age', 'gender', 'income', 'education', 'married', 'children', 'city',
+       'occupation', 'purchase_amount', 'most bought item', 'labels'],
+      dtype='object')
+(1000, 8)
+(1000, 10)
+Data split into training (800 samples), validation (100 samples), and testing (100 samples) sets.
+Number of classes: 8
+Feature data normalized using z-score normalization.
+Training:  33%|██████████████████████████████████████▊                                                                              | 1659/5000 [00:30<01:01, 54.22epoch/s, Train Acc=0.654, Val Acc=0.671]
+Epoch: 0 	Train:[Loss: 0.7498, Acc: 0.5039] 	Val:[Loss: 0.7527, Acc: 0.4935]
+Epoch: 100 	Train:[Loss: 0.6963, Acc: 0.5379] 	Val:[Loss: 0.7068, Acc: 0.5247]
+Epoch: 200 	Train:[Loss: 0.6727, Acc: 0.5900] 	Val:[Loss: 0.6819, Acc: 0.5716]
+Epoch: 300 	Train:[Loss: 0.6590, Acc: 0.6201] 	Val:[Loss: 0.6654, Acc: 0.6263]
+Epoch: 400 	Train:[Loss: 0.6508, Acc: 0.6385] 	Val:[Loss: 0.6555, Acc: 0.6445]
+Epoch: 500 	Train:[Loss: 0.6459, Acc: 0.6470] 	Val:[Loss: 0.6499, Acc: 0.6536]
+Epoch: 600 	Train:[Loss: 0.6428, Acc: 0.6509] 	Val:[Loss: 0.6468, Acc: 0.6654]
+Epoch: 700 	Train:[Loss: 0.6407, Acc: 0.6522] 	Val:[Loss: 0.6451, Acc: 0.6732]
+Epoch: 800 	Train:[Loss: 0.6392, Acc: 0.6535] 	Val:[Loss: 0.6441, Acc: 0.6732]
+Epoch: 900 	Train:[Loss: 0.6379, Acc: 0.6543] 	Val:[Loss: 0.6436, Acc: 0.6758]
+Epoch: 1000 	Train:[Loss: 0.6369, Acc: 0.6546] 	Val:[Loss: 0.6433, Acc: 0.6758]
+Epoch: 1100 	Train:[Loss: 0.6360, Acc: 0.6546] 	Val:[Loss: 0.6432, Acc: 0.6732]
+Epoch: 1200 	Train:[Loss: 0.6353, Acc: 0.6548] 	Val:[Loss: 0.6432, Acc: 0.6719]
+Epoch: 1300 	Train:[Loss: 0.6346, Acc: 0.6543] 	Val:[Loss: 0.6433, Acc: 0.6706]
+Epoch: 1400 	Train:[Loss: 0.6340, Acc: 0.6545] 	Val:[Loss: 0.6434, Acc: 0.6706]
+Epoch: 1500 	Train:[Loss: 0.6334, Acc: 0.6546] 	Val:[Loss: 0.6436, Acc: 0.6706]
+Epoch: 1600 	Train:[Loss: 0.6328, Acc: 0.6548] 	Val:[Loss: 0.6438, Acc: 0.6706]
+Early stopping triggered at epoch 1659.
+Model weights restored to epoch 1147.
+best validation loss::0.6431816832457211
+['beauty', 'books', 'clothing', 'electronics', 'food', 'furniture', 'home', 'sports']
+================Test set metrics======================
+
+accuracy ::  0.6675
+precision ::  0.09253246753246754
+recall ::  0.13452380952380952
+F1-score ::  0.10964524036497343
+Hamming Loss ::  0.3325
+
+======================================================

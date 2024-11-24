@@ -1,0 +1,5 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Training:   8%|██████████                                                                                                              | 84/1000 [00:04<00:50, 18.32epoch/s, Train Acc=0.504, Val Acc=0.573][34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
+Epoch: 0 	Train:[Loss: 8.9284, Acc: 0.0527] 	Val:[Loss: 6.5449, Acc: 0.1042]

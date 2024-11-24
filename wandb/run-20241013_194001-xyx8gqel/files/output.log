@@ -1,0 +1,27 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+{'lr': 0.06706797426603321, 'batch_size': 256, 'epoch': 1000, 'optimizer': 'mini-batch', 'loss_fn': 'MSELoss', 'activation': 'Tanh', 'type': 'regression', 'early_stopping': True, 'activations': 'Linear', 'model_architecture': 'arch2'}
+Layer: [in:13] [out:16] [activation:Linear]
+Layer: [in:16] [out:32] [activation:Linear]
+Layer: [in:32] [out:64] [activation:Linear]
+Layer: [in:64] [out:32] [activation:Linear]
+Layer: [in:32] [out:16] [activation:Linear]
+Layer: [in:16] [out:1] [activation:Linear]
+Training:   0%|▌                                                                                                                | 5/1000 [00:00<00:10, 92.16epoch/s, Train Acc=-3.05e+7, Val Acc=-1.41e+71]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:517: RuntimeWarning: overflow encountered in matmul
+
+Epoch: 0 	Train:[Loss: 609.3501, Acc: -5.7588] 	Val:[Loss: 1501.6893, Acc: -15.9711]
+  z = x @ self.W.T + self.b
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:517: RuntimeWarning: invalid value encountered in matmul
+  z = x @ self.W.T + self.b
+Training:  52%|██████████████████████████████████████████████████████████████▊                                                           | 515/1000 [00:06<00:05, 83.82epoch/s, Train Acc=nan, Val Acc=nan]
+Epoch: 100 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 200 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 300 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 400 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Epoch: 500 	Train:[Loss: nan, Acc: nan] 	Val:[Loss: nan, Acc: nan]
+Early stopping triggered at epoch 515.
+Model weights restored to epoch 3.
+best validation loss::524.464100056709

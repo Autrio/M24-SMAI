@@ -1,0 +1,32 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:8] [activation:ReLU]
+Layer: [in:8] [out:16] [activation:ReLU]
+Layer: [in:16] [out:16] [activation:ReLU]
+Layer: [in:16] [out:8] [activation:ReLU]
+Layer: [in:8] [out:6] [activation:Softmax]
+Training:  80%|██████████████████████████████████████████████████████████████████████████████████████████████▊                       | 804/1000 [00:32<00:07, 25.12epoch/s, Train Acc=0.795, Val Acc=0.656]
+
+Epoch: 0 	Train:[Loss: 0.1251, Acc: 0.3929] 	Val:[Loss: 0.1140, Acc: 0.5104]
+Epoch: 100 	Train:[Loss: 0.0798, Acc: 0.6496] 	Val:[Loss: 0.0787, Acc: 0.6771]
+Epoch: 200 	Train:[Loss: 0.0733, Acc: 0.6775] 	Val:[Loss: 0.0754, Acc: 0.6771]
+Epoch: 300 	Train:[Loss: 0.0681, Acc: 0.6998] 	Val:[Loss: 0.0753, Acc: 0.6875]
+Epoch: 400 	Train:[Loss: 0.0627, Acc: 0.7188] 	Val:[Loss: 0.0816, Acc: 0.6771]
+Epoch: 500 	Train:[Loss: 0.0582, Acc: 0.7366] 	Val:[Loss: 0.0831, Acc: 0.6250]
+Epoch: 600 	Train:[Loss: 0.0545, Acc: 0.7667] 	Val:[Loss: 0.0869, Acc: 0.6458]
+Epoch: 700 	Train:[Loss: 0.0515, Acc: 0.7857] 	Val:[Loss: 0.0906, Acc: 0.6354]
+Epoch: 800 	Train:[Loss: 0.0497, Acc: 0.7946] 	Val:[Loss: 0.0901, Acc: 0.6562]
+Early stopping triggered at epoch 804.
+Model weights restored to epoch 292.
+best validation loss::0.07490500746672074
+================Test set metrics======================
+
+accuracy ::  0.8611111111111112
+precision ::  0.36133333333333334
+recall ::  0.27969577356310776
+F1-score ::  0.31531612244599627
+
+======================================================

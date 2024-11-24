@@ -1,0 +1,70 @@
+Index(['age', 'gender', 'income', 'education', 'married', 'children', 'city',
+       'occupation', 'purchase_amount', 'most bought item', 'labels'],
+      dtype='object')
+(1000, 8)
+(1000, 10)
+Data split into training (800 samples), validation (100 samples), and testing (100 samples) sets.
+Number of classes: 8
+Feature data normalized using z-score normalization.
+                                                                                                                                                                                                           
+Epoch: 0 	Train:[Loss: 0.7705, Acc: 0.5026] 	Val:[Loss: 0.7359, Acc: 0.5221]
+Epoch: 100 	Train:[Loss: 0.6281, Acc: 0.6567] 	Val:[Loss: 0.6433, Acc: 0.6719]
+Epoch: 200 	Train:[Loss: 0.6154, Acc: 0.6668] 	Val:[Loss: 0.6465, Acc: 0.6589]
+Epoch: 300 	Train:[Loss: 0.6025, Acc: 0.6766] 	Val:[Loss: 0.6582, Acc: 0.6458]
+Epoch: 400 	Train:[Loss: 0.5896, Acc: 0.6828] 	Val:[Loss: 0.6713, Acc: 0.6458]
+Epoch: 500 	Train:[Loss: 0.5786, Acc: 0.6885] 	Val:[Loss: 0.6875, Acc: 0.6302]
+Epoch: 600 	Train:[Loss: 0.5680, Acc: 0.6974] 	Val:[Loss: 0.7039, Acc: 0.6211]
+Epoch: 700 	Train:[Loss: 0.5588, Acc: 0.7090] 	Val:[Loss: 0.7194, Acc: 0.6133]
+Epoch: 800 	Train:[Loss: 0.5502, Acc: 0.7173] 	Val:[Loss: 0.7380, Acc: 0.6107]
+Epoch: 900 	Train:[Loss: 0.5424, Acc: 0.7231] 	Val:[Loss: 0.7522, Acc: 0.6042]
+Epoch: 1000 	Train:[Loss: 0.5352, Acc: 0.7295] 	Val:[Loss: 0.7636, Acc: 0.6029]
+Epoch: 1100 	Train:[Loss: 0.5282, Acc: 0.7326] 	Val:[Loss: 0.7739, Acc: 0.6003]
+Epoch: 1200 	Train:[Loss: 0.5217, Acc: 0.7350] 	Val:[Loss: 0.7826, Acc: 0.6003]
+Epoch: 1300 	Train:[Loss: 0.5151, Acc: 0.7383] 	Val:[Loss: 0.7893, Acc: 0.5872]
+Epoch: 1400 	Train:[Loss: 0.5086, Acc: 0.7430] 	Val:[Loss: 0.8003, Acc: 0.5794]
+Epoch: 1500 	Train:[Loss: 0.5031, Acc: 0.7472] 	Val:[Loss: 0.8147, Acc: 0.5794]
+Epoch: 1600 	Train:[Loss: 0.4986, Acc: 0.7500] 	Val:[Loss: 0.8300, Acc: 0.5742]
+Epoch: 1700 	Train:[Loss: 0.4947, Acc: 0.7526] 	Val:[Loss: 0.8448, Acc: 0.5781]
+Epoch: 1800 	Train:[Loss: 0.4912, Acc: 0.7521] 	Val:[Loss: 0.8581, Acc: 0.5820]
+Epoch: 1900 	Train:[Loss: 0.4879, Acc: 0.7537] 	Val:[Loss: 0.8701, Acc: 0.5898]
+Epoch: 2000 	Train:[Loss: 0.4850, Acc: 0.7549] 	Val:[Loss: 0.8826, Acc: 0.5898]
+Epoch: 2100 	Train:[Loss: 0.4823, Acc: 0.7572] 	Val:[Loss: 0.8946, Acc: 0.5846]
+Epoch: 2200 	Train:[Loss: 0.4800, Acc: 0.7590] 	Val:[Loss: 0.9027, Acc: 0.5768]
+Epoch: 2300 	Train:[Loss: 0.4778, Acc: 0.7622] 	Val:[Loss: 0.9087, Acc: 0.5768]
+Epoch: 2400 	Train:[Loss: 0.4780, Acc: 0.7625] 	Val:[Loss: 0.9142, Acc: 0.5729]
+Epoch: 2500 	Train:[Loss: 0.4768, Acc: 0.7629] 	Val:[Loss: 0.9163, Acc: 0.5716]
+Epoch: 2600 	Train:[Loss: 0.4759, Acc: 0.7617] 	Val:[Loss: 0.9221, Acc: 0.5651]
+Epoch: 2700 	Train:[Loss: 0.4758, Acc: 0.7638] 	Val:[Loss: 0.9287, Acc: 0.5703]
+Epoch: 2800 	Train:[Loss: 0.4757, Acc: 0.7635] 	Val:[Loss: 0.9382, Acc: 0.5755]
+Epoch: 2900 	Train:[Loss: 0.4755, Acc: 0.7648] 	Val:[Loss: 0.9401, Acc: 0.5742]
+Epoch: 3000 	Train:[Loss: 0.4734, Acc: 0.7656] 	Val:[Loss: 0.9475, Acc: 0.5768]
+Epoch: 3100 	Train:[Loss: 0.4816, Acc: 0.7585] 	Val:[Loss: 0.9639, Acc: 0.5729]
+Epoch: 3200 	Train:[Loss: 0.4741, Acc: 0.7651] 	Val:[Loss: 0.9651, Acc: 0.5664]
+Epoch: 3300 	Train:[Loss: 0.4703, Acc: 0.7694] 	Val:[Loss: 0.9674, Acc: 0.5716]
+Epoch: 3400 	Train:[Loss: 0.4717, Acc: 0.7676] 	Val:[Loss: 0.9705, Acc: 0.5742]
+Epoch: 3500 	Train:[Loss: 0.4752, Acc: 0.7635] 	Val:[Loss: 0.9741, Acc: 0.5781]
+Epoch: 3600 	Train:[Loss: 0.4735, Acc: 0.7651] 	Val:[Loss: 0.9719, Acc: 0.5781]
+Epoch: 3700 	Train:[Loss: 0.4930, Acc: 0.7520] 	Val:[Loss: 0.9849, Acc: 0.5716]
+Epoch: 3800 	Train:[Loss: 0.4742, Acc: 0.7633] 	Val:[Loss: 0.9665, Acc: 0.5742]
+Epoch: 3900 	Train:[Loss: 0.4770, Acc: 0.7629] 	Val:[Loss: 0.9803, Acc: 0.5781]
+Epoch: 4000 	Train:[Loss: 0.4751, Acc: 0.7645] 	Val:[Loss: 0.9890, Acc: 0.5755]
+Epoch: 4100 	Train:[Loss: 0.4757, Acc: 0.7599] 	Val:[Loss: 0.9950, Acc: 0.5716]
+Epoch: 4200 	Train:[Loss: 0.4743, Acc: 0.7629] 	Val:[Loss: 0.9623, Acc: 0.5846]
+Epoch: 4300 	Train:[Loss: 0.4767, Acc: 0.7625] 	Val:[Loss: 1.0042, Acc: 0.5729]
+Epoch: 4400 	Train:[Loss: 0.4782, Acc: 0.7640] 	Val:[Loss: 0.9840, Acc: 0.5794]
+Epoch: 4500 	Train:[Loss: 0.4678, Acc: 0.7653] 	Val:[Loss: 0.9911, Acc: 0.5716]
+Epoch: 4600 	Train:[Loss: 0.4685, Acc: 0.7653] 	Val:[Loss: 1.0065, Acc: 0.5781]
+Epoch: 4700 	Train:[Loss: 0.4691, Acc: 0.7673] 	Val:[Loss: 0.9989, Acc: 0.5768]
+Epoch: 4800 	Train:[Loss: 0.4729, Acc: 0.7632] 	Val:[Loss: 0.9991, Acc: 0.5716]
+Epoch: 4900 	Train:[Loss: 0.4869, Acc: 0.7523] 	Val:[Loss: 1.0235, Acc: 0.5599]
+Epoch: 4999 	Train:[Loss: 0.4701, Acc: 0.7645] 	Val:[Loss: 1.0153, Acc: 0.5755]
+['beauty', 'books', 'clothing', 'electronics', 'food', 'furniture', 'home', 'sports']
+================Test set metrics======================
+
+accuracy ::  0.6025
+precision ::  0.3045404208194906
+recall ::  0.20476190476190473
+F1-score ::  0.24487725074809225
+Hamming Loss ::  0.3975
+
+======================================================

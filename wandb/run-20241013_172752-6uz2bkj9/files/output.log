@@ -1,0 +1,29 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:16] [activation:Tanh]
+Layer: [in:16] [out:64] [activation:Tanh]
+Layer: [in:64] [out:128] [activation:Tanh]
+Layer: [in:128] [out:256] [activation:Tanh]
+Layer: [in:256] [out:6] [activation:Linear]
+Training:   5%|██████▏                                                                                                               | 157/3000 [00:26<08:00,  5.91epoch/s, Train Acc=0.503, Val Acc=0.476]/home/autrio/.local/lib/python3.10/site-packages/numpy/core/_methods.py:118: RuntimeWarning: overflow encountered in reduce
+
+Epoch: 0 	Train:[Loss: 0.7633, Acc: 0.6774] 	Val:[Loss: 2.8037, Acc: 0.6024]
+Epoch: 100 	Train:[Loss: 112988155732700543786071366952007257768465956161330347882443750077357234860445826451576585027343950636990072479971619271356398185368835935521842193631033025695716675449796557737108319502336.0000, Acc: 0.5026] 	Val:[Loss: 13507945807818157275907318300940749585433999485603481146650330159432841170344512250270531369883676563121177091700813823620445639953019468741777195926474009725028806889749383657708977983062016.0000, Acc: 0.4757]
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:405: RuntimeWarning: overflow encountered in square
+  def __call__(self, y, y_pred):
+Training:   5%|██████▎                                                                                                               | 159/3000 [00:26<08:20,  5.68epoch/s, Train Acc=0.503, Val Acc=0.476]/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:594: RuntimeWarning: overflow encountered in matmul
+  dzw, dzx, daz = self.layers[i].get_grads()
+/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py:595: RuntimeWarning: invalid value encountered in multiply
+  if i != len(self.layers) - 1:
+Training:  17%|████████████████████▏                                                                                                 | 513/3000 [01:25<06:56,  5.97epoch/s, Train Acc=0.833, Val Acc=0.833]
+Epoch: 200 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 300 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 400 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Epoch: 500 	Train:[Loss: nan, Acc: 0.8333] 	Val:[Loss: nan, Acc: 0.8333]
+Early stopping triggered at epoch 513.
+Model weights restored to epoch 1.
+best validation loss::2.803715570523965

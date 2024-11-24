@@ -1,0 +1,20 @@
+{"time":"2024-10-12T03:05:20.461361422+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T03:05:20.461373024+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241012_030520-nbsswve9/logs/debug-core.log"}
+{"time":"2024-10-12T03:05:20.467397873+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-12T03:05:20.471747166+05:30","level":"INFO","msg":"created new stream","id":"nbsswve9"}
+{"time":"2024-10-12T03:05:20.47176481+05:30","level":"INFO","msg":"stream: started","id":"nbsswve9"}
+{"time":"2024-10-12T03:05:20.471784869+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"nbsswve9"}}
+{"time":"2024-10-12T03:05:20.471777555+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"nbsswve9"}}
+{"time":"2024-10-12T03:05:20.471782524+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"nbsswve9"}}
+{"time":"2024-10-12T03:05:20.873497463+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T03:05:20.875173731+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-12T03:05:24.156893472+05:30","level":"INFO","msg":"stream: closing","id":"nbsswve9"}
+{"time":"2024-10-12T03:05:24.156920976+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-12T03:05:24.156962757+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-12T03:05:24.438220161+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-12T03:05:24.43824037+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-12T03:05:26.050920813+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-12T03:05:26.46382207+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"nbsswve9"}}
+{"time":"2024-10-12T03:05:26.463901003+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"nbsswve9"}}
+{"time":"2024-10-12T03:05:26.463892597+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"nbsswve9"}}
+{"time":"2024-10-12T03:05:26.464020135+05:30","level":"INFO","msg":"stream: closed","id":"nbsswve9"}

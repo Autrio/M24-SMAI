@@ -1,0 +1,15 @@
+{
+  "os":  "Linux-6.8.0-45-generic-x86_64-with-glibc2.35",
+  "python":  "3.10.12",
+  "startedAt":  "2024-10-12T09:41:15.774337Z",
+  "program":  "-m assignments.3.2.3",
+  "git":  {
+    "remote":  "https://github.com/smai-monsoon-24/smai-m24-assignments-Autrio.git",
+    "commit":  "2d89747a9e461647e92f42430eead46ba51be250"
+  },
+  "email":  "autrio.das@research.iiit.ac.in",
+  "root":  "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio",
+  "host":  "oranos",
+  "username":  "autrio",
+  "executable":  "/usr/bin/python3"
+}

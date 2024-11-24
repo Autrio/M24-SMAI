@@ -1,0 +1,28 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Layer: [in:11] [out:16] [activation:Tanh]
+Layer: [in:16] [out:32] [activation:Tanh]
+Layer: [in:32] [out:64] [activation:Tanh]
+Layer: [in:64] [out:32] [activation:Tanh]
+Layer: [in:32] [out:16] [activation:Tanh]
+Layer: [in:16] [out:6] [activation:Linear]
+Training:  62%|█████████████████████████████████████████████████████████████████████████                                             | 619/1000 [00:23<00:14, 26.37epoch/s, Train Acc=0.967, Val Acc=0.865]
+
+Epoch: 0 	Train:[Loss: 15.9162, Acc: 0.7014] 	Val:[Loss: 9.1085, Acc: 0.7882]
+Epoch: 100 	Train:[Loss: 1.2963, Acc: 0.9026] 	Val:[Loss: 2.1562, Acc: 0.8854]
+Epoch: 200 	Train:[Loss: 0.8255, Acc: 0.9219] 	Val:[Loss: 2.5104, Acc: 0.8837]
+Epoch: 300 	Train:[Loss: 0.9080, Acc: 0.9319] 	Val:[Loss: 3.5317, Acc: 0.8663]
+Epoch: 400 	Train:[Loss: 0.6264, Acc: 0.9466] 	Val:[Loss: 3.5986, Acc: 0.8646]
+Epoch: 500 	Train:[Loss: 0.4633, Acc: 0.9564] 	Val:[Loss: 4.8926, Acc: 0.8663]
+Epoch: 600 	Train:[Loss: 0.3927, Acc: 0.9657] 	Val:[Loss: 5.5814, Acc: 0.8646]
+Early stopping triggered at epoch 619.
+Model weights restored to epoch 107.
+best validation loss::2.1556729564714185
+================Test set metrics======================
+Traceback (most recent call last):
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/3.py", line 111, in run
+    print("accuracy :: ", mlp.Metrics.accuracy_score(ground_truth,predictions))
+TypeError: Metrics.accuracy_score() missing 1 required positional argument: 'y_pred'

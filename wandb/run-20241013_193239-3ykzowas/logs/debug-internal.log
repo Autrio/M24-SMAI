@@ -1,0 +1,20 @@
+{"time":"2024-10-13T19:32:39.238513538+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T19:32:39.23852503+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241013_193239-3ykzowas/logs/debug-core.log"}
+{"time":"2024-10-13T19:32:39.258361963+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T19:32:39.262587767+05:30","level":"INFO","msg":"created new stream","id":"3ykzowas"}
+{"time":"2024-10-13T19:32:39.262601203+05:30","level":"INFO","msg":"stream: started","id":"3ykzowas"}
+{"time":"2024-10-13T19:32:39.262620731+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"3ykzowas"}}
+{"time":"2024-10-13T19:32:39.262612765+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"3ykzowas"}}
+{"time":"2024-10-13T19:32:39.262626312+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"3ykzowas"}}
+{"time":"2024-10-13T19:32:40.831851515+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T19:32:40.833339811+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T19:34:16.03571848+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T19:34:16.035797433+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T19:34:16.588246036+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-13T19:34:16.588267698+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-13T19:34:17.480023769+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T19:34:19.180127789+05:30","level":"INFO","msg":"stream: closing","id":"3ykzowas"}
+{"time":"2024-10-13T19:34:19.180144251+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"3ykzowas"}}
+{"time":"2024-10-13T19:34:19.180161455+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"3ykzowas"}}
+{"time":"2024-10-13T19:34:19.180176053+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"3ykzowas"}}
+{"time":"2024-10-13T19:34:19.180217143+05:30","level":"INFO","msg":"stream: closed","id":"3ykzowas"}

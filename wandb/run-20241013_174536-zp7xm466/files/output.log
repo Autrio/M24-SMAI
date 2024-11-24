@@ -1,0 +1,56 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:8] [activation:Tanh]
+Layer: [in:8] [out:16] [activation:Tanh]
+Layer: [in:16] [out:16] [activation:Tanh]
+Layer: [in:16] [out:8] [activation:Tanh]
+Layer: [in:8] [out:1] [activation:Linear]
+                                                                                                                                                                                                           
+
+Epoch: 0 	Train:[Loss: 618.1736, Acc: -6.0621] 	Val:[Loss: 605.6907, Acc: -5.8451]
+Epoch: 100 	Train:[Loss: 319.5574, Acc: -2.6494] 	Val:[Loss: 298.9850, Acc: -2.3789]
+Epoch: 200 	Train:[Loss: 165.7609, Acc: -0.8927] 	Val:[Loss: 155.9232, Acc: -0.7621]
+Epoch: 300 	Train:[Loss: 110.9277, Acc: -0.2659] 	Val:[Loss: 106.1370, Acc: -0.1995]
+Epoch: 400 	Train:[Loss: 82.7306, Acc: 0.0562] 	Val:[Loss: 76.7407, Acc: 0.1327]
+Epoch: 500 	Train:[Loss: 69.0160, Acc: 0.2128] 	Val:[Loss: 65.4367, Acc: 0.2605]
+Epoch: 600 	Train:[Loss: 61.8945, Acc: 0.2941] 	Val:[Loss: 59.5132, Acc: 0.3274]
+Epoch: 700 	Train:[Loss: 57.0135, Acc: 0.3498] 	Val:[Loss: 52.7700, Acc: 0.4036]
+Epoch: 800 	Train:[Loss: 53.3802, Acc: 0.3914] 	Val:[Loss: 47.9102, Acc: 0.4586]
+Epoch: 900 	Train:[Loss: 50.2899, Acc: 0.4268] 	Val:[Loss: 45.1362, Acc: 0.4899]
+Epoch: 1000 	Train:[Loss: 47.1117, Acc: 0.4634] 	Val:[Loss: 43.4487, Acc: 0.5090]
+Epoch: 1100 	Train:[Loss: 43.9121, Acc: 0.5000] 	Val:[Loss: 42.2826, Acc: 0.5221]
+Epoch: 1200 	Train:[Loss: 40.8553, Acc: 0.5348] 	Val:[Loss: 39.3339, Acc: 0.5555]
+Epoch: 1300 	Train:[Loss: 38.0615, Acc: 0.5666] 	Val:[Loss: 35.8770, Acc: 0.5945]
+Epoch: 1400 	Train:[Loss: 35.2860, Acc: 0.5983] 	Val:[Loss: 32.6429, Acc: 0.6311]
+Epoch: 1500 	Train:[Loss: 32.5274, Acc: 0.6298] 	Val:[Loss: 30.1698, Acc: 0.6590]
+Epoch: 1600 	Train:[Loss: 29.9436, Acc: 0.6592] 	Val:[Loss: 27.9766, Acc: 0.6838]
+Epoch: 1700 	Train:[Loss: 27.7468, Acc: 0.6842] 	Val:[Loss: 26.0112, Acc: 0.7060]
+Epoch: 1800 	Train:[Loss: 25.9023, Acc: 0.7052] 	Val:[Loss: 24.2997, Acc: 0.7254]
+Epoch: 1900 	Train:[Loss: 24.3118, Acc: 0.7234] 	Val:[Loss: 22.8096, Acc: 0.7422]
+Epoch: 2000 	Train:[Loss: 22.9285, Acc: 0.7391] 	Val:[Loss: 21.5094, Acc: 0.7569]
+Epoch: 2100 	Train:[Loss: 21.7273, Acc: 0.7528] 	Val:[Loss: 20.3846, Acc: 0.7696]
+Epoch: 2200 	Train:[Loss: 20.6823, Acc: 0.7646] 	Val:[Loss: 19.4209, Acc: 0.7805]
+Epoch: 2300 	Train:[Loss: 19.7558, Acc: 0.7752] 	Val:[Loss: 18.6055, Acc: 0.7897]
+Epoch: 2400 	Train:[Loss: 18.8795, Acc: 0.7851] 	Val:[Loss: 17.9363, Acc: 0.7973]
+Epoch: 2500 	Train:[Loss: 17.9923, Acc: 0.7953] 	Val:[Loss: 17.3702, Acc: 0.8037]
+Epoch: 2600 	Train:[Loss: 17.1820, Acc: 0.8045] 	Val:[Loss: 16.7940, Acc: 0.8102]
+Epoch: 2700 	Train:[Loss: 16.4677, Acc: 0.8126] 	Val:[Loss: 16.1842, Acc: 0.8171]
+Epoch: 2800 	Train:[Loss: 15.8319, Acc: 0.8198] 	Val:[Loss: 15.5720, Acc: 0.8240]
+Epoch: 2900 	Train:[Loss: 15.2589, Acc: 0.8263] 	Val:[Loss: 14.9833, Acc: 0.8307]
+Epoch: 3000 	Train:[Loss: 14.7376, Acc: 0.8323] 	Val:[Loss: 14.4280, Acc: 0.8369]
+Epoch: 3100 	Train:[Loss: 14.2597, Acc: 0.8377] 	Val:[Loss: 13.9066, Acc: 0.8428]
+Epoch: 3200 	Train:[Loss: 13.8183, Acc: 0.8427] 	Val:[Loss: 13.4154, Acc: 0.8484]
+Epoch: 3300 	Train:[Loss: 13.4078, Acc: 0.8474] 	Val:[Loss: 12.9498, Acc: 0.8536]
+Epoch: 3400 	Train:[Loss: 13.0233, Acc: 0.8518] 	Val:[Loss: 12.5059, Acc: 0.8587]
+Epoch: 3500 	Train:[Loss: 12.6610, Acc: 0.8559] 	Val:[Loss: 12.0818, Acc: 0.8635]
+Epoch: 3600 	Train:[Loss: 12.3183, Acc: 0.8598] 	Val:[Loss: 11.6791, Acc: 0.8680]
+Epoch: 3700 	Train:[Loss: 11.9933, Acc: 0.8635] 	Val:[Loss: 11.3025, Acc: 0.8723]
+Epoch: 3800 	Train:[Loss: 11.6851, Acc: 0.8670] 	Val:[Loss: 10.9585, Acc: 0.8762]
+Epoch: 3900 	Train:[Loss: 11.3931, Acc: 0.8704] 	Val:[Loss: 10.6515, Acc: 0.8796]
+Epoch: 3999 	Train:[Loss: 11.1195, Acc: 0.8735] 	Val:[Loss: 10.3846, Acc: 0.8826]
+[38;5;247mic[39m[38;5;245m|[39m[38;5;245m [39m[38;5;247mpredictions[39m[38;5;245m.[39m[38;5;247mshape[39m[38;5;245m:[39m[38;5;245m [39m[38;5;245m([39m[38;5;36m50[39m[38;5;245m,[39m[38;5;245m [39m[38;5;36m1[39m[38;5;245m)[39m
+[38;5;247mic[39m[38;5;245m|[39m[38;5;245m [39m[38;5;247mground_truth[39m[38;5;245m.[39m[38;5;247mshape[39m[38;5;245m:[39m[38;5;245m [39m[38;5;245m([39m[38;5;36m1[39m[38;5;245m,[39m[38;5;245m [39m[38;5;36m50[39m[38;5;245m)[39m
+[0m

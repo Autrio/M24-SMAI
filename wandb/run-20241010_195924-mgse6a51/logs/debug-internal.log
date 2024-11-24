@@ -1,0 +1,20 @@
+{"time":"2024-10-10T19:59:24.24171689+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-10T19:59:24.241727099+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241010_195924-mgse6a51/logs/debug-core.log"}
+{"time":"2024-10-10T19:59:24.253112681+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-10T19:59:24.258112004+05:30","level":"INFO","msg":"created new stream","id":"mgse6a51"}
+{"time":"2024-10-10T19:59:24.258129168+05:30","level":"INFO","msg":"stream: started","id":"mgse6a51"}
+{"time":"2024-10-10T19:59:24.258147213+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"mgse6a51"}}
+{"time":"2024-10-10T19:59:24.258174436+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"mgse6a51"}}
+{"time":"2024-10-10T19:59:24.258173534+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"mgse6a51"}}
+{"time":"2024-10-10T19:59:27.571793396+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-10T19:59:27.573201532+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-10T19:59:27.790189265+05:30","level":"INFO","msg":"stream: closing","id":"mgse6a51"}
+{"time":"2024-10-10T19:59:27.790216347+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-10T19:59:27.790276394+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-10T19:59:28.907283594+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-10T19:59:28.907295748+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-10T19:59:29.608308047+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-10T19:59:30.006205354+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"mgse6a51"}}
+{"time":"2024-10-10T19:59:30.00630583+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"mgse6a51"}}
+{"time":"2024-10-10T19:59:30.006288296+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"mgse6a51"}}
+{"time":"2024-10-10T19:59:30.006490999+05:30","level":"INFO","msg":"stream: closed","id":"mgse6a51"}

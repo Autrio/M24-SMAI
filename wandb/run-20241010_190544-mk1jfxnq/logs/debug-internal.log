@@ -1,0 +1,20 @@
+{"time":"2024-10-10T19:05:44.367162132+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-10T19:05:44.367172081+05:30","level":"INFO","msg":"created symlink","path":"/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/wandb/run-20241010_190544-mk1jfxnq/logs/debug-core.log"}
+{"time":"2024-10-10T19:05:44.374046135+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-10T19:05:44.379080549+05:30","level":"INFO","msg":"created new stream","id":"mk1jfxnq"}
+{"time":"2024-10-10T19:05:44.379104005+05:30","level":"INFO","msg":"stream: started","id":"mk1jfxnq"}
+{"time":"2024-10-10T19:05:44.379117181+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"mk1jfxnq"}}
+{"time":"2024-10-10T19:05:44.379122501+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"mk1jfxnq"}}
+{"time":"2024-10-10T19:05:44.379128733+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"mk1jfxnq"}}
+{"time":"2024-10-10T19:05:44.825721072+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-10T19:05:44.827157427+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-10T19:05:50.641144111+05:30","level":"INFO","msg":"stream: closing","id":"mk1jfxnq"}
+{"time":"2024-10-10T19:05:50.641169851+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-10T19:05:50.641278642+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-10T19:05:50.950768963+05:30","level":"WARN","msg":"No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-10-10T19:05:50.950797018+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-10T19:05:51.632092427+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-10T19:05:51.992392544+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"mk1jfxnq"}}
+{"time":"2024-10-10T19:05:51.992452861+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"mk1jfxnq"}}
+{"time":"2024-10-10T19:05:51.992475205+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"mk1jfxnq"}}
+{"time":"2024-10-10T19:05:51.992573846+05:30","level":"INFO","msg":"stream: closed","id":"mk1jfxnq"}

@@ -1,0 +1,38 @@
+(1143, 6)
+(1143, 11)
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Training: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:35<00:00,  2.80epoch/s, Train Acc=0.444, Val Acc=0.448]
+Epoch: 0 	Train:[Loss: 8.9163, Acc: 0.2891] 	Val:[Loss: 3.9140, Acc: 0.4896]
+Epoch: 32 	Train:[Loss: 1.5918, Acc: 0.4185] 	Val:[Loss: 1.4061, Acc: 0.4583]
+Epoch: 64 	Train:[Loss: 1.6071, Acc: 0.4330] 	Val:[Loss: 1.3432, Acc: 0.4792]
+Epoch: 96 	Train:[Loss: 1.5323, Acc: 0.4453] 	Val:[Loss: 1.3684, Acc: 0.4688]
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 52, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 48, in run
+    print(model(model.Xtest[0]))
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 404, in __call__
+    x = layer(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 326, in __call__
+    if x.shape[1] != self.dim_in:
+IndexError: tuple index out of range
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 52, in <module>
+    run(setup())
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/assignments/3/2/2/2.py", line 48, in run
+    print(model(model.Xtest[0]))
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 404, in __call__
+    x = layer(x)
+  File "/home/autrio/college-linx/SMAI/smai-m24-assignments-Autrio/models/MLP/MLP2.py", line 326, in __call__
+    if x.shape[1] != self.dim_in:
+IndexError: tuple index out of range

@@ -1,0 +1,12 @@
+Data split into training (915 samples), validation (114 samples), and testing (114 samples) sets.
+Number of classes: 6
+Feature data normalized using z-score normalization.
+Training: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:05<00:00, 169.17epoch/s, Train Acc=0.598, Val Acc=0.583]
+Epoch: 0 	Train:[Loss: 1.9213, Acc: 0.3828] 	Val:[Loss: 1.6121, Acc: 0.4479]
+Epoch: 128 	Train:[Loss: 1.1110, Acc: 0.5052] 	Val:[Loss: 1.0455, Acc: 0.4896]
+Epoch: 256 	Train:[Loss: 1.0731, Acc: 0.5117] 	Val:[Loss: 1.0326, Acc: 0.4688]
+Epoch: 384 	Train:[Loss: 1.0240, Acc: 0.5651] 	Val:[Loss: 0.9378, Acc: 0.5938]
+Epoch: 512 	Train:[Loss: 1.0093, Acc: 0.5716] 	Val:[Loss: 0.9264, Acc: 0.5521]
+Epoch: 640 	Train:[Loss: 0.9672, Acc: 0.5872] 	Val:[Loss: 0.9426, Acc: 0.5729]
+Epoch: 768 	Train:[Loss: 0.9728, Acc: 0.5859] 	Val:[Loss: 0.9572, Acc: 0.6354]
+Epoch: 896 	Train:[Loss: 0.9315, Acc: 0.6081] 	Val:[Loss: 0.9764, Acc: 0.5417]

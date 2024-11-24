@@ -1,0 +1,1 @@
+{"train_loss":3.835566095558418e+134,"val_rmse":NaN,"val_mse":NaN,"_step":4,"val_loss":NaN,"train_mse":3.835566095558418e+134,"train_rmse":1.9584601337679605e+67,"_runtime":1.417178846,"train_acc":-4.254357876621608e+132,"val_acc":NaN,"train_mae":3.6728572394114497e+33,"val_mae":NaN,"_timestamp":1.7288266592512276e+09,"_wandb":{"runtime":6}}

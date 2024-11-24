@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activation:
+  value: Sigmoid
+batch_size:
+  value: 128
+epochs:
+  value: 100
+loss_fn:
+  value: BCELoss
+lr:
+  value: 0.01
+optimizer:
+  value: SGD
+type:
+  value: classification

@@ -1,0 +1,1 @@
+{"_timestamp":1.728822859524792e+09,"val_acc":NaN,"train_loss":Infinity,"val_mae":NaN,"val_loss":NaN,"_step":5,"train_mae":Infinity,"train_acc":-Infinity,"train_rmse":Infinity,"train_mse":Infinity,"val_rmse":NaN,"_wandb":{"runtime":3},"val_mse":NaN,"_runtime":0.696480442}

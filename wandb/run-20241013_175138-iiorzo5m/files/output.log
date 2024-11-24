@@ -1,0 +1,61 @@
+(506,)
+(506, 13)
+Data split into training (406 samples), validation (50 samples), and testing (50 samples) sets.
+Number of classes: 1
+Feature data normalized using z-score normalization.
+Layer: [in:13] [out:8] [activation:Tanh]
+Layer: [in:8] [out:16] [activation:Tanh]
+Layer: [in:16] [out:16] [activation:Tanh]
+Layer: [in:16] [out:8] [activation:Tanh]
+Layer: [in:8] [out:1] [activation:Linear]
+                                                                                                                                                                                                           
+
+Epoch: 0 	Train:[Loss: 610.4293, Acc: -5.9733] 	Val:[Loss: 584.0377, Acc: -5.6004]
+Epoch: 100 	Train:[Loss: 294.2668, Acc: -2.3611] 	Val:[Loss: 277.5731, Acc: -2.1369]
+Epoch: 200 	Train:[Loss: 154.8505, Acc: -0.7682] 	Val:[Loss: 145.5743, Acc: -0.6452]
+Epoch: 300 	Train:[Loss: 102.3651, Acc: -0.1684] 	Val:[Loss: 95.6853, Acc: -0.0814]
+Epoch: 400 	Train:[Loss: 79.4861, Acc: 0.0931] 	Val:[Loss: 74.0670, Acc: 0.1629]
+Epoch: 500 	Train:[Loss: 68.0912, Acc: 0.2233] 	Val:[Loss: 62.8985, Acc: 0.2892]
+Epoch: 600 	Train:[Loss: 60.4777, Acc: 0.3101] 	Val:[Loss: 55.0605, Acc: 0.3777]
+Epoch: 700 	Train:[Loss: 54.7665, Acc: 0.3752] 	Val:[Loss: 48.8844, Acc: 0.4475]
+Epoch: 800 	Train:[Loss: 49.9152, Acc: 0.4308] 	Val:[Loss: 43.8742, Acc: 0.5042]
+Epoch: 900 	Train:[Loss: 45.4335, Acc: 0.4822] 	Val:[Loss: 39.2830, Acc: 0.5560]
+Epoch: 1000 	Train:[Loss: 41.7983, Acc: 0.5238] 	Val:[Loss: 34.8079, Acc: 0.6066]
+Epoch: 1100 	Train:[Loss: 38.3334, Acc: 0.5633] 	Val:[Loss: 31.3640, Acc: 0.6455]
+Epoch: 1200 	Train:[Loss: 35.3028, Acc: 0.5978] 	Val:[Loss: 28.8827, Acc: 0.6736]
+Epoch: 1300 	Train:[Loss: 32.4415, Acc: 0.6303] 	Val:[Loss: 26.9243, Acc: 0.6957]
+Epoch: 1400 	Train:[Loss: 29.7559, Acc: 0.6609] 	Val:[Loss: 24.8873, Acc: 0.7187]
+Epoch: 1500 	Train:[Loss: 27.4956, Acc: 0.6867] 	Val:[Loss: 22.9604, Acc: 0.7405]
+Epoch: 1600 	Train:[Loss: 25.5720, Acc: 0.7086] 	Val:[Loss: 21.2939, Acc: 0.7594]
+Epoch: 1700 	Train:[Loss: 23.9210, Acc: 0.7275] 	Val:[Loss: 19.8827, Acc: 0.7753]
+Epoch: 1800 	Train:[Loss: 22.4946, Acc: 0.7437] 	Val:[Loss: 18.6928, Acc: 0.7887]
+Epoch: 1900 	Train:[Loss: 21.2515, Acc: 0.7579] 	Val:[Loss: 17.6801, Acc: 0.8002]
+Epoch: 2000 	Train:[Loss: 20.1544, Acc: 0.7704] 	Val:[Loss: 16.8015, Acc: 0.8101]
+Epoch: 2100 	Train:[Loss: 19.1734, Acc: 0.7816] 	Val:[Loss: 16.0272, Acc: 0.8189]
+Epoch: 2200 	Train:[Loss: 18.2852, Acc: 0.7917] 	Val:[Loss: 15.3397, Acc: 0.8266]
+Epoch: 2300 	Train:[Loss: 17.4705, Acc: 0.8010] 	Val:[Loss: 14.7239, Acc: 0.8336]
+Epoch: 2400 	Train:[Loss: 16.7162, Acc: 0.8095] 	Val:[Loss: 14.1642, Acc: 0.8399]
+Epoch: 2500 	Train:[Loss: 16.0145, Acc: 0.8175] 	Val:[Loss: 13.6430, Acc: 0.8458]
+Epoch: 2600 	Train:[Loss: 15.3617, Acc: 0.8249] 	Val:[Loss: 13.1440, Acc: 0.8515]
+Epoch: 2700 	Train:[Loss: 14.7571, Acc: 0.8318] 	Val:[Loss: 12.6570, Acc: 0.8570]
+Epoch: 2800 	Train:[Loss: 14.1996, Acc: 0.8381] 	Val:[Loss: 12.1803, Acc: 0.8623]
+Epoch: 2900 	Train:[Loss: 13.6839, Acc: 0.8440] 	Val:[Loss: 11.7170, Acc: 0.8676]
+Epoch: 3000 	Train:[Loss: 13.2032, Acc: 0.8494] 	Val:[Loss: 11.2726, Acc: 0.8726]
+Epoch: 3100 	Train:[Loss: 12.7525, Acc: 0.8546] 	Val:[Loss: 10.8532, Acc: 0.8773]
+Epoch: 3200 	Train:[Loss: 12.3288, Acc: 0.8594] 	Val:[Loss: 10.4636, Acc: 0.8817]
+Epoch: 3300 	Train:[Loss: 11.9299, Acc: 0.8639] 	Val:[Loss: 10.1064, Acc: 0.8858]
+Epoch: 3400 	Train:[Loss: 11.5543, Acc: 0.8682] 	Val:[Loss: 9.7814, Acc: 0.8895]
+Epoch: 3500 	Train:[Loss: 11.2005, Acc: 0.8722] 	Val:[Loss: 9.4862, Acc: 0.8928]
+Epoch: 3600 	Train:[Loss: 10.8672, Acc: 0.8760] 	Val:[Loss: 9.2178, Acc: 0.8958]
+Epoch: 3700 	Train:[Loss: 10.5528, Acc: 0.8796] 	Val:[Loss: 8.9728, Acc: 0.8986]
+Epoch: 3800 	Train:[Loss: 10.2561, Acc: 0.8829] 	Val:[Loss: 8.7483, Acc: 0.9011]
+Epoch: 3900 	Train:[Loss: 9.9755, Acc: 0.8861] 	Val:[Loss: 8.5418, Acc: 0.9035]
+Epoch: 3999 	Train:[Loss: 9.7123, Acc: 0.8891] 	Val:[Loss: 8.3529, Acc: 0.9056]
+================Test set metrics======================
+
+R2 Score ::  -6.375366446235375
+MSE ::  468.96299999999997
+RMSE ::  21.655553560230224
+MAE ::  20.134
+
+======================================================

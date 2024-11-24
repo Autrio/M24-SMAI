@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activations:
+  value: Sigmoid
+batch_size:
+  value: 128
+epoch:
+  value: 4000
+loss_fn:
+  value: MSELoss
+lr:
+  value: 0.04992996552537244
+model_architecture:
+  value: arch5
+type:
+  value: regression

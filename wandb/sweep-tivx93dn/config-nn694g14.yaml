@@ -1,0 +1,16 @@
+wandb_version: 1
+
+activations:
+  value: Tanh
+batch_size:
+  value: 64
+epoch:
+  value: 3000
+loss_fn:
+  value: CELoss
+lr:
+  value: 0.06275090912364165
+model_architecture:
+  value: arch2
+type:
+  value: classification
